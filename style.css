@@ -3,11 +3,16 @@
 /*===============================
 全体設計
 ===============================*/
+html{
+  height: 100%;
+}
+
 body{
   margin: 0;
   padding: 0;
   color: #333333;
   line-height: 150%;
+
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -24,9 +29,164 @@ ul{
 }
 
 /*===============================
-ロゴ
+ヘッダー
 ===============================*/
 .logo a img{
-    width: 100%;
-/*    width: 200px;*/
+  /*    width: 100%;*/
+  width: 200px;
+}
+
+header{
+  width: 960px;
+  height: 65px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.logo{
+  width: 300px;
+  float: left;
+  margin-top: 10px;
+  position: absolute;
+}
+
+#top-nav {
+  position: relative;
+  float: right;
+  width: 500px;
+  height: 65px;
+}
+
+#top-nav ul {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  width: 600px;
+  list-style: none;
+
+}
+
+#top-nav ul li{
+  float: right;
+  list-style: none;
+/*  height: 65px;*/
+  margin-left: 15px;
+  padding: 5px 0;
+  vertical-align: middle;
+}
+#top-nav ul li a{
+  display: block;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 3px 20px;
+  border-radius: 5px;
+}
+
+.btn-signup{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: linear-gradient(#ffffff,#d3d3d3);
+  border: 1px solid #696969;
+}
+
+.btn-login{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: linear-gradient(#ffffff,#ffff00);
+  border: 1px solid #696969;
+}
+
+
+.wakaba-icon{
+  height: 20px;
+  width: 20px;
+}
+
+.sign-up{
+/*  font-size: 20px;*/
+  color: red;
+  font-weight: bold;
+}
+/*===============================
+コンテント
+===============================*/
+#index{
+  background-image: url(images/top-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+
+#bg_blk{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+  height: 100%;
+}
+
+#wrap{
+  width: 100%;
+  clear: none;
+  position:absolute;
+
+
+}
+
+#index .content{
+  margin-top: 100px;
+  margin-left: 15px;
+}
+
+#index p{
+  font-size: 20px;
+  line-height: 1;
+  color: #ffffff;
+  opacity: 0.8;
+  text-align: center;
+}
+#btn{
+  width: 100%;
+  
+}
+.btn a{
+  margin: 0 auto;
+  margin-top: 15px;
+  text-align: center;
+  width:230px;
+  display: block;
+  line-height: 65px;
+  border-radius: 25px;
+  text-decoration: none;
+  border: 3px solid #EE0000;
+  background-color: #ffffff;
+  color: #000000;
+}
+.btn a:hover{
+  border: 3px solid #ffffff;
+  text-decoration: none;
+  background-color: #ee0000;
+  color: #ffffff;
+}
+
+/*===============================
+フッター
+===============================*/
+#footer{
+  position: absolute;
+  border-top: 2px solid #EE0000;
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: #F2F2F2;
+  padding: 15px;
+  font-size: 12px;
 }
