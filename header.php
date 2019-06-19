@@ -1,7 +1,7 @@
 <header>
   <div class="site-width">
     <div class="logo">
-        <a href='index.php'><img src="images/Monojirou.png" alt="ロゴ"></a>
+        <a href='index.php'><img src="images/Monojirou-cutout.png" alt="ロゴ"></a>
     </div>
     <nav id="top-nav">
       <ul>
@@ -14,8 +14,8 @@
         <?php 
           }else{
         ?>
-           <li><a href="mypage.php" >マイページ</a></li>
-           <li><a href="logout.php" >ログアウト</a></li>
+        <li><a href="mypage.php" class="btn-mypage">マイページ</a></li>
+        <li><a href="logout.php" class="btn-logout">ログアウト</a></li>
         <?php 
           }
         ?>

@@ -3,8 +3,22 @@
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/assets/animate.css" style="stylesheet"></script>
+<script src="js/assets/jquery.lettering.js"></script>
+<script src="js/jquery.textillate.js"></script>
+
+
  <script>
   $(function(){
+    
+//    広告アニメーション
+//    
+//      $('#ads').textillate({
+//        loop: true,
+//        autoStart: true
+//      });
+//    
+    
     
 //    フッターを最下部に固定
     var $ftr = $('#footer');

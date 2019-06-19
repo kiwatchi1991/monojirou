@@ -16,17 +16,69 @@ $siteTitle ='マイページ';
 require('head.php');
 ?>
 
-<body class="page-signup page-1colum">
-マイページです
+<body class="page-mypage page-1colum">
+
 
   <!--  ヘッダー-->
   <?php 
   require('header.php');
   ?>
-
-  <p id="js-show-msg" style="display:none;" class="msg-slide">
+  
+  <div class="msg">
+    <p id="js-show-msg" style="display:none;" class="msg-slide">
     <?php echo getSessionFlash('msg_success'); ?>
-  </p>
+    </p>
+  </div>
+  
+<!--  広告タブ-->
+  <?php 
+  require('ads.php');
+  ?>
+  
+<!--メニュータブ-->
+  <?php 
+  require('menuTab.php');
+  ?>
+
+  <div class="site-width">
+    
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+    <p>マイページです</p>
+      
+      
+    </div>
+    
 
 
 

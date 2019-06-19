@@ -69,6 +69,7 @@ debugLogStart();
 //              ユーザーIDを格納
               $_SESSION['user_id'] = $dbh->lastInsertId();
               
+//                成功時のメッセージ変数を格納
               $_SESSION['msg_success'] = SUC04;
               
               debug('セッション変数の中身：'.print_r($_SESSION,true));

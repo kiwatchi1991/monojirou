@@ -12,10 +12,12 @@ body{
   padding: 0;
   color: #333333;
   line-height: 150%;
-
+}
+body a:visited{
+  color: #333333;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,p{
   margin: 0;
 }
 
@@ -37,10 +39,15 @@ ul{
 }
 
 header{
-  width: 960px;
+/*  width: 980px;*/
   height: 65px;
   margin: 0 auto;
-  padding-top: 15px;
+  padding-top: 20px;
+  border-bottom: 2px solid #f6f6f6;
+}
+
+#index header{
+  border-bottom: none;
 }
 
 .logo{
@@ -71,7 +78,6 @@ header{
 #top-nav ul li{
   float: right;
   list-style: none;
-/*  height: 65px;*/
   margin-left: 15px;
   padding: 5px 0;
   vertical-align: middle;
@@ -82,6 +88,13 @@ header{
   font-size: 15px;
   padding: 3px 20px;
   border-radius: 5px;
+}
+
+#top-nav a:visited{
+  color: inherit;
+}
+#top-nav ul li a:hover{
+  text-decoration: underline;
 }
 
 .btn-signup{
@@ -98,6 +111,23 @@ header{
   border: 1px solid #696969;
 }
 
+.btn-mypage{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: linear-gradient(#ffffff,#dc143c);
+  border: 1px solid #696969;
+}
+
+.btn-logout{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: linear-gradient(#ffffff,#ffff00);
+  border: 1px solid #696969;
+}
+
+#top-nav a:visited{
+  color: inherit;
+}
 
 .wakaba-icon{
   height: 20px;
@@ -110,7 +140,73 @@ header{
   font-weight: bold;
 }
 /*===============================
-コンテント
+広告タブ
+===============================*/
+#ads{
+  height: 40px;
+  width: 100%;
+  background: #191970;
+}
+
+#ads p{
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+}
+
+
+/*===============================
+メニュータブ
+===============================*/
+#menu-tab{
+  width: 100%;
+  height: 50px;
+  display: block;
+  margin-top: 5px;
+
+  border-bottom: 1px solid #f6f5f5;
+}
+
+#menu-tab ul{
+padding-left: 200px;
+}
+
+#menu-tab ul li{
+  display: block;
+  float: left;
+  list-style: none;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+  min-width: 120px;
+  background: linear-gradient(#a9a9a9,#ffffff);
+  transition: all 0.3s ease 0s;
+}
+#menu-tab ul li:hover{
+  background: linear-gradient(#b22222,#cd5c5c);
+  color:white;
+  
+}
+
+#menu-tab ul li a{
+  text-decoration: none;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  line-height: inherit;
+  max-height: 50px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#menu-tab a:visited{
+  color: inherit;
+}
+
+
+/*===============================
+TOPページレイアウト
 ===============================*/
 #index{
   background-image: url(images/top-img.jpg);
@@ -178,6 +274,98 @@ header{
 }
 
 /*===============================
+全体（TOPページ以外）レイアウト
+===============================*/
+.site-width{
+  margin: 0 auto;
+  width: 980px;
+}
+
+.page-1colum #main{
+  width: 100%;
+}
+
+#contents{
+  margin: 100px auto;
+}
+
+/*===============================
+フォーム
+===============================*/
+.form{
+  margin: 0 auto;
+  width: 400px;
+  padding: 30px;
+  border: 8px solid rgba(192,192,192,0.3);
+  border-radius: 3px;
+}
+
+.form .title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.form .area-msg{
+  padding: 0 0 15px 0;
+  color: red;
+}
+
+
+label{
+  display: block;
+}
+
+input[type="text"], input[type="password"], input[type="number"], .form select,
+textarea {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 100%;
+  height: 60px;
+  border: none;
+  background: #f6f5f5;
+  font-size: 22px;
+}
+
+input[type="checkbox"]{
+  width: 18px;
+  height: 18px;
+  background: #f6f5f5;
+  vertical-align: middle;
+}
+
+input[type="submit"]{
+  margin: 15px 0;
+  padding: 15px 30px;
+  width: 100%;
+/*  border: 2px solid #333;*/
+  background: #333;
+  color: white;
+  font-size: 14px;
+}
+
+select:hover,
+input[type="submit"]:hover{
+  cursor: pointer;
+}
+
+/*===============================
+ボタン
+===============================*/
+.form .btn{
+  float: right;
+}
+
+.btn-mid{
+  max-width: 150px;
+}
+
+.btn-container{
+  overflow: hidden;
+}
+
+/*===============================
 フッター
 ===============================*/
 #footer{
@@ -189,4 +377,18 @@ header{
   background-color: #F2F2F2;
   padding: 15px;
   font-size: 12px;
+}
+
+/*===============================
+その他
+===============================*/
+.msg-slide{
+  position: fixed;
+  width: 100%;
+/*  top: 70px;*/
+  height: 40px;
+  background: rgba(122,206,230,0.6);
+  text-align: center;
+  font-size: 16px;
+  line-height: 40px;
 }

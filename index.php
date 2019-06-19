@@ -1,8 +1,18 @@
 
-
-
-<!--headタグ-->
 <?php 
+  //共通変数・関数ファイルを読込み
+  require('function.php');
+
+debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
+debug('「　TOPページ　」');
+debug('」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」');
+debugLogStart();
+
+
+//ログイン認証
+require('auth.php');
+
+//<!--headタグ-->
 $siteTitle = 'TOP';
 require('head.php');
 ?>
@@ -13,12 +23,7 @@ require('head.php');
   <div id="bg_blk">
   </div>
 
-<!--
-ヘッダー
-<?php 
-//require('header.php');
-?>
--->
+<!--ヘッダ(ロゴのみなのでべた書き)-->
   <header>
     <div class="site-width">
       <div class="logo">
