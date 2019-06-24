@@ -99,25 +99,7 @@ if(!empty($_POST)){
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+debug('画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>');
 ?>
 <!--ヘッダータグ-->
 <?php 
@@ -125,8 +107,7 @@ $siteTitle ='プロフィール編集ページ';
 require('head.php');
 ?>
 
-<body class="page-profEdit page-1colum">
-
+<body class="page-profEdit page-1colum page-logined">
 
   <!--  ヘッダー-->
   <?php 
@@ -138,17 +119,30 @@ require('head.php');
   require('menuTab.php');
   ?>
 
-  <div class="site-width">
-
-    <p style="text-align:center; margin-top:50px;" >プロフィール編集　ページです</p>
-    <p style="text-align:center;" >プロフィール編集　ページです</p>
-    <p style="text-align:center;" >プロフィール編集　ページです</p>
-    <p style="text-align:center;" >プロフィール編集　ページです</p>
-    <p style="text-align:center;" >プロフィール編集　ページです</p>
-    <p style="text-align:center;" >プロフィール編集　ページです</p>
-    <p style="text-align:center;" >プロフィール編集　ページです</p>
-    <p style="text-align:center;" >プロフィール編集　ページです</p>
-    
+  <div id="contents" class="site-width">
+    <h1 class="page-title">プロフィール編集</h1>
+<!--    Main-->
+      <section id="main">
+        <div class="form-container">
+            <form action="" method="post" class="form" enctype="multipart/form-data">
+              <div class="area-msg">
+                <?php 
+                if(!empty($err_msg['common'])) echo $err_msg['common'];
+                ?>
+              </div>
+              <label class="<?php if(!empty($err_msg['username'])) echo'err'; ?>">
+                名前
+                <input type="text" name="username" value="<?php echo getFormData('username'); ?>">
+              </label>
+              <div class="area-msg">
+                <?php 
+                if(!empty($err_msg['username'])) echo $err_msg['username'];
+                ?>
+              </div>
+              <label class="<?php if(!empty($['']))?>"></label>
+            </form>
+        </div>
+      </section>
 
   </div>
 
