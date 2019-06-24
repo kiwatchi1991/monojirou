@@ -1,4 +1,4 @@
 <div id="ads">
-  <p>こんにちは！ 工具専用出品サイトの　「　MONOJIROU 」　です！</p>
+  <p><span>こんにちは！ 工具専用出品サイトの　「　MONOJIROU 」　です！</span></p>
   
 </div>
