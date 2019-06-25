@@ -155,6 +155,40 @@ header{
   font-weight: 800;
 }
 
+/*===============================
+広告タブ（電光掲示版風アニメーション）
+===============================*/
+
+#ads span{
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  -webkit-animation-name: marquee;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 25s;
+  -moz-animation-name: marquee;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 25s;
+  animation-name: marquee;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 25s;
+}
+
+@-webkit-keyframes marquee {
+  from   { -webkit-transform: translate(0%);}
+  99%,to { -webkit-transform: translate(-100%);}
+}
+@-moz-keyframes marquee {
+  from   { -moz-transform: translate(0%);}
+  99%,to { -moz-transform: translate(-100%);}
+}
+@keyframes marquee {
+  from   { transform: translate(0%);}
+  99%,to { transform: translate(-100%);}
+}
 
 /*===============================
 メニュータブ
@@ -376,6 +410,9 @@ input[type="submit"]:hover{
   text-align: center;
   background-color: #F2F2F2;
   padding: 15px;
+  
+  
+  
   font-size: 12px;
 }
 
@@ -387,8 +424,8 @@ input[type="submit"]:hover{
   width: 100%;
 /*  top: 70px;*/
   height: 40px;
-  background: rgba(122,206,230,0.6);
+  background: rgba(255,0,0,0.9
+  );
   text-align: center;
   font-size: 16px;
   line-height: 40px;
-}

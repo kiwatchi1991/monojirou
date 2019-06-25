@@ -34,11 +34,14 @@ if( !empty($_SESSION['login_date']) ){
 
 }else{
   debug('未ログインユーザーです。');
-  if(basename($_SERVER['PHP_SELF']) !== 'index.php'){
-    header("Location:index.php");//ログインページへ
-  }
+  if(basename($_SERVER['PHP_SELF']) !== 'login.php'){
+    header("Location:login.php");//ログインページへ
+//  }elseif(basename($_SERVER['PHP_SELF']) === 'login.php'){
+//    header("Location:login.php");//ログインページへ
+//  }elseif(basename($_SERVER['PHP_SELF']) === 'index.php'){
+//    header("Location:login.php");//ログインページへ
+ }
 }
-
 
 ?>
 

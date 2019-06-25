@@ -10,7 +10,7 @@ debugLogStart();
 
 
 //ログイン認証
-require('auth.php');
+//require('auth.php');
 
 //<!--headタグ-->
 $siteTitle = 'TOP';
