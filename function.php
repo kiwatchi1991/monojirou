@@ -544,7 +544,7 @@ function getMyLike($u_id){
 function sendMail($from, $to, $subject, $comment){
     if(!empty($to) && !empty($subject) && !empty($comment)){
 //      文字化けしないように設定（お決まりパターン）
-      mb_labguage("Japanese");//現在使っている言語を設定する
+      mb_language("Japanese");//現在使っている言語を設定する
       mb_internal_encoding("UTF-8");//内部の日本語をどうエンコーディング（機機械が分かる言葉へ変換）するかを設定
 //      
 //      メールを送信（送信結果はtrueはfalseで返ってくる）
