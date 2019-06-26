@@ -19039,3 +19039,427 @@ Stack trace:
     [auth_key_limit] => 1561532283
 )
 
+[26-Jun-2019 16:42:11 Asia/Tokyo] デバッグ： 「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:42:11 Asia/Tokyo] デバッグ： 「　パスワード再発行認証キー入力ページ　」
+[26-Jun-2019 16:42:11 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:42:11 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:42:11 Asia/Tokyo] デバッグ：セッションID:59o7h8c6s57f633olq9gicgnv2
+[26-Jun-2019 16:42:11 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_succcess] => メールを送信しました
+    [auth_key] => tnYqhJs1
+    [auth_email] => ymnkknt3@gmail.com
+    [auth_key_limit] => 1561532283
+)
+
+[26-Jun-2019 16:42:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561534931
+[26-Jun-2019 16:42:26 Asia/Tokyo] デバッグ： 「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:42:26 Asia/Tokyo] デバッグ： 「　パスワード再発行認証キー入力ページ　」
+[26-Jun-2019 16:42:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:42:26 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:42:26 Asia/Tokyo] デバッグ：セッションID:dc4ugbr7o730imovbpog31peqs
+[26-Jun-2019 16:42:26 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_succcess] => メールを送信しました
+    [auth_key] => tnYqhJs1
+    [auth_email] => ymnkknt3@gmail.com
+    [auth_key_limit] => 1561532283
+)
+
+[26-Jun-2019 16:42:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561534946
+[26-Jun-2019 16:42:26 Asia/Tokyo] デバッグ：POST送信があります。
+[26-Jun-2019 16:42:26 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [token] => ymnkknt3@gmail.com
+)
+
+[26-Jun-2019 16:42:26 Asia/Tokyo] デバッグ：未入力チェックOK。
+[26-Jun-2019 16:42:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:42:33 Asia/Tokyo] デバッグ：　「　パスワード再発行メール送信ページ　」　
+[26-Jun-2019 16:42:33 Asia/Tokyo] デバッグ： 「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:42:33 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:42:33 Asia/Tokyo] デバッグ：セッションID:h998lc5r19q8fjim2dckbhb0cd
+[26-Jun-2019 16:42:33 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_succcess] => メールを送信しました
+    [auth_key] => tnYqhJs1
+    [auth_email] => ymnkknt3@gmail.com
+    [auth_key_limit] => 1561532283
+)
+
+[26-Jun-2019 16:42:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561534953
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：　「　パスワード再発行メール送信ページ　」　
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ： 「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：セッションID:dgpt19t24l1qfvjrfm86v2b5s0
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_succcess] => メールを送信しました
+    [auth_key] => tnYqhJs1
+    [auth_email] => ymnkknt3@gmail.com
+    [auth_key_limit] => 1561532283
+)
+
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561534961
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：POST送信があります。
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：POST情報:Array
+(
+    [email] => ymnkknt3@gmail.com
+)
+
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：未入力チェックOK。
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：バリデーションOK。
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：クエリ成功。
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：クエリ成功。DB登録あり。
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：メールを送信しました。
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_succcess] => メールを送信しました
+    [auth_key] => uu8yw9Rq
+    [auth_email] => ymnkknt3@gmail.com
+    [auth_key_limit] => 1561535051
+)
+
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ： 「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ： 「　パスワード再発行認証キー入力ページ　」
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：セッションID:2qucho55it0pi5g8396bqqqjsl
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_succcess] => メールを送信しました
+    [auth_key] => uu8yw9Rq
+    [auth_email] => ymnkknt3@gmail.com
+    [auth_key_limit] => 1561535051
+)
+
+[26-Jun-2019 16:42:41 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561534961
+[26-Jun-2019 16:43:09 Asia/Tokyo] デバッグ： 「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:43:09 Asia/Tokyo] デバッグ： 「　パスワード再発行認証キー入力ページ　」
+[26-Jun-2019 16:43:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:43:09 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:43:09 Asia/Tokyo] デバッグ：セッションID:ubbbnddc2cnetotm61stsp7sv0
+[26-Jun-2019 16:43:09 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_succcess] => メールを送信しました
+    [auth_key] => uu8yw9Rq
+    [auth_email] => ymnkknt3@gmail.com
+    [auth_key_limit] => 1561535051
+)
+
+[26-Jun-2019 16:43:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561534989
+[26-Jun-2019 16:43:09 Asia/Tokyo] デバッグ：POST送信があります。
+[26-Jun-2019 16:43:09 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [token] => tnYqhJs1
+)
+
+[26-Jun-2019 16:43:09 Asia/Tokyo] デバッグ：未入力チェックOK。
+[26-Jun-2019 16:43:09 Asia/Tokyo] デバッグ：バリデーションOK。
+[26-Jun-2019 16:43:44 Asia/Tokyo] デバッグ： 「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:43:44 Asia/Tokyo] デバッグ： 「　パスワード再発行認証キー入力ページ　」
+[26-Jun-2019 16:43:44 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:43:44 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:43:44 Asia/Tokyo] デバッグ：セッションID:qruojr13424t1n4u3pibh6od6h
+[26-Jun-2019 16:43:44 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_succcess] => メールを送信しました
+    [auth_key] => uu8yw9Rq
+    [auth_email] => ymnkknt3@gmail.com
+    [auth_key_limit] => 1561535051
+)
+
+[26-Jun-2019 16:43:44 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561535024
+[26-Jun-2019 16:43:44 Asia/Tokyo] デバッグ：POST送信があります。
+[26-Jun-2019 16:43:44 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [token] => uu8yw9Rq
+)
+
+[26-Jun-2019 16:43:44 Asia/Tokyo] デバッグ：未入力チェックOK。
+[26-Jun-2019 16:43:44 Asia/Tokyo] デバッグ：バリデーションOK。
+[26-Jun-2019 16:43:44 Asia/Tokyo] デバッグ：認証OK。
+[26-Jun-2019 16:43:45 Asia/Tokyo] デバッグ：クエリ成功。
+[26-Jun-2019 16:43:45 Asia/Tokyo] デバッグ：クエリ成功。
+[26-Jun-2019 16:43:45 Asia/Tokyo] デバッグ：メールを送信しました。
+[26-Jun-2019 16:43:45 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [msg_success] => メールを送信しました
+)
+
+[26-Jun-2019 16:43:45 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:43:45 Asia/Tokyo] デバッグ：「　ログインページ　」
+[26-Jun-2019 16:43:45 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[26-Jun-2019 16:43:45 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:43:45 Asia/Tokyo] デバッグ：セッションID:s46t549d6cho0hc5n4bqs23mqp
+[26-Jun-2019 16:43:45 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+)
+
+[26-Jun-2019 16:43:45 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561535025
+[26-Jun-2019 16:43:45 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[26-Jun-2019 16:43:45 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：「　ログインページ　」
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：セッションID:bq40sbcgpivkdhj91usfhhfdr5
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+)
+
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561535070
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：POST送信があります。
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：バリデーションOKです。
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：クエリ成功。
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$BkuqP/2askiFbTAUUb45fODO1NR5KuXm2V8MvSi/k04kmqbqoSxna
+    [id] => 2
+)
+
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：ログイン保持にチェックはありません。
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [msg_success] => ログイン成功しました
+    [login_date] => 1561535070
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：「　マイページ　」
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：セッションID:60k0ps48o5t5640f94vv13q9fb
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => ログイン成功しました
+    [login_date] => 1561535070
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561535070
+[26-Jun-2019 16:44:30 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561538670
+[26-Jun-2019 16:46:17 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:46:17 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[26-Jun-2019 16:46:17 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[26-Jun-2019 16:46:17 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:46:17 Asia/Tokyo] デバッグ：セッションID:qm6t9iv1g6ld7qgtsk95h03bl8
+[26-Jun-2019 16:46:17 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [login_date] => 1561535070
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[26-Jun-2019 16:46:17 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561535177
+[26-Jun-2019 16:46:17 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561538670
+[26-Jun-2019 16:46:17 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[26-Jun-2019 16:46:17 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[26-Jun-2019 16:46:17 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[26-Jun-2019 16:46:17 Asia/Tokyo] デバッグ：クエリ成功。
+[26-Jun-2019 16:46:17 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 2
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => ymnkknt3@gmail.com
+    [password] => $2y$10$BkuqP/2askiFbTAUUb45fODO1NR5KuXm2V8MvSi/k04kmqbqoSxna
+    [login_time] => 2019-06-18 08:06:19
+    [delete_flg] => 0
+    [create_date] => 2019-06-18 08:06:19
+    [update_date] => 2019-06-26 16:43:45
+)
+
+[26-Jun-2019 16:46:17 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[26-Jun-2019 16:46:17 Asia/Tokyo] PHP Notice:  Undefined index: pic in /Applications/MAMP/htdocs/monojirou/function.php on line 592
+[26-Jun-2019 16:46:17 Asia/Tokyo] PHP Notice:  Undefined index: pic in /Applications/MAMP/htdocs/monojirou/function.php on line 592
+[26-Jun-2019 16:46:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:46:18 Asia/Tokyo] デバッグ：「　パスワード変更ページ　」
+[26-Jun-2019 16:46:18 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[26-Jun-2019 16:46:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:46:18 Asia/Tokyo] デバッグ：セッションID:n5vigagjhv20co1qscdhhqnejh
+[26-Jun-2019 16:46:18 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [login_date] => 1561535177
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[26-Jun-2019 16:46:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561535178
+[26-Jun-2019 16:46:18 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561538777
+[26-Jun-2019 16:46:18 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[26-Jun-2019 16:46:18 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[26-Jun-2019 16:46:18 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[26-Jun-2019 16:46:18 Asia/Tokyo] デバッグ：クエリ成功。
+[26-Jun-2019 16:46:18 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 2
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => ymnkknt3@gmail.com
+    [password] => $2y$10$BkuqP/2askiFbTAUUb45fODO1NR5KuXm2V8MvSi/k04kmqbqoSxna
+    [login_time] => 2019-06-18 08:06:19
+    [delete_flg] => 0
+    [create_date] => 2019-06-18 08:06:19
+    [update_date] => 2019-06-26 16:43:45
+)
+
+[26-Jun-2019 16:46:23 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:46:23 Asia/Tokyo] デバッグ：「　パスワード変更ページ　」
+[26-Jun-2019 16:46:23 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[26-Jun-2019 16:46:23 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:46:23 Asia/Tokyo] デバッグ：セッションID:ticlv9mav3eth6ndloq8lki610
+[26-Jun-2019 16:46:23 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [login_date] => 1561535178
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[26-Jun-2019 16:46:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561535183
+[26-Jun-2019 16:46:23 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561538778
+[26-Jun-2019 16:46:23 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[26-Jun-2019 16:46:23 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[26-Jun-2019 16:46:23 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[26-Jun-2019 16:46:23 Asia/Tokyo] デバッグ：クエリ成功。
+[26-Jun-2019 16:46:23 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 2
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => ymnkknt3@gmail.com
+    [password] => $2y$10$BkuqP/2askiFbTAUUb45fODO1NR5KuXm2V8MvSi/k04kmqbqoSxna
+    [login_time] => 2019-06-18 08:06:19
+    [delete_flg] => 0
+    [create_date] => 2019-06-18 08:06:19
+    [update_date] => 2019-06-26 16:43:45
+)
+
+[26-Jun-2019 16:46:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:46:25 Asia/Tokyo] デバッグ：「　退会ページ　」
+[26-Jun-2019 16:46:25 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[26-Jun-2019 16:46:25 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:46:25 Asia/Tokyo] デバッグ：セッションID:6nr2er6tvs97brou331qr54qju
+[26-Jun-2019 16:46:25 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [login_date] => 1561535183
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[26-Jun-2019 16:46:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561535185
+[26-Jun-2019 16:46:25 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561538783
+[26-Jun-2019 16:46:25 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[26-Jun-2019 16:46:25 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[26-Jun-2019 16:46:25 Asia/Tokyo] デバッグ：画面表示終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Jun-2019 16:46:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:46:26 Asia/Tokyo] デバッグ：「　マイページ　」
+[26-Jun-2019 16:46:26 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[26-Jun-2019 16:46:26 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:46:26 Asia/Tokyo] デバッグ：セッションID:4nlgimrr132tjc8j7982ufg0tk
+[26-Jun-2019 16:46:26 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [login_date] => 1561535185
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[26-Jun-2019 16:46:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561535186
+[26-Jun-2019 16:46:26 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561538785
+[26-Jun-2019 16:46:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:46:28 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[26-Jun-2019 16:46:28 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[26-Jun-2019 16:46:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:46:28 Asia/Tokyo] デバッグ：セッションID:rnra24vl235kjvoogl5bkcffe1
+[26-Jun-2019 16:46:28 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [login_date] => 1561535185
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[26-Jun-2019 16:46:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561535188
+[26-Jun-2019 16:46:28 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561538785
+[26-Jun-2019 16:46:28 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[26-Jun-2019 16:46:28 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[26-Jun-2019 16:46:28 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[26-Jun-2019 16:46:28 Asia/Tokyo] デバッグ：クエリ成功。
+[26-Jun-2019 16:46:28 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 2
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => ymnkknt3@gmail.com
+    [password] => $2y$10$BkuqP/2askiFbTAUUb45fODO1NR5KuXm2V8MvSi/k04kmqbqoSxna
+    [login_time] => 2019-06-18 08:06:19
+    [delete_flg] => 0
+    [create_date] => 2019-06-18 08:06:19
+    [update_date] => 2019-06-26 16:43:45
+)
+
+[26-Jun-2019 16:46:28 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[26-Jun-2019 16:46:28 Asia/Tokyo] PHP Notice:  Undefined index: pic in /Applications/MAMP/htdocs/monojirou/function.php on line 592
+[26-Jun-2019 16:46:28 Asia/Tokyo] PHP Notice:  Undefined index: pic in /Applications/MAMP/htdocs/monojirou/function.php on line 592
+[26-Jun-2019 16:46:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[26-Jun-2019 16:46:29 Asia/Tokyo] デバッグ：「　パスワード変更ページ　」
+[26-Jun-2019 16:46:29 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[26-Jun-2019 16:46:29 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Jun-2019 16:46:29 Asia/Tokyo] デバッグ：セッションID:8c5jkcca4qaphokqve8sg6un9c
+[26-Jun-2019 16:46:29 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [login_date] => 1561535188
+    [login_limit] => 3600
+    [user_id] => 2
+)
+
+[26-Jun-2019 16:46:29 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561535189
+[26-Jun-2019 16:46:29 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561538788
+[26-Jun-2019 16:46:29 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[26-Jun-2019 16:46:29 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[26-Jun-2019 16:46:29 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[26-Jun-2019 16:46:29 Asia/Tokyo] デバッグ：クエリ成功。
+[26-Jun-2019 16:46:29 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 2
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => ymnkknt3@gmail.com
+    [password] => $2y$10$BkuqP/2askiFbTAUUb45fODO1NR5KuXm2V8MvSi/k04kmqbqoSxna
+    [login_time] => 2019-06-18 08:06:19
+    [delete_flg] => 0
+    [create_date] => 2019-06-18 08:06:19
+    [update_date] => 2019-06-26 16:43:45
+)
+
