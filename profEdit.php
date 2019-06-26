@@ -33,7 +33,7 @@ if(!empty($_POST)){
   $age = $_POST['age'];
   $email = $_POST['email'];
   //画像をアップロードし、パスを格納
-  $pic = ( !empty($_FILES['pic']['name']) ) ?uploadImg($_FILES['pic'],'pic') : '';
+  $pic = ( !empty($_FILES['pic']['name']) ) ? uploadImg($_FILES['pic'],'pic') : '';
   //画像をPOSTしてない（登録していない）が既にDBに登録されている場合、DBのパスを入れる（POSTには反映されないので）
   $pic = ( empty($pic) && !empty($dbFormData['pic']) ) ? $dbFormData['pic'] : $pic;
   
@@ -150,7 +150,7 @@ require('head.php');
               </div>
               <label class="<?php if(!empty($err_msg['zip'])) echo 'err'; ?>">
               郵便番号<span style="font-size:12px;margin-left:5px;">※ハイフンなしでご入力ください</span>
-              <input type="text" name="zip" value="<?php if(!empty($getFormData['zip']) ){ echo getFormData('zip'); } ?>">
+              <input type="text" name="zip" value="<?php if(!empty($getFormData['zip']) ) echo getFormData('zip'); ?>">
               </label>
               <div class="area-msg">
                 <?php 

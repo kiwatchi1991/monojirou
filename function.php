@@ -255,7 +255,7 @@ function getUser($u_id){
 //    DBへ接続
     $dbh = dbConnect();
 //    SQL文作成
-    $sql = 'SELECT * FROM user WHERE id = :u_id AND delete_flg = 0';
+    $sql = 'SELECT * FROM users WHERE id = :u_id AND delete_flg = 0';
     $data = array(':u_id' => $u_id);
 //    クエリ実行
     $stmt = queryPost($dbh, $sql, $data);
@@ -582,7 +582,7 @@ function getFormData($str, $flg = false){
         return sanitize($method[$str]);
       }else{
 //        ない場合（基本ありえない）はDBの情報を表示
-        return sanitiza($dbFormData[$str]);
+        return sanitize($dbFormData[$str]);
       }
     }else{
 //      POSTにデータがあり、DBの情報と違う場合
@@ -648,7 +648,7 @@ function uploadImg($file, $key){
 //      ハッシュ化しておかないとアップロードされたファイル名そのままで保存してしまうと同じファイル名がアップロードされる可能性があり、
 //        DBにパスを保存した場合、どっちの画像のパスなのか判断つかなくなってしまう
 //        image_type_to_extension関数はファイルの拡張子を取得するもの
-      $path = 'upload/'.sha1_file($file['tmp_name']).image_type_to_extension($type);
+      $path = 'uploads/'.sha1_file($file['tmp_name']).image_type_to_extension($type);
       if (!move_uploaded_file($file['tmp_name'], $path))  {//ファイルを移動する
           throw new RuntimeException('ファイル保存時にエラーが発生しました');
       }

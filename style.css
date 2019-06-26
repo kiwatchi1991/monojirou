@@ -323,6 +323,15 @@ TOPページレイアウト
   margin: 100px auto;
 }
 
+/*ページタイトル*/
+
+.page-title{
+  margin-bottom: 50px;
+  padding-top: 20px; /*Lesson14にて追加*/
+  text-align: center;
+  font-size: 32px;
+}
+
 /*===============================
 フォーム
 ===============================*/
@@ -344,6 +353,35 @@ TOPページレイアウト
   color: red;
 }
 
+.form .area-drop{
+  margin-bottom: 15px;
+  width: 100%;
+  height: 140px;
+  background: #f6f5f4;
+  color: #ccc;
+  text-align: center;
+  line-height: 150px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.form .input-files{
+  opacity:0;
+  width:100%;
+  height: 140px;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:2; 　/*  必ずz-indexをつけないと登録画像を変更する際にドラッグ＆ドロップできなくなる
+*/
+}
+
+.form .prev-img{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 label{
   display: block;
