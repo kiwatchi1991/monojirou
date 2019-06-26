@@ -37,6 +37,38 @@ if(!empty($p_id) && empty($dbFormData)){
   header("Location:mypage.php");//マイページへ
 }
 
+// POST送信時処理
+//====================================
+if(!empty($_POST)){
+  debug('POST送信があります。')；
+  debug('POST情報：'.print_r($_POST,true));
+  debug('FILE情報：'.print_r($_FILES,true));
+  
+  //変数にユーザー情報を代入
+  $name = $_POST['name'];
+  $category = $_POST['category_id'];
+  $price = (!empty($_POST['price'])) ? $_POST['price'] : 0; //0や空文字の場合は０を入れる。デフォルトのフォームには０が入っている。
+  $comment = $_POST['comment'];
+  //画像をアップロードし、パスを格納
+  $pic1 = (!empty($_FILES['pic2']['name']) ) ? uploadImg($_FILES['pic1'],'pic1') : '';
+  // 画像をPOSTしてない（登録していない）が既にDBに登録されている場合、DBのパスを入れる（POSTには反映されないので）
+  $pic1 = ( empty($pic1) && !empty($dbFormData['pic1']) ) ? $dbFormData['pic1'] : $pic1;
+  $pic2 = ( !empty($_FILES['pic2']['name']) ) ? uploadImg($_FILES['pic2'],'pic2') : '';
+  $pic2 = ( empty($pic2) && !empty($dbFormData['pic2']) ) ? $dbFormData['pic2'] : $pic2;
+  $pic3 = ( !empty($_FILES['pic3']['name']) ) ? uploadImg($_FILES['pic3'],'pic3') : '';
+  $pic3 = ( empty($pic3) && !empty($dbFormData['pic3']) ) ? $dbFormData['pic3'] : $pic3;
+  //更新の場合はDBの情報と入力情報が異なる場合にバリデーションを行う
+  if(empty($dbFormData)){
+    //未入力チェック
+    validRequired($name, 'name');
+    //最大文字数チェック
+    validMaxLen($name, 'name');
+    //セレクトボックスチェック
+    validSelect($category, 'category_id');
+    //最大文字数チェック
+    validMaxLen($comment, 'comment', 500);
+  }
+}
 
 
 
