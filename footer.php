@@ -39,13 +39,13 @@
     $dropArea.on('dragover', function(e){
       e.stopPropagation();
       e.preventDefault();
-      $(this).css('boder', 'none');
+      $(this).css('border', '3px #ccc dashed');
     });
     $dropArea.on('dragleave', function(e){
       e.stopPropagation();
       e.preventDefault();
       $(this).css('border', 'none');
-    })
+    });
     $fileInput.on('change', function(e){
       $dropArea.css('border', 'none');
       var file = this.files[0],         // 2 file配列にファイルが入ってます
