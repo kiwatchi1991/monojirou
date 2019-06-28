@@ -15,7 +15,6 @@ debugLogStart();
 //================================
 // 商品IDのGETパラメータを取得
 $p_id = (!empty($_GET['p_id'])) ? (int)$_GET['p_id'] : '';
-debug('デバック■■■■■■■■■■■■■■■■■■■■■■■■■■■'.print_r($p_id,true));
 //DBから商品データを取得
 $viewData = getProductOne($p_id);
 //パラメータに不正な値が入っているかチェック
@@ -82,9 +81,9 @@ require('head.php');
         overflow: hidden;
       }
       .product-img-container img{
-        width: 100px;
+        width: 100%;
       }
-      .ptoduct-img-container .img-main{
+      .product-img-container .img-main{
         width: 750px;
         float: left;
         padding-right: 15px;
@@ -192,7 +191,7 @@ require('head.php');
      </div>
      <div class="product-buy">
        <div class="item-left">
-         <a href="index.php<?php echo appendGetParam(array('p_id')); ?>">&lt; 商品一覧に戻る</a>
+         <a href="toppage.php<?php echo appendGetParam(array('p_id')); ?>">&lt; 商品一覧に戻る</a>
        </div>
        <form action="" method="post"><!--formタグを追加し、ボタンをinputに変更し、style追加-->
          <div class="item-right">
