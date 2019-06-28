@@ -631,6 +631,7 @@ function uploadImg($file, $key){
           case UPLOAD_ERR_NO_FILE: //ファイル未選択の場合
             throw new RuntimeException('ファイルが選択されていません');
           case UPLOAD_ERR_INI_SIZE: //php.ini定義の最大サイズが超過した場合
+            throw new RuntimeException('ファイルサイズが大きすぎます');
           case UPLOAD_ERR_FORM_SIZE://フォーム定義の最大サイズ超過した場合
               throw new RuntimeException('ファイルサイズが大きすぎます');
           default://その他の場合
