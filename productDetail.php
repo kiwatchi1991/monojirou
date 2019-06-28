@@ -60,7 +60,6 @@ $siteTitle = '商品詳細';
 require('head.php');
 ?>
 
-
   <body class="page-productDetail page-1colum">
     <style>
       .badge{
@@ -99,6 +98,9 @@ require('head.php');
       .product-img-container .img-sub:hover{
         cursor: pointer;
       }
+      .product-img-container .img-sub img{
+        margin-bottom: 15px;
+      }
       .product-img-container .img-sub img:last-child{
         margin-bottom: 0;
       }
@@ -125,27 +127,128 @@ require('head.php');
         font-size: 32px;
         margin-right: 30px;
       }
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      .product-buy .btn{
+        border: none;
+        font-size: 18px;
+        padding: 10px 30px;
+      }
+      .product-buy .btn:hover{
+        cursor: pointer;
+      }
+/*      お気に入りアイコン*/
+      .icon-like{
+        float: right;
+        color: #ddd;
+      }
+      .icon-like:hover{
+        cursor: pointer;
+      }
+      .icn-like.active{
+        float: right;
+        color: #fe8a8b;
+      }
     </style>
     
+<!--    ヘッダー-->
+   <?php 
+    require('header.php');
+    ?>
+    
+    <!--  広告タブ-->
+    <?php 
+      require('ads.php');
+    ?>
+
+    <!--メニュータブ-->
+    <?php 
+      require('menuTab.php');
+    ?>
+
+    <!--    メインコンテンツ-->
+    <div id="contents" class="site-width">
+      
+<!--      Main-->
+   <section id="main">
+     
+     <div class="title">
+       <span class="badge"><?php echo sanitize($viewData['category']); ?></span>
+       <?php echo sanitize($viewData['name']); ?>
+       <i class="fa fa-heart icn-like js-click-like <?php if(isLike($_SESSION['user_id'], $viewData['id'])){ echo sanitize($viewdata['id']); ?>" ></i>
+     </div>
+     <div class="product-img-container">
+       <div class="img-main">
+         <img src="<?php echo showImg(sanitize($viewData['pic1'])); ?>" alt="メイン画像:<?php echo sanitize($viewData['name']); ?>" id="js-switch-img-main">
+       </div>
+       <div class="img-sub">
+         <img src="<?php echo showImg(sanitize($viewData['pic1'])); ?>" alt="画像1:<?php echo sanitize($viewviewData['name']); ?>" class="js-switch-img-sub">
+         <img src="<?php echo showImg(sanitize($viewData['pic2'])); ?>" alt="画像2:<?php echo sanitize($viewDiewData['name']; ?>" class="js-switch-img-sub">
+         <img src="<?php echo showImg(sanitize($viewData['pic3'])); ?>" alt="画像3:<?php echo sanitize($viewDiewData['name']; ?>" class="js-switch-img-sub">
+       </div>
+     </div>
+     <div class="product-detail">
+       <p><?php echo sanitize($viewData['comment']); ?></p>       
+     </div>
+     <div class="product-buy">
+       <div class="item-left">
+         <a href="index.php<?php echo appendGetParam(array('p_id')); ?>">&lt; 商品一覧に戻る</a>
+       </div>
+       <form action="" method="post"><!--formタグを追加し、ボタンをinputに変更し、style追加-->
+         <div class="item-right">
+           <input type="submit" value="買う！" name="submit" class="btn btn-primary" style="margin-top:0;">
+         </div>
+       </form>
+       <div class="item-right">
+         <p class="price">¥<?php echo sanitize(number_format[$viewData['price'])); ?>-</p>
+       </div>
+     </div>
+     
+   </section>
+   
+    </div>
+    
+<!--    footer-->
+    <?php 
+    require('footer.php');
+    ?>
+    
+    
+    
   </body>
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
