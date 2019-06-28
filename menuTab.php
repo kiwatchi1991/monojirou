@@ -4,8 +4,8 @@
 
 <div id="menu-tab">
   <ul class="site-width">
-    <li id="index">
-    <a href="index.php">TOP</a>
+    <li id="toppage">
+    <a href="toppage.php">TOP</a>
     </li>
     
     <li id="mypage">
