@@ -317,7 +317,7 @@ function getProductList($currentMinNum = 1, $category, $sort, $span = 20){
   }
   $data = array();
 //    クエリ実行
-    $stmt = queryPost(dbh, $sql, $data);
+    $stmt = queryPost($dbh, $sql, $data);
     $rst['total'] = $stmt->rowCount();//総レコード数
     $rst['total_page'] = ceil($rst['total']/$span);//総ページ数
   if(!$stmt){
@@ -674,7 +674,7 @@ function uploadImg($file, $key){
 //  $totalPageNum : 総ページ数
 //  $link : 検索用GETパラメータリンク
 //  $pageColNum : ページネーション表示数
-function pagenation( $currentPageNum, $totalPageNum, $link = '', $pageColNum = 5){
+function pagination( $currentPageNum, $totalPageNum, $link = '', $pageColNum = 5){
 //  現在のページが、総ページ数と同じ　かつ　総ページ数が表示項目数以上なら、左にリンク４個出す
   if( $currentPageNum == $totalPageNum && $totalPageNum > $pageColNum){
     $minPageNum = $currentPageNum - 4;
@@ -698,7 +698,7 @@ function pagenation( $currentPageNum, $totalPageNum, $link = '', $pageColNum = 5
 //    それ以外は左に２個出す。
   }else{
     $minPageNum = $currentPageNum - 2;
-    $minPageNum = $currentPageNum + 2;
+    $maxPageNum = $currentPageNum + 2;
   }
   
   echo '<div class="pagination">';

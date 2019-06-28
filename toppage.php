@@ -17,14 +17,14 @@ debugLogStart();
 //----------------------------------
 // カレントページ
 
-$currentPageNum = (!empty($_GET['p'])) ? $_GET['p'] : 1; //デフォルトは１ページ目
+$currentPageNum = (!empty($_GET['p'])) ? (int)$_GET['p'] : 1; //デフォルトは１ページ目
 //カテゴリー
 $category = (!empty($_GET['sort'])) ? $_GET['c_id'] : '';
 //ソート順
 $sort = (!empty($_GET['sort'])) ? $_GET['sort'] : '';
 //パラメータに不正な値が入っているかチェック
 if(!is_int($currentPageNum)){
-  error_log('エラー発生:指定ページに不正な値が入りました。')
+  error_log('エラー発生:指定ページに不正な値が入りました。');
   header("Location:toppage.php");//トップページへ
 }
 //表示件数
@@ -32,6 +32,8 @@ $listSpan = 20;
 //現在の表示レコード先頭を算出
 $currentMinNum = (($currentPageNum-1)*$listSpan); //1ページ目なら（１−１）*20 = 0、２ページ目なら（２−１）＊２０　＝　２０
 //DBから商品データを取得
+$dbProductData = getProductList($currentMinNum, $category, $sort);
+//DBからカテゴリデータを取得
 $dbCategoryData = getCategory();
 //debug('DBデータ：'.print_r($dbFormData,true));
 //debug('カテゴリデータ：'.print_r($dbCategoryData,true));
@@ -111,7 +113,7 @@ require('head.php');
            <span class="total-num"><?php echo sanitize($dbProductData['total']); ?></span>件の商品が見つかりました。
          </div>
          <div class="search-right">
-           <span class="num"><?php ecoh (!empty($dbProductData['data'])) ? $currentMinNum+1 : 0; ?></span> - <span class="num"><?php echo $currentMinNum+count($dbProductData['data']); ?></span>件 / <span class="num"><?php echo sanitize($dbProductData['total']); ?></span>件中
+           <span class="num"><?php echo (!empty($dbProductData['data'])) ? $currentMinNum+1 : 0; ?></span> - <span class="num"><?php echo $currentMinNum+count($dbProductData['data']); ?></span>件 / <span class="num"><?php echo sanitize($dbProductData['total']); ?></span>件中
          </div>
        </div>
        <div class="panel-list">
@@ -121,7 +123,7 @@ require('head.php');
          ?>
            <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam().'&p_id='.$val['id'] : '?p_id'.$val['id']; ?>" class="panel">
              <div class="panel-head">
-               <img src="<?php echo sanitize($val['pic1']); ?>" alt="<?php echo sanitize($val['name']); ?>">
+               <img src="<?php echo sanitize($val['pic1']); var_dump($val['pic1']); ?>" alt="<?php echo sanitize($val['name']); ?>">
              </div>
              <div class="panel-body">
                <p class="panel-title"><?php echo sanitize($val['name']); ?> <span class="price">¥<?php echo sanitize(number_format($val['price'])); ?></span></p>
@@ -132,7 +134,8 @@ require('head.php');
          ?>
        </div>
        
-       <?php pagination($currentPageNum, $dbProductData['total_page']); 
+       <?php 
+       pagination($currentPageNum, $dbProductData['total_page']); 
        ?>
        
      </section>
