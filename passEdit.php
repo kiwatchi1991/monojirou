@@ -123,10 +123,14 @@ require('head.php');
     }
   </style>
 
-
   <!--  ヘッダー-->
   <?php 
   require('header.php');
+  ?>
+
+  <!--  広告タブ-->
+  <?php 
+  require('ads.php');
   ?>
 
   <!--メニュータブ-->

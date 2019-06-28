@@ -102,4 +102,13 @@
     
     
   });
+   
+   //現在のurl取得
+   var url = window.location.href;
+   //urlからファイル名（拡張子なし）取得
+   var filename = url.match(".+/(.+?)\.[a-z]+([\?#;].*)?$")[1];
+//   console.log(filename);
+
+   $('#'+ filename).addClass('active');
+   
   </script>

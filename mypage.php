@@ -89,7 +89,9 @@ require('head.php');
   <?php
   require('footer.php'); 
   ?>
-
+<script>
+  
+</script>
 
 
 </body>

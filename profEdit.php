@@ -114,6 +114,11 @@ require('head.php');
   require('header.php');
   ?>
 
+  <!--  広告タブ-->
+  <?php 
+  require('ads.php');
+  ?>
+
   <!--メニュータブ-->
   <?php 
   require('menuTab.php');
