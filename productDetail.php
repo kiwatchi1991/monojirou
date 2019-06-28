@@ -15,12 +15,13 @@ debugLogStart();
 //================================
 // 商品IDのGETパラメータを取得
 $p_id = (!empty($_GET['p_id'])) ? (int)$_GET['p_id'] : '';
+debug('デバック■■■■■■■■■■■■■■■■■■■■■■■■■■■'.print_r($p_id,true));
 //DBから商品データを取得
 $viewData = getProductOne($p_id);
 //パラメータに不正な値が入っているかチェック
 if(empty($viewData)){
   error_log('エラー発生:指定ページに不正な値が入りました。');
-  header("Location:index.php");//トップページへ
+  header("Location:toppage.php");//トップページへ
 }
 debug('取得したDBデータ：'.print_r($viewData,true));
       
@@ -61,6 +62,7 @@ require('head.php');
 ?>
 
   <body class="page-productDetail page-1colum">
+
     <style>
       .badge{
         padding: 5px 10px;
