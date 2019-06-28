@@ -369,9 +369,11 @@ function getProductOne($p_id){
 //    クエリ実行
     $stmt = queryPost($dbh, $sql, $data);
     
+    
     if($stmt){
 //      クエリ結果のデータを１レコード返却
       return $stmt->fetch(PDO::FETCH_ASSOC);
+      
     }else{
       return false;
     }
@@ -720,7 +722,7 @@ function pagination( $currentPageNum, $totalPageNum, $link = '', $pageColNum = 5
 //画像表示関数
 function showImg($path){
   if(empty($path)){
-    return 'img/sample-img.png';
+    return 'images/sample-img.png';
   }else{
     return $path;
   }

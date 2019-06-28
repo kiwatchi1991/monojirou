@@ -20,7 +20,7 @@ $viewData = getProductOne($p_id);
 //パラメータに不正な値が入っているかチェック
 if(empty($viewData)){
   error_log('エラー発生:指定ページに不正な値が入りました。');
-  header("Location:index.php");//トップページへ
+  header("Location:toppage.php");//トップページへ
 }
 debug('取得したDBデータ：'.print_r($viewData,true));
       
@@ -61,6 +61,7 @@ require('head.php');
 ?>
 
   <body class="page-productDetail page-1colum">
+
     <style>
       .badge{
         padding: 5px 10px;
@@ -80,9 +81,9 @@ require('head.php');
         overflow: hidden;
       }
       .product-img-container img{
-        width: 100px;
+        width: 100%;
       }
-      .ptoduct-img-container .img-main{
+      .product-img-container .img-main{
         width: 750px;
         float: left;
         padding-right: 15px;
@@ -190,7 +191,7 @@ require('head.php');
      </div>
      <div class="product-buy">
        <div class="item-left">
-         <a href="index.php<?php echo appendGetParam(array('p_id')); ?>">&lt; 商品一覧に戻る</a>
+         <a href="toppage.php<?php echo appendGetParam(array('p_id')); ?>">&lt; 商品一覧に戻る</a>
        </div>
        <form action="" method="post"><!--formタグを追加し、ボタンをinputに変更し、style追加-->
          <div class="item-right">

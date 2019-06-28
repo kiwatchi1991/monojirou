@@ -1,6 +1,21 @@
 @charaset "utf-8";
 
 /*===============================
+フォント
+===============================*/
+.num{
+  font-family: 'Montserrat',sans-serif;
+}
+
+.price{
+  display: block;
+  font-weight: bold;
+  font-family: 'Montserrat',sans-serif;
+}
+
+
+
+/*===============================
 全体設計
 ===============================*/
 html{
@@ -338,6 +353,46 @@ TOPページレイアウト
   float:left;
 }
 
+/*
+#main .title{
+  font-size: 28px;
+  padding: 10px 0;
+}
+
+.product-img-container{
+  overflow: hidden;
+}
+
+.product-img-container img{
+  width: 100%;
+}
+*/
+
+/*
+.product-img-container .img-main{
+  width: 750px;
+  float: left;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+*/
+
+/*
+.product-img-container .img-sub{
+  width: 230px;
+  float: left;
+  background: #f6f5f4;
+  padding: 15px;
+  box-sizing: border-box;
+}
+*/
+
+/*
+.product-img-container .img-sub img{
+  margin-bottom: 15px;
+*/
+}
+
 /*ページタイトル*/
 .page-title{
   margin-bottom: 50px;
@@ -586,6 +641,11 @@ input[type="submit"]:hover{
 
 .btn-container{
   overflow: hidden;
+}
+
+.btn.btn-primary{
+  background: #b6a489;
+  color: white;
 }
 
 /*===============================

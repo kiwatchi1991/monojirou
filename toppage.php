@@ -19,7 +19,7 @@ debugLogStart();
 
 $currentPageNum = (!empty($_GET['p'])) ? (int)$_GET['p'] : 1; //デフォルトは１ページ目
 //カテゴリー
-$category = (!empty($_GET['sort'])) ? $_GET['c_id'] : '';
+$category = (!empty($_GET['c_id'])) ? $_GET['c_id'] : '';
 //ソート順
 $sort = (!empty($_GET['sort'])) ? $_GET['sort'] : '';
 //パラメータに不正な値が入っているかチェック
@@ -79,7 +79,7 @@ require('head.php');
         <h1 class="title">カテゴリー</h1>
         <div class="selectbox">
           <span class="icn_select"></span>
-            <select name="c-id" id="">
+            <select name="c_id" id="">
               <option value="0" <?php if(getFormData('c_id',true) == 0 ){ echo 'selected'; } ?> >選択してください</option>
               <?php 
                 foreach($dbCategoryData as $key => $val){
@@ -117,13 +117,17 @@ require('head.php');
          </div>
        </div>
        <div class="panel-list">
+        
          <?php 
          foreach($dbProductData['data'] as $key => $val):
          debug('デバック■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■'.print_r($dbProductData,true));
          ?>
-           <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam().'&p_id='.$val['id'] : '?p_id'.$val['id']; ?>" class="panel">
+          
+           <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam().'&p_id='.$val['id'] : '?p_id='.$val['id']; ?>" class="panel">
+           
+            
              <div class="panel-head">
-               <img src="<?php echo sanitize($val['pic1']); var_dump($val['pic1']); ?>" alt="<?php echo sanitize($val['name']); ?>">
+               <img src="<?php echo sanitize($val['pic1']); ?>" alt="<?php echo sanitize($val['name']); ?>">
              </div>
              <div class="panel-body">
                <p class="panel-title"><?php echo sanitize($val['name']); ?> <span class="price">¥<?php echo sanitize(number_format($val['price'])); ?></span></p>
@@ -132,6 +136,7 @@ require('head.php');
            <?php 
             endforeach;
          ?>
+         
        </div>
        
        <?php 
