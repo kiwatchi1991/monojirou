@@ -55177,3 +55177,254 @@ Stack trace:
 [01-Jul-2019 20:55:29 Asia/Tokyo] デバッグ：商品ID：94
 [01-Jul-2019 20:55:29 Asia/Tokyo] デバッグ：クエリ成功。
 [01-Jul-2019 20:55:29 Asia/Tokyo] デバッグ：特に気に入ってません
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：「　商品詳細ページ　」
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：セッションID:fi8heart032g52k1rment5nb0p
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1561942783
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561983148
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561946383
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：商品情報を取得します
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：商品ID：94
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 94
+    [name] => asdf
+    [comment] => asdf
+    [price] => 999
+    [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+    [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+    [pic3] => uploads/23bc9a9105d01da391141a5fb99c9db1e89427a9.jpeg
+    [user_id] => 2
+    [create_date] => 2019-06-28 18:57:33
+    [update_date] => 2019-06-28 18:57:33
+    [category] => 安全保護具・作業服・安全靴
+)
+
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：お気にり情報があるか確認します
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：ユーザーID：2
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：商品ID：94
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Jul-2019 21:12:28 Asia/Tokyo] デバッグ：特に気に入ってません
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：「　商品詳細ページ　」
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：セッションID:bdbu1rfv48pqi03mnjlueh2ptd
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1561942783
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561983841
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561946383
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：商品情報を取得します
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：商品ID：94
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 94
+    [name] => asdf
+    [comment] => asdf
+    [price] => 999
+    [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+    [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+    [pic3] => uploads/23bc9a9105d01da391141a5fb99c9db1e89427a9.jpeg
+    [user_id] => 2
+    [create_date] => 2019-06-28 18:57:33
+    [update_date] => 2019-06-28 18:57:33
+    [category] => 安全保護具・作業服・安全靴
+)
+
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：お気にり情報があるか確認します
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：ユーザーID：2
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：商品ID：94
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Jul-2019 21:24:01 Asia/Tokyo] デバッグ：特に気に入ってません
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：「　商品詳細ページ　」
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：セッションID:dl45oq4j0vjdi69bfphc91isen
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1561942783
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561985037
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561946383
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：商品情報を取得します
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：商品ID：94
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 94
+    [name] => asdf
+    [comment] => asdf
+    [price] => 999
+    [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+    [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+    [pic3] => uploads/23bc9a9105d01da391141a5fb99c9db1e89427a9.jpeg
+    [user_id] => 2
+    [create_date] => 2019-06-28 18:57:33
+    [update_date] => 2019-06-28 18:57:33
+    [category] => 安全保護具・作業服・安全靴
+)
+
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：お気にり情報があるか確認します
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：ユーザーID：2
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：商品ID：94
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Jul-2019 21:43:57 Asia/Tokyo] デバッグ：特に気に入ってません
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：「　商品詳細ページ　」
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：セッションID:mct4k0ia0nv0p23omquglr1f0c
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1561942783
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561985041
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561946383
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：商品情報を取得します
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：商品ID：94
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：取得したDBデータ：Array
+(
+    [id] => 94
+    [name] => asdf
+    [comment] => asdf
+    [price] => 999
+    [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+    [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+    [pic3] => uploads/23bc9a9105d01da391141a5fb99c9db1e89427a9.jpeg
+    [user_id] => 2
+    [create_date] => 2019-06-28 18:57:33
+    [update_date] => 2019-06-28 18:57:33
+    [category] => 安全保護具・作業服・安全靴
+)
+
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：お気にり情報があるか確認します
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：ユーザーID：2
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：商品ID：94
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Jul-2019 21:44:01 Asia/Tokyo] デバッグ：特に気に入ってません
+[01-Jul-2019 21:44:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:44:02 Asia/Tokyo] デバッグ： 「　Ajax 」
+[01-Jul-2019 21:44:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:44:02 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Jul-2019 21:44:02 Asia/Tokyo] デバッグ：セッションID:pr68go2tqdr6iov9q44ju4pomr
+[01-Jul-2019 21:44:02 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1561942783
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[01-Jul-2019 21:44:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561985042
+[01-Jul-2019 21:44:02 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561946383
+[01-Jul-2019 21:44:02 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function isLogin() in /Applications/MAMP/htdocs/monojirou/ajaxLike.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/monojirou/ajaxLike.php on line 15
+[01-Jul-2019 21:44:05 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:44:05 Asia/Tokyo] デバッグ： 「　Ajax 」
+[01-Jul-2019 21:44:05 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:44:05 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Jul-2019 21:44:05 Asia/Tokyo] デバッグ：セッションID:7ibr5sh626d57ln39ghuagkon9
+[01-Jul-2019 21:44:05 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1561942783
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[01-Jul-2019 21:44:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561985045
+[01-Jul-2019 21:44:05 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561946383
+[01-Jul-2019 21:44:05 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function isLogin() in /Applications/MAMP/htdocs/monojirou/ajaxLike.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/monojirou/ajaxLike.php on line 15
+[01-Jul-2019 21:44:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:44:07 Asia/Tokyo] デバッグ： 「　Ajax 」
+[01-Jul-2019 21:44:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:44:07 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Jul-2019 21:44:07 Asia/Tokyo] デバッグ：セッションID:a2fvd3kk879fosfgivaef0b4kt
+[01-Jul-2019 21:44:07 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1561942783
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[01-Jul-2019 21:44:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561985047
+[01-Jul-2019 21:44:07 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561946383
+[01-Jul-2019 21:44:07 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function isLogin() in /Applications/MAMP/htdocs/monojirou/ajaxLike.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/monojirou/ajaxLike.php on line 15
+[01-Jul-2019 21:44:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:44:14 Asia/Tokyo] デバッグ： 「　Ajax 」
+[01-Jul-2019 21:44:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:44:14 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Jul-2019 21:44:14 Asia/Tokyo] デバッグ：セッションID:nl98l1334vk9a6rdetd8e2jqiq
+[01-Jul-2019 21:44:14 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1561942783
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[01-Jul-2019 21:44:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561985054
+[01-Jul-2019 21:44:14 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561946383
+[01-Jul-2019 21:44:14 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function isLogin() in /Applications/MAMP/htdocs/monojirou/ajaxLike.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/monojirou/ajaxLike.php on line 15
+[01-Jul-2019 21:44:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:44:15 Asia/Tokyo] デバッグ： 「　Ajax 」
+[01-Jul-2019 21:44:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Jul-2019 21:44:15 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Jul-2019 21:44:15 Asia/Tokyo] デバッグ：セッションID:fqqf4bcf5gp95hpa62rjt0ia6t
+[01-Jul-2019 21:44:15 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1561942783
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[01-Jul-2019 21:44:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1561985055
+[01-Jul-2019 21:44:15 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1561946383
+[01-Jul-2019 21:44:15 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function isLogin() in /Applications/MAMP/htdocs/monojirou/ajaxLike.php:15
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/monojirou/ajaxLike.php on line 15
