@@ -92,7 +92,7 @@ if(!empty($_POST)){
       if($stmt){
         $_POST = array(); //postをクリア
         debug('連絡掲示板へ遷移します。');
-        header("Location:" . $_SERVER['PHP_SELF'] . 'm_id='.$m-id); //自分自身に遷移する
+        header("Location:" . $_SERVER['PHP_SELF'] . '?m_id='.$m_id); //自分自身に遷移する
       }
       
     } catch (Exception $e) {
@@ -262,7 +262,7 @@ require('head.php');
          </div>
          <div class="avatar-info">
            <?php echo sanitize($partnerUserInfo['username']).' '.sanitize($partnerUserInfo['age']).'歳' ?><br>
-           〒<?php echo wordwrap($partrtnerUserInfo['zip'],4,"-", true); ?><br>
+           〒<?php echo wordwrap($partnerUserInfo['zip'],4,"-", true); ?><br>
            <?php echo sanitize($partnerUserInfo['addr']); ?><br>
            TEL:<?php echo sanitize($partnerUserInfo['tel']); ?>
          </div>
