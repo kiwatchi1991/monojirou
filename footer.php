@@ -80,10 +80,11 @@
 //    お気に入り登録・削除
     var $like,
         likeProductId;
-    $like = $('.js-click-like') || null; //nullというのはnull値という値で、「変数の中身は空ですよ」と明示するために使う値
+    $like = $('.js-click-like') || null; //nullというのはnull値という値で、「変数の中身は空ですよ」と明示するために使う値.
+//    もしjs-click-likeのDOMがとれなかったら"undefined"が入るので、 ||nullの条件も入れてやることでバリデーションを行なっている
     likeProductId = $like.data('productid') || null;
     //数値の０はfalseと判定されてしまう。product_idが０の場合もありえるので、０もtrueとする場合にはundefinedとnullを判定する
-    if(likeProductId !== undefined && likeProdectId !== null){
+    if(likeProductId !== undefined && likeProductId !== null){
       $like.on('click',function(){
         var $this = $(this);
         $.ajax ({

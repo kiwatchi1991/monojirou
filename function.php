@@ -209,6 +209,29 @@ function getErrMsg($key){
 //================================
 // ログイン認証
 //================================
+function isLogin(){
+  //ログインしている場合
+  if( !empty($_SESSION['login_date']) ){
+    debug('ログイン済みユーザーです。');
+    
+    //現在日時が最終ログイン日時＋ゆうこうきげんを超えていた場合
+    if( ($_SESSION['login_date'] + $_SESSION['login_limit']) < time()){
+      debug('ログイン有効期限オーバーです。');
+    
+    
+    //セッションを削除（ログアウトする）
+    session_destroy();
+    return false;
+  }else{
+    debug('ログイン有効期限内です。');
+    return true;
+    }
+    
+  }else{
+    debug('未ログイン');
+  }
+}
+
 
 //================================
 // データベース
@@ -430,7 +453,7 @@ function getMsgsAndBords($id){
     error_log('エラー発生：' . $e->getMessage());
   }
 }
-function getMyMsgAndBord($u_id){
+function getMyMsgsAndBord($u_id){
   debug('自分のmsg情報を取得します。');
 //  例外処理
   try {
@@ -439,7 +462,7 @@ function getMyMsgAndBord($u_id){
     
 //    まず、掲示板レコーど取得
 //    SQL文作成
-    $sql = 'SELECT * FROM AS b WHERE b.sale_user :id OR b.buy_user = :id AND b.delete_flg = 0';
+    $sql = 'SELECT * FROM bord AS b WHERE b.sale_user = :id OR b.buy_user = :id AND b.delete_flg = 0';
     $data = array(':id' => $u_id);
 //    クエリ実行
     $stmt = queryPost($dbh, $sql, $data);
@@ -448,7 +471,7 @@ function getMyMsgAndBord($u_id){
       foreach($rst as $key => $val){
 //         SQL文作成
         $sql = 'SELECT * FROM message WHERE bord_id = :id AND delete_flg = 0 ORDER BY send_date DESC';
-        $data = array(':id ' => $val['id']);
+        $data = array(':id' => $val['id']);
 //        クエリ実行
         $stmt = queryPost($dbh, $sql, $data);
         $rst[$key]['msg'] = $stmt->fetchAll();
