@@ -61761,3 +61761,1026 @@ Stack trace:
 )
 
 [02-Jul-2019 10:48:17 Asia/Tokyo] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Jul-2019 10:56:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jul-2019 10:56:46 Asia/Tokyo] デバッグ：「　商品出品ページ　」
+[02-Jul-2019 10:56:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jul-2019 10:56:46 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Jul-2019 10:56:46 Asia/Tokyo] デバッグ：セッションID:fgelipm6uqikqeolck101qr6f4
+[02-Jul-2019 10:56:46 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562032097
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[02-Jul-2019 10:56:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562032606
+[02-Jul-2019 10:56:46 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562035697
+[02-Jul-2019 10:56:46 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jul-2019 10:56:46 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[02-Jul-2019 10:56:46 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[02-Jul-2019 10:56:46 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 10:56:46 Asia/Tokyo] デバッグ：商品ID：
+[02-Jul-2019 10:56:46 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[02-Jul-2019 10:56:46 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => 安全保護具・作業服・安全靴
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:50:43
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => 作業工具/電動・空圧工具
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:51:22
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => スプレー・オイル・グリス
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:51:45
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ねじ・ボルト
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:52:11
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => 空圧機器・油圧機器・ホース
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:52:47
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => 空圧機器・油圧機器・ホース
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:54:13
+        )
+
+)
+
+[02-Jul-2019 10:56:46 Asia/Tokyo] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Jul-2019 10:56:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jul-2019 10:56:51 Asia/Tokyo] デバッグ：「　商品出品ページ　」
+[02-Jul-2019 10:56:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jul-2019 10:56:51 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Jul-2019 10:56:51 Asia/Tokyo] デバッグ：セッションID:hbhtve6kdi5ud37q2fdv4jal1p
+[02-Jul-2019 10:56:51 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562032606
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[02-Jul-2019 10:56:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562032611
+[02-Jul-2019 10:56:51 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562036206
+[02-Jul-2019 10:56:51 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jul-2019 10:56:51 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[02-Jul-2019 10:56:51 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[02-Jul-2019 10:56:51 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 10:56:51 Asia/Tokyo] デバッグ：商品ID：
+[02-Jul-2019 10:56:51 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[02-Jul-2019 10:56:51 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => 安全保護具・作業服・安全靴
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:50:43
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => 作業工具/電動・空圧工具
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:51:22
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => スプレー・オイル・グリス
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:51:45
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ねじ・ボルト
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:52:11
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => 空圧機器・油圧機器・ホース
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:52:47
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => 空圧機器・油圧機器・ホース
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:54:13
+        )
+
+)
+
+[02-Jul-2019 10:56:51 Asia/Tokyo] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：「　商品出品ページ　」
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：セッションID:j7udv661kbmk3dlp37sjnq0ecg
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562032611
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562032681
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562036211
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：商品ID：
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => 安全保護具・作業服・安全靴
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:50:43
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => 作業工具/電動・空圧工具
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:51:22
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => スプレー・オイル・グリス
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:51:45
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ねじ・ボルト
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:52:11
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => 空圧機器・油圧機器・ホース
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:52:47
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => 空圧機器・油圧機器・ホース
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:54:13
+        )
+
+)
+
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：「　商品詳細ページ　」
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：セッションID:aqiibcsn7jnn57846r47hbabp8
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562032681
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562032681
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562036281
+[02-Jul-2019 10:58:01 Asia/Tokyo] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：「　マイページ　」
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：セッションID:nr4lbdq9n0bd046efghtjdsb1t
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562032681
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562032690
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562036281
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：ユーザーID：2
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：自分のmsg情報を取得します。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：ユーザーID：2
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => KTC　スパナ
+            [category_id] => 1
+            [comment] => スパナ
+            [price] => 990
+            [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+            [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 17:32:07
+            [update_date] => 2019-06-27 17:32:07
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => KTC　スパナ
+            [category_id] => 1
+            [comment] => スパナ
+            [price] => 990
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 17:32:07
+            [update_date] => 2019-06-27 17:32:07
+        )
+
+    [2] => Array
+        (
+            [id] => 94
+            [name] => asdf
+            [category_id] => 1
+            [comment] => asdf
+            [price] => 999
+            [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+            [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic3] => uploads/23bc9a9105d01da391141a5fb99c9db1e89427a9.jpeg
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 18:57:33
+            [update_date] => 2019-06-28 18:57:33
+        )
+
+    [3] => Array
+        (
+            [id] => 95
+            [name] => グリススプレー
+            [category_id] => 3
+            [comment] => 
+            [price] => 650
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-29 11:16:51
+            [update_date] => 2019-06-29 11:16:51
+        )
+
+    [4] => Array
+        (
+            [id] => 96
+            [name] => グリススプレー
+            [category_id] => 3
+            [comment] => 
+            [price] => 650
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-29 11:18:54
+            [update_date] => 2019-06-29 11:18:54
+        )
+
+)
+
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 94
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 23:33:51
+            [update_date] => 2019-06-28 23:33:51
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 94
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 23:50:39
+            [update_date] => 2019-06-28 23:50:39
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 94
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 23:50:41
+            [update_date] => 2019-06-28 23:50:41
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 94
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 23:50:54
+            [update_date] => 2019-06-28 23:50:54
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 94
+            [delete_flg] => 0
+            [create_date] => 2019-06-29 00:13:21
+            [update_date] => 2019-06-29 00:13:21
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [sale_user] => 2
+            [buy_user] => 2
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-29 09:51:36
+            [update_date] => 2019-06-29 09:51:36
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [sale_user] => 2
+            [buy_user] => 2
+            [product_id] => 94
+            [delete_flg] => 0
+            [create_date] => 2019-06-29 10:07:33
+            [update_date] => 2019-06-29 10:07:33
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 7
+                            [send_date] => 2019-06-29 10:12:09
+                            [to_user] => 2
+                            [from_user] => 2
+                            [msg] => aaa
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-29 10:12:09
+                            [update_date] => 2019-06-29 10:12:09
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 4
+                            [bord_id] => 7
+                            [send_date] => 2019-06-29 10:11:22
+                            [to_user] => 2
+                            [from_user] => 2
+                            [msg] => aaa
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-29 10:11:22
+                            [update_date] => 2019-06-29 10:11:22
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 3
+                            [bord_id] => 7
+                            [send_date] => 2019-06-29 10:10:53
+                            [to_user] => 2
+                            [from_user] => 2
+                            [msg] => こんにちは
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-29 10:10:53
+                            [update_date] => 2019-06-29 10:10:53
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 2
+                            [bord_id] => 7
+                            [send_date] => 2019-06-29 10:10:03
+                            [to_user] => 2
+                            [from_user] => 2
+                            [msg] => こんにちは
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-29 10:10:03
+                            [update_date] => 2019-06-29 10:10:03
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 1
+                            [bord_id] => 7
+                            [send_date] => 2019-06-29 10:09:18
+                            [to_user] => 2
+                            [from_user] => 2
+                            [msg] => こんにちは
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-29 10:09:18
+                            [update_date] => 2019-06-29 10:09:18
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [sale_user] => 2
+            [buy_user] => 2
+            [product_id] => 94
+            [delete_flg] => 0
+            [create_date] => 2019-07-01 09:58:21
+            [update_date] => 2019-07-01 09:58:21
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [sale_user] => 2
+            [buy_user] => 2
+            [product_id] => 94
+            [delete_flg] => 0
+            [create_date] => 2019-07-01 09:59:30
+            [update_date] => 2019-07-01 09:59:30
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 9
+                            [send_date] => 2019-07-01 09:59:43
+                            [to_user] => 2
+                            [from_user] => 2
+                            [msg] => aaaaaaa
+                            [delete_flg] => 0
+                            [create_date] => 2019-07-01 09:59:43
+                            [update_date] => 2019-07-01 09:59:43
+                        )
+
+                )
+
+        )
+
+)
+
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 94
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 18:57:33
+            [update_date] => 2019-06-28 18:57:33
+            [id] => 94
+            [name] => asdf
+            [category_id] => 1
+            [comment] => asdf
+            [price] => 999
+            [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+            [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic3] => uploads/23bc9a9105d01da391141a5fb99c9db1e89427a9.jpeg
+        )
+
+)
+
+[02-Jul-2019 10:58:10 Asia/Tokyo] デバッグ：画面表示処理終了　<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Jul-2019 11:05:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jul-2019 11:05:13 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[02-Jul-2019 11:05:13 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[02-Jul-2019 11:05:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Jul-2019 11:05:13 Asia/Tokyo] デバッグ：セッションID:0qm4p3u97s1fllhkogim6som47
+[02-Jul-2019 11:05:13 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562032690
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[02-Jul-2019 11:05:13 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562033113
+[02-Jul-2019 11:05:13 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562036290
+[02-Jul-2019 11:05:13 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jul-2019 11:05:13 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[02-Jul-2019 11:05:13 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[02-Jul-2019 11:05:13 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 11:05:13 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 2
+    [username] => aaaaaaaa
+    [age] => 18
+    [tel] => 09000000000
+    [zip] => 2730005
+    [addr] => asdfa
+    [email] => ymnkknt3@gmail.com
+    [password] => $2y$10$dJ.p/Btc1gsDbsEzD6sjjuHGORNTfM.YhfobwwlEGtVjnFEaxkH0S
+    [pic] => uploads/c72dc381cbd86cfe929105d5629e5cc602333ff8.jpeg
+    [login_time] => 2019-06-18 08:06:19
+    [delete_flg] => 0
+    [create_date] => 2019-06-18 08:06:19
+    [update_date] => 2019-06-29 09:49:36
+)
+
+[02-Jul-2019 11:05:13 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[02-Jul-2019 11:05:17 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jul-2019 11:05:17 Asia/Tokyo] デバッグ：「　商品詳細ページ　」
+[02-Jul-2019 11:05:17 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jul-2019 11:05:17 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Jul-2019 11:05:17 Asia/Tokyo] デバッグ：セッションID:2rv55uc0vjubhb2h1dug2qhtkc
+[02-Jul-2019 11:05:17 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562033113
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[02-Jul-2019 11:05:17 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562033117
+[02-Jul-2019 11:05:17 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562036713
+[02-Jul-2019 11:05:17 Asia/Tokyo] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：「　マイページ　」
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：セッションID:k54mf10ds6vporgg9bknj7idpq
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562033113
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562033120
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562036713
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：ユーザーID：2
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：自分のmsg情報を取得します。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：ユーザーID：2
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：クエリ成功。
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => KTC　スパナ
+            [category_id] => 1
+            [comment] => スパナ
+            [price] => 990
+            [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+            [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 17:32:07
+            [update_date] => 2019-06-27 17:32:07
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => KTC　スパナ
+            [category_id] => 1
+            [comment] => スパナ
+            [price] => 990
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 17:32:07
+            [update_date] => 2019-06-27 17:32:07
+        )
+
+    [2] => Array
+        (
+            [id] => 94
+            [name] => asdf
+            [category_id] => 1
+            [comment] => asdf
+            [price] => 999
+            [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+            [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic3] => uploads/23bc9a9105d01da391141a5fb99c9db1e89427a9.jpeg
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 18:57:33
+            [update_date] => 2019-06-28 18:57:33
+        )
+
+    [3] => Array
+        (
+            [id] => 95
+            [name] => グリススプレー
+            [category_id] => 3
+            [comment] => 
+            [price] => 650
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-29 11:16:51
+            [update_date] => 2019-06-29 11:16:51
+        )
+
+    [4] => Array
+        (
+            [id] => 96
+            [name] => グリススプレー
+            [category_id] => 3
+            [comment] => 
+            [price] => 650
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-29 11:18:54
+            [update_date] => 2019-06-29 11:18:54
+        )
+
+)
+
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 94
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 23:33:51
+            [update_date] => 2019-06-28 23:33:51
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 94
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 23:50:39
+            [update_date] => 2019-06-28 23:50:39
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 94
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 23:50:41
+            [update_date] => 2019-06-28 23:50:41
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 94
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 23:50:54
+            [update_date] => 2019-06-28 23:50:54
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 94
+            [delete_flg] => 0
+            [create_date] => 2019-06-29 00:13:21
+            [update_date] => 2019-06-29 00:13:21
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [sale_user] => 2
+            [buy_user] => 2
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-29 09:51:36
+            [update_date] => 2019-06-29 09:51:36
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [sale_user] => 2
+            [buy_user] => 2
+            [product_id] => 94
+            [delete_flg] => 0
+            [create_date] => 2019-06-29 10:07:33
+            [update_date] => 2019-06-29 10:07:33
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 7
+                            [send_date] => 2019-06-29 10:12:09
+                            [to_user] => 2
+                            [from_user] => 2
+                            [msg] => aaa
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-29 10:12:09
+                            [update_date] => 2019-06-29 10:12:09
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 4
+                            [bord_id] => 7
+                            [send_date] => 2019-06-29 10:11:22
+                            [to_user] => 2
+                            [from_user] => 2
+                            [msg] => aaa
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-29 10:11:22
+                            [update_date] => 2019-06-29 10:11:22
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 3
+                            [bord_id] => 7
+                            [send_date] => 2019-06-29 10:10:53
+                            [to_user] => 2
+                            [from_user] => 2
+                            [msg] => こんにちは
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-29 10:10:53
+                            [update_date] => 2019-06-29 10:10:53
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 2
+                            [bord_id] => 7
+                            [send_date] => 2019-06-29 10:10:03
+                            [to_user] => 2
+                            [from_user] => 2
+                            [msg] => こんにちは
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-29 10:10:03
+                            [update_date] => 2019-06-29 10:10:03
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 1
+                            [bord_id] => 7
+                            [send_date] => 2019-06-29 10:09:18
+                            [to_user] => 2
+                            [from_user] => 2
+                            [msg] => こんにちは
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-29 10:09:18
+                            [update_date] => 2019-06-29 10:09:18
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [sale_user] => 2
+            [buy_user] => 2
+            [product_id] => 94
+            [delete_flg] => 0
+            [create_date] => 2019-07-01 09:58:21
+            [update_date] => 2019-07-01 09:58:21
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [sale_user] => 2
+            [buy_user] => 2
+            [product_id] => 94
+            [delete_flg] => 0
+            [create_date] => 2019-07-01 09:59:30
+            [update_date] => 2019-07-01 09:59:30
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 9
+                            [send_date] => 2019-07-01 09:59:43
+                            [to_user] => 2
+                            [from_user] => 2
+                            [msg] => aaaaaaa
+                            [delete_flg] => 0
+                            [create_date] => 2019-07-01 09:59:43
+                            [update_date] => 2019-07-01 09:59:43
+                        )
+
+                )
+
+        )
+
+)
+
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 94
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 18:57:33
+            [update_date] => 2019-06-28 18:57:33
+            [id] => 94
+            [name] => asdf
+            [category_id] => 1
+            [comment] => asdf
+            [price] => 999
+            [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+            [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic3] => uploads/23bc9a9105d01da391141a5fb99c9db1e89427a9.jpeg
+        )
+
+)
+
+[02-Jul-2019 11:05:20 Asia/Tokyo] デバッグ：画面表示処理終了　<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

@@ -23,9 +23,15 @@
     <li id="registProduct">
     <a href="registProduct.php">出品</a>
     </li>
-    <li><a href="" class="">販売履歴</a></li>
-    <li><a href="msg.php" class="">連絡掲示板</a></li>
-    <li id="withdraw"><a href="withdraw.php" class="">退会</a></li>
+    <li id="tranSale">
+    <a href="tranSale.php" class="">販売履歴</a>
+    </li>
+    <li id="msg">
+    <a href="msg.php" class="">連絡掲示板</a>
+    </li>
+    <li id="withdraw">
+    <a href="withdraw.php" class="">退会</a>
+    </li>
   </ul>
 
 
