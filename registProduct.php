@@ -106,7 +106,7 @@ if(!empty($_POST)){
 //      編集画面の場面は、UPDATE文、新規登録画面の場合はINSERT文を生成
     if($edit_flg){
       debug('DB更新です。');
-      $sql = 'UPDATE product SET name = :name, category_id = :category, price = :price, comment = :comment, pic1 = :pic1, pic2 = :pic2, pic3 = :pic3 WHERE user_id = :u_id AND if = :p_id';
+      $sql = 'UPDATE product SET name = :name, category_id = :category, price = :price, comment = :comment, pic1 = :pic1, pic2 = :pic2, pic3 = :pic3 WHERE user_id = :u_id AND id = :p_id';
       $data = array(':name' => $name , ':category' => $category, ':price' => $price, ':comment' => $comment, ':pic1' =>$pic1, ':pic2' => $pic2, ':pic3' => $pic3, ':u_id' => $_SESSION['user_id'], ':p_id' => $p_id);
     }else{
       debug('DB新規登録です。');
@@ -117,6 +117,8 @@ if(!empty($_POST)){
       debug('流し込みデータ：'.print_r($data,true));
       //クエリ実行
       $stmt = queryPost($dbh, $sql, $data);
+      
+      debug('ステートメントデータ：'.print_r($stmt,true));
       
       //クエリ成功の場合
       if($stmt){
