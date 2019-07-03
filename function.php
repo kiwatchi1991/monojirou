@@ -563,6 +563,52 @@ function getMyLike($u_id){
   }
 }
 
+function getMySaleHistory($u_id){
+  debug('自分の販売履歴情報を取得します。');
+  debug('ユーザーID:'.$u_id);
+  //例外処理
+  try {
+    //db接続
+    $dbh = dbConnect();
+//    SQL文作成
+    $sql = 'SELECT * FROM bord AS b LEFT JOIN product AS p ON b.product_id = p.id WHERE b.sale_user = :u_id';
+    $data = array(':u_id' => $u_id);
+    //クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+    
+    $rst = $stmt -> fetchALL();
+    
+    if(!empty($rst)){
+      foreach($rst as $key => $val){
+        //SQL文作成
+        $sql = 'SELECT * FROM bord AS b LEFT JOIN users AS u ON b.buy_user = u.id WHERE u.id = :u_id';
+        $data = array(':u_id' => $val['buy_user']);
+        //クエリ実行
+        $stmt = queryPost($dbh, $sql, $data);
+        $rst[$key]['user'] = $stmt -> fetchALL();
+      }
+    }
+    
+    if($stmt){
+      //クエリ結果の全データを返却
+      return $rst;
+    }else{
+      return false;
+    }
+  } catch (Exception $e) {
+    error_log('エラー発生:' . $e->getMessage());
+  }
+}
+//if(!empty($rst)){
+//  foreach($rst as $key => $val){
+//    //         SQL文作成
+//    $sql = 'SELECT * FROM message WHERE bord_id = :id AND delete_flg = 0 ORDER BY send_date DESC';
+//    $data = array(':id' => $val['id']);
+//    //        クエリ実行
+//    $stmt = queryPost($dbh, $sql, $data);
+//    $rst[$key]['msg'] = $stmt->fetchAll();
+//  }
+
 //================================
 // メール送信
 //================================
