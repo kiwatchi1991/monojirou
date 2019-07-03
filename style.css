@@ -340,6 +340,7 @@ width: 980px;
 #contents{
 margin: 100px auto;
 overflow: hidden;
+position: relative;
 }
 .page-1colum #main{
 width: 100%;
@@ -446,9 +447,22 @@ text-decoration: none;
 line-height: 1.2em;
 }
 
-.panel-list .panel img{
-width:100%;
+.panel .panel-head{
+  min-height: 200px;
+  border: 1px solid #ccc;
+  position: relative;
+  margin-bottom: 5px;
 }
+
+/*
+.panel-list .panel img{
+  width:100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+*/
 
 /*===============================
 フォーム

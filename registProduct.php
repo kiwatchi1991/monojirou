@@ -50,7 +50,7 @@ if(!empty($_POST)){
   $price = (!empty($_POST['price'])) ? $_POST['price'] : 0; //0や空文字の場合は０を入れる。デフォルトのフォームには０が入っている。
   $comment = $_POST['comment'];
   //画像をアップロードし、パスを格納
-  $pic1 = (!empty($_FILES['pic2']['name']) ) ? uploadImg($_FILES['pic1'],'pic1') : '';
+  $pic1 = (!empty($_FILES['pic1']['name']) ) ? uploadImg($_FILES['pic1'],'pic1') : '';
   // 画像をPOSTしてない（登録していない）が既にDBに登録されている場合、DBのパスを入れる（POSTには反映されないので）
   $pic1 = ( empty($pic1) && !empty($dbFormData['pic1']) ) ? $dbFormData['pic1'] : $pic1;
   $pic2 = ( !empty($_FILES['pic2']['name']) ) ? uploadImg($_FILES['pic2'],'pic2') : '';
@@ -107,7 +107,7 @@ if(!empty($_POST)){
     if($edit_flg){
       debug('DB更新です。');
       $sql = 'UPDATE product SET name = :name, category_id = :category, price = :price, comment = :comment, pic1 = :pic1, pic2 = :pic2, pic3 = :pic3 WHERE user_id = :u_id AND id = :p_id';
-      $data = array(':name' => $name , ':category' => $category, ':price' => $price, ':comment' => $comment, ':pic1' =>$pic1, ':pic2' => $pic2, ':pic3' => $pic3, ':u_id' => $_SESSION['user_id'], ':p_id' => $p_id);
+      $data = array(':name' => $name , ':category' => $category, ':price' => $price, ':comment' => $comment, ':pic1' => $pic1, ':pic2' => $pic2, ':pic3' => $pic3, ':u_id' => $_SESSION['user_id'], ':p_id' => $p_id);
     }else{
       debug('DB新規登録です。');
       $sql = 'insert into product (name, category_id, price, comment, pic1, pic2, pic3, user_id, create_date ) values (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)';
