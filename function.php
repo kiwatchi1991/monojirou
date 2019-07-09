@@ -498,8 +498,8 @@ function getMyMsgsAndBord2($u_id){
       $dbh = dbConnect();
       
 //      掲示板とメッセージ情報取得
-//      SQL文作成
-      $sql = 'SELECT * FROM bord AS b LEFT JOIN users AS u ON b.buy_user = :id WHERE b.sale_user = :id OR b.buy_user = :id AND b.delete_flg = 0';
+//      SQL文作成　(　結合によりユーザー情報を追加　)
+      $sql = 'SELECT * FROM bord AS b LEFT JOIN users AS u ON b.buy_user = u.id WHERE b.sale_user = :id OR b.buy_user = :id AND b.delete_flg = 0';
       $data = array(':id' => $u_id);
       //    クエリ実行
       $stmt = queryPost($dbh, $sql, $data);
