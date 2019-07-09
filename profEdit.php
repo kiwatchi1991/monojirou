@@ -23,6 +23,7 @@ debug('取得したユーザー情報：'.print_r($dbFormData,true));
 if(!empty($_POST)){
   debug('POST送信があります。');
   debug('POST情報：'.print_r($_POST,true));
+  debug('DB情報：'.print_r($dbFormData,true));
   debug('FILE情報：'.print_r($_FILES,true));
   
 //  変数にユーザー情報を代入
@@ -30,7 +31,7 @@ if(!empty($_POST)){
   $tel = $_POST['tel'];
   $zip = (!empty($_POST['zip'])) ? $_POST['zip'] : 0; //後続のバリデーションにひっかかるため、空で送信されてきたら０を入れる
   $addr = $_POST['addr'];
-  $age = $_POST['age'];
+  $age = (!empty($_POST['age'])) ? $_POST['age'] : 0; //後続のバリデーションにひっかかるため、空で送信されてきたら０を入れる
   $email = $_POST['email'];
   //画像をアップロードし、パスを格納
   $pic = ( !empty($_FILES['pic']['name']) ) ? uploadImg($_FILES['pic'],'pic') : '';
@@ -42,24 +43,38 @@ if(!empty($_POST)){
     //名前の最大文字数チェック
     validMaxLen($username, 'username');
   }
-  if($dbFormData['tel'] !== $tel){
+
+  if($dbFormData['tel'] != $tel){
 //    tel形式チェック
     validTel($tel, 'tel');
-  }
+   }
+//  }
+  
   if($dbFormData['addr'] !== $addr){
 //    住所の最大文字数チェック
     validMaxLen($addr, 'addr');
   }
-  if( (int)$dbFormData['zip'] !== $zip){ //    DBデータをint型にキャスト（型変換）して比較
+  
+  //空で送信したらDB情報を0にしてエラー回避
+  if($zip === 0){
+    $dbFormData['zip'] = 0;
+  if( $dbFormData['zip'] !== $zip){ //    DBデータをint型にキャスト（型変換）して比較
 //      郵便番号形式チェック
     validZip($zip, 'zip');
+   }
   }
+  
+  //空で送信したらDB情報を0にしてエラー回避
+  if($age === 0){
+    $dbFormData['age'] = 0;
   if($dbFormData['age'] !== $age){
 //    年齢の最大文字数チェック
     validMaxLen($age, 'age');
 //    年齢の半角数字チェック
     validNumber($age, 'age');
+   }
   }
+    
   if($dbFormData['email'] !== $email){
 //    emailの最大文字数チェック
     validMaxLen($email, 'email');
@@ -135,6 +150,8 @@ require('head.php');
                 if(!empty($err_msg['common'])) echo $err_msg['common'];
                 ?>
               </div>
+              
+              
               <label class="<?php if(!empty($err_msg['username'])) echo'err'; ?>">
                 名前
                 <input type="text" name="username" value="<?php echo getFormData('username'); ?>">
@@ -151,11 +168,12 @@ require('head.php');
               <div class="area-msg">
                 <?php 
                 if(!empty($err_msg['tel'])) echo $err_msg['tel'];
+
                 ?>
               </div>
               <label class="<?php if(!empty($err_msg['zip'])) echo 'err'; ?>">
               郵便番号<span style="font-size:12px;margin-left:5px;">※ハイフンなしでご入力ください</span>
-              <input type="text" name="zip" value="<?php if(!empty($getFormData['zip']) ) echo getFormData('zip'); ?>">
+                <input type="text" name="zip" value="<?php ((int)getFormData('zip') === 0) ? "" : getFormData('zip'); ?>">
               </label>
               <div class="area-msg">
                 <?php 
@@ -173,7 +191,8 @@ require('head.php');
               </div>
               <label style="text-align:left;" class="<?php if(!empty($err_msg['age'])) echo 'err'; ?>">
                 年齢
-                <input type="number" name="age" value="<?php echo getFormData('age'); ?>">
+                <input type="number" name="age"
+                 value="<?php ((int)getFormData('age') === 0) ? "" : getFormData('age'); ?>">
               </label>
               <div class="area-msg">
                 <?php 

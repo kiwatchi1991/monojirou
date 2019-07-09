@@ -155,6 +155,12 @@ require('head.php');
        </div>
        パスワードを忘れた方は<a href="passRemindSend.php">コチラ</a>
      </form>
+     <div class="test-comment" style="width:500px;margin:0 auto;text-align:center;">
+       <br>ゲストユーザーとしてログインすることもできます。<br><br>
+       メールアドレス : test1@test.com    パスワード : test1test1<br>
+       メールアドレス : test2@test.com    パスワード : test2test2<br>
+       メールアドレス : test3@test.com    パスワード : test3test3<br>
+     </div>
    </div>
    
    </section>
