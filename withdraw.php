@@ -100,7 +100,9 @@ require('head.php');
           </div>
         </form>
       </div>
+    
       <a href="mypage.php">&lt; マイページに戻る</a>
+
     </section>
   </div>
 

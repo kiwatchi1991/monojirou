@@ -7,6 +7,8 @@ debug('「　マイページ　」');
 debug('」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」');
 debugLogStart();
 
+
+
 //================================
 // 画面処理
 //================================
@@ -19,7 +21,8 @@ $u_id = $_SESSION['user_id'];
 //DBから商品データを取得
 $productData = getMyProducts($u_id);
 //DBから連絡掲示板データを取得
-$bordData = getMyMsgsAndBord($u_id);
+$bordData = getMyMsgsAndBord2($u_id);
+//$bord = array_shift($bordData);
 //DBからお気に入りデータを取得
 $likeData = getMyLike($u_id);
 
@@ -38,7 +41,7 @@ $siteTitle ='マイページ';
 require('head.php');
 ?>
 
-  <body class="page-mypage page-2colum page-logined">
+  <body class="page-mypage page-1colum page-logined">
     <style>
       #main{
         border:none !important;
@@ -84,7 +87,9 @@ require('head.php');
                <img src="<?php echo showImg(sanitize($val['pic1'])); ?>" alt="<?php echo sanitize($val['name']); ?>">
              </div>
              <div class="panel-body">
-               <p class="panel-title"><?php echo sanitize($val['name']); ?> <span class="price">¥<?php echo sanitize(number_format($val['price'])); ?></span></p>
+               <p class="panel-title"><?php echo mb_substr(sanitize($val['name']),0,10); ?><?php if((mb_strlen(sanitize($val['name']))) >= 10){
+              echo '...'; } ?>
+            <span class="price">¥<?php echo sanitize(number_format($val['price'])); ?></span></p>
              </div>
            </a>
            <?php 
@@ -119,16 +124,16 @@ require('head.php');
                     $msg = array_shift($val['msg']);
               ?>
                    <tr>
-                     <td><?php echo sanitize(date('Y.m.d H:i:s' ,strtotime($msg['send_date']))); ?></td>
-                     <td>◯◯◯◯</td>
-                     <td><a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>"><?php echo mb_substr(sanitize($msg['msg']),0,40); ?>...</a></td>
+                     <td width="300px;"><?php echo sanitize(date('Y.m.d H:i:s' ,strtotime($msg['send_date']))); ?></td>
+                     <td width="150px;"><?php echo sanitize($msg['username']); ?></td>
+                     <td><a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>"><?php echo mb_substr(sanitize($msg['msg']),0,10); ?><?php if((mb_strlen(sanitize($msg['msg']))) >= 10){ echo '...'; } ?></a></td>
                    </tr>
               <?php 
                   }else{
              ?>
                    <tr>
-                     <td>--</td>
-                     <td>◯◯◯◯</td>
+                     <td width="300px;">--</td>
+                     <td width="150px;"><?php echo sanitize($msg['username']); ?></td>
                      <td><a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>">まだメッセージはありません</a></td>
                    </tr>
               <?php 

@@ -145,7 +145,12 @@ require('header.php');
             <div class="btn-container">
               <input type="submit" class="btn btn-mid" value="登録する">
             </div>
+            <div class="test-comment">
+              
+            </div>
+            
           </form>
+          
         </div>
         
         

@@ -11,6 +11,7 @@ font-family: 'Montserrat',sans-serif;
 display: block;
 font-weight: bold;
 font-family: 'Montserrat',sans-serif;
+color: #ff6600;
 }
 
 
@@ -79,13 +80,14 @@ position: relative;
 float: right;
 width: 500px;
 height: 65px;
+bottom: 5px;
 }
 
 #top-nav ul {
 position: absolute;
 top: 0;
 right: 0;
-bottom: 0;
+bottom: 5px;
 margin: 0;
 width: 600px;
 list-style: none;
@@ -95,16 +97,17 @@ list-style: none;
 #top-nav ul li{
 float: right;
 list-style: none;
-margin-left: 15px;
-padding: 5px 0;
-vertical-align: middle;
+margin-left: 5px;
+padding:  0;
+line-height: 45px;
+padding-top: 10px;
 }
 #top-nav ul li a{
-display: block;
 text-decoration: none;
 font-size: 15px;
-padding: 3px 20px;
+padding: 15px 10px;
 border-radius: 5px;
+text-align: center;
 }
 
 #top-nav a:visited{
@@ -114,45 +117,72 @@ color: inherit;
 text-decoration: underline;
 }
 
-.btn-signup{
-padding: 10px 20px;
-border-radius: 5px;
+#top-nav .btn-signup{
+padding-left: 25px;
+height:20px;
 background: linear-gradient(#ffffff,#d3d3d3);
 border: 1px solid #696969;
+position: relative;
 }
 
-.btn-login{
-padding: 10px 20px;
+.wakaba-icon{
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 12px;
+  left: 5px;
+}
+
+#top-nav .btn-login{
+/*padding: 10px 20px;*/
+  vertical-align: middle;
+  height:20px;
 border-radius: 5px;
 background: linear-gradient(#ffffff,#ffff00);
 border: 1px solid #696969;
 }
 
 .btn-mypage{
-padding: 10px 20px;
+/*padding: 10px 20px;*/
 border-radius: 5px;
 background: linear-gradient(#ffffff,#dc143c);
 border: 1px solid #696969;
+/*font-weight: bold;*/
+line-height: 110%;
 }
 
-.btn-logout{
-padding: 10px 20px;
+#top-nav .btn-logout{
+/*padding: 10px 20px;*/
 border-radius: 5px;
 background: linear-gradient(#ffffff,#ffff00);
 border: 1px solid #696969;
+/*font-weight: bold;*/
+  line-height: 110%;
 }
+
+#top-nav .btn-contact{
+/*  padding: 30px 10px;*/
+  border-radius: 5px;
+  background: linear-gradient(#ffffff,#d3d3d3);
+  border: 1px solid #696969;
+  line-height: 110%;
+
+}
+
+#top-nav .btn-qa{
+/*  padding: 10px 20px;*/
+  border-radius: 5px;
+  background: linear-gradient(#ffffff,#d3d3d3);
+  border: 1px solid #696969;
+  line-height: 110%;
+}
+
 
 #top-nav a:visited{
 color: inherit;
 }
 
-.wakaba-icon{
-height: 20px;
-width: 20px;
-}
-
 .sign-up{
-/*  font-size: 20px;*/
 color: red;
 font-weight: bold;
 }
@@ -435,7 +465,7 @@ overflow: hidden;
 margin-right: -15px;
 }
 
-.panel-list .panel{
+.panel-list > .panel{
 float: left;
 box-sizing: border-box;
 margin-bottom: 15px;
@@ -447,22 +477,27 @@ text-decoration: none;
 line-height: 1.2em;
 }
 
+.page-mypage .panel-list > .panel{
+  width: 20%;
+}
+
 .panel .panel-head{
   min-height: 200px;
-  border: 1px solid #ccc;
   position: relative;
   margin-bottom: 5px;
 }
 
-/*
-.panel-list .panel img{
+.page-tranSale .panel .panel-head{
+  width: 300px;
+}
+
+.panel-list > .panel img{
   width:100%;
   position: absolute;
   top: 0;
   bottom: 0;
   margin: auto;
 }
-*/
 
 /*===============================
 フォーム
@@ -564,6 +599,13 @@ float: left;
 padding-left: 15px;
 }
 
+.page-withdraw #main a{
+  left: 100px;
+  display: block;
+  width: 500px;
+  margin: 10px auto 0;
+}
+
 label{
 display: block;
 }
@@ -605,6 +647,27 @@ input[type="submit"]:hover{
 cursor: pointer;
 }
 
+.list-table{
+  margin-top: 100px;
+}
+
+.list-table h2{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.list-table .table{
+  margin: 0 auto;
+}
+
+.list-table .table th{
+  text-align: left;
+}
+
+.panel-list{
+  margin-top: 100px;
+}
+
 /*===============================
 ボタン
 ===============================*/
@@ -620,9 +683,12 @@ max-width: 150px;
 overflow: hidden;
 }
 
-.btn.btn-primary{
-background: #b6a489;
+.product-buy .btn.btn-primary{
+  background: linear-gradient(#FFd080,#ff6600);
 color: white;
+  border-radius: 10px;
+  border:2px solid rgba(192,192,192,0.7);
+  text-shadow: 1px 1px 2px #000;
 }
 
 /*===============================

@@ -137,11 +137,11 @@ require('head.php');
         cursor: pointer;
       }
 /*      お気に入りアイコン*/
-      .icon-like{
+      .icn-like{
         float: right;
-        color: #ddd;
+        color: ;
       }
-      .icon-like:hover{
+      .icn-like:hover{
         cursor: pointer;
       }
       .icn-like.active{
