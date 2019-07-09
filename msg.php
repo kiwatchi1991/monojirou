@@ -172,14 +172,19 @@ require('head.php');
         margin-top: 0;
       }
       .area-bord .msg-cnt{
-        width:80px;
+        width:950px;
+        position: relative;
         overflow: hidden;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
+        
       }
-      .area-bord .msg-cnt .avatar{
-        width: 5.2%;
+      .area-bord .msg-cnt.msg-left .avatar{
+/*        width: 5.2%;*/
         overflow: hidden;
         float: left;
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
       }
       .area-bord .msg-cnt .avatar img{
         width: 40px;
@@ -188,13 +193,20 @@ require('head.php');
         float: left;
       }
       .area-bord .msg-cnt .msg-inrTxt{
-        width: 85%;
+        width: 80%;
         float:left;
         border-radius: 5px;
         padding: 10px;
-        margin: 0 0 0 25px;
+        margin: 30px 0 0 25px;
         position: relative;
       }
+      
+      .area-bord .msg-cnt.msg-left .send-date{
+/*        overflow: hidden;*/
+        position: absolute;
+        left: 100px;
+      }
+      
       .area-bord .msg-cnt.msg-left .msg-inrTxt{
         background: #f6e2df;
       }
@@ -208,12 +220,21 @@ require('head.php');
         border-left: 10px solid transparent;
         border-bottom: 10px solid transparent;
       }
+      
+      
+      
+      .area-bord .msg-cnt.msg-right .send-date{
+        /*        overflow: hidden;*/
+        position: absolute;
+        right: 100px;
+      }
+      
       .area-bord .msg-cnt.msg-right{
         float: right;
       }
       .area-bord .msg-cnt.msg-right .msg-inrTxt{
         background: #d2eaf0;
-        margin: 0 25 0 0;
+        margin: 30px 25px 0 0;
       }
       .area-bord .msg-cnt.msg-right .msg-inrTxt > .triangle{
         position: absolute;
@@ -230,6 +251,9 @@ require('head.php');
       }
       .area-bord .msg-cnt.msg-right .avatar{
         float: right;
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
       }
       </style>
   
@@ -292,7 +316,7 @@ require('head.php');
                        <span class="triangle"></span>
                        <?php echo sanitize($val['msg']); ?>
                      </p>
-                     <div style="font-size:.5em;"><?php echo sanitize($val['send_date']); ?></div>
+                     <div class="send-date" style=""><?php echo sanitize($val['send_date']); ?></div>
                    </div>
          <?php
                 }else{
@@ -305,7 +329,7 @@ require('head.php');
                        <span class="triangle"></span>
                        <?php echo sanitize($val['msg']); ?>
                      </p>
-                     <div style="font-size:.5em;text-align:right;"><?php echo sanitize($val['send_date']); ?></div>
+                     <div class="send-date" style="text-align:right;"><?php echo sanitize($val['send_date']); ?></div>
                    </div>
           <?php
                   }

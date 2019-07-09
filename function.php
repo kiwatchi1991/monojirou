@@ -467,6 +467,9 @@ function getMyMsgsAndBord($u_id){
 //    クエリ実行
     $stmt = queryPost($dbh, $sql, $data);
     $rst = $stmt->fetchAll();
+    
+ 
+    
     if(!empty($rst)){
       foreach($rst as $key => $val){
 //         SQL文作成
@@ -499,15 +502,18 @@ function getMyMsgsAndBord2($u_id){
       
 //      掲示板とメッセージ情報取得
 //      SQL文作成　(　結合によりユーザー情報を追加　)
-      $sql = 'SELECT * FROM bord AS b LEFT JOIN users AS u ON b.buy_user = u.id WHERE b.sale_user = :id OR b.buy_user = :id AND b.delete_flg = 0';
+      $sql = 'SELECT * FROM bord AS b WHERE b.sale_user = :id OR b.buy_user = :id AND b.delete_flg = 0';
       $data = array(':id' => $u_id);
       //    クエリ実行
       $stmt = queryPost($dbh, $sql, $data);
       $rst = $stmt->fetchAll();
+      
+      debug('デバック●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●'.print_r($rst,true));
+      
       if(!empty($rst)){
         foreach($rst as $key => $val){
 //         SQL文作成
-          $sql = 'SELECT * FROM message WHERE bord_id = :id AND delete_flg = 0 ORDER BY send_date DESC';
+          $sql = 'SELECT * FROM message AS m LEFT JOIN users AS u ON m.to_user = u.id WHERE m.bord_id = :id AND m.delete_flg = 0 ORDER BY send_date DESC';
           $data = array(':id' => $val['id']);
 //        クエリ実行
           $stmt = queryPost($dbh, $sql, $data);

@@ -7,6 +7,8 @@ debug('「　マイページ　」');
 debug('」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」');
 debugLogStart();
 
+
+
 //================================
 // 画面処理
 //================================
@@ -20,7 +22,7 @@ $u_id = $_SESSION['user_id'];
 $productData = getMyProducts($u_id);
 //DBから連絡掲示板データを取得
 $bordData = getMyMsgsAndBord2($u_id);
-$bord = array_shift($bordData);
+//$bord = array_shift($bordData);
 //DBからお気に入りデータを取得
 $likeData = getMyLike($u_id);
 
@@ -123,7 +125,7 @@ require('head.php');
               ?>
                    <tr>
                      <td width="300px;"><?php echo sanitize(date('Y.m.d H:i:s' ,strtotime($msg['send_date']))); ?></td>
-                     <td width="150px;"><?php echo sanitize($val['username']); ?></td>
+                     <td width="150px;"><?php echo sanitize($msg['username']); ?></td>
                      <td><a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>"><?php echo mb_substr(sanitize($msg['msg']),0,10); ?><?php if((mb_strlen(sanitize($msg['msg']))) >= 10){ echo '...'; } ?></a></td>
                    </tr>
               <?php 
@@ -131,7 +133,7 @@ require('head.php');
              ?>
                    <tr>
                      <td width="300px;">--</td>
-                     <td width="150px;">◯◯◯◯</td>
+                     <td width="150px;"><?php echo sanitize($msg['username']); ?></td>
                      <td><a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>">まだメッセージはありません</a></td>
                    </tr>
               <?php 
