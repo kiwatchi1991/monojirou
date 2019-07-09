@@ -193,7 +193,7 @@ require('head.php');
         float: left;
       }
       .area-bord .msg-cnt .msg-inrTxt{
-        width: 80%;
+        width: 60%;
         float:left;
         border-radius: 5px;
         padding: 10px;
@@ -281,6 +281,7 @@ require('head.php');
 <!--    Main-->
      <section id="main">
        <div class="msg-info">
+<!--        取引状況-->
          <div class="avatar-img">
            <img src="<?php echo showImg(sanitize($partnerUserInfo['pic'])); ?>" alt="" class="avatar"><br>
          </div>
@@ -290,11 +291,16 @@ require('head.php');
            <?php echo sanitize($partnerUserInfo['addr']); ?><br>
            TEL:<?php echo sanitize($partnerUserInfo['tel']); ?>
          </div>
+         
+
          <div class="product-info">
+         
+
            <div class="left">
              取引商品<br>
              <img src="<?php echo showImg(sanitize($productInfo['pic1'])); ?>" alt="" height="70px" width="auto" >
            </div>
+          
            <div class="right">
              <?php echo sanitize($productInfo['name']); ?><br>
              取引金額：<span class="price">¥<?php echo number_format(sanitize($productInfo['price'])); ?></span><br>
@@ -302,12 +308,15 @@ require('head.php');
            </div>
          </div>
        </div>
+       
+       
        <div class="area-bord" id="js-scroll-bottom">
          <?php 
-            if(!empty($viewData)){
+            if(!empty($viewData[0]['msg'])){
               foreach($viewData as $key => $val){
                 if(!empty($val['from_user']) && $val['from_user'] == $partnerUserId){
              ?>
+         <!--           左側-->
                    <div class="msg-cnt msg-left">
                      <div class="avatar">
                        <img src="<?php echo sanitize(showImg($partnerUserInfo['pic'])); ?>" alt="" class="avatar">
@@ -321,6 +330,8 @@ require('head.php');
          <?php
                 }else{
          ?>
+         
+         <!--           右側-->
                    <div class="msg-cnt msg-right">
                      <div class="avatar">
                        <img src="<?php echo sanitize(showImg($myUserInfo['pic'])); ?>" alt="" class="avatar">
@@ -339,7 +350,10 @@ require('head.php');
                  <p style="text-align:center;line-height:20;">メッセージ投稿はまだありません</p>
           <?php 
                }
+         
+         var_dump($viewData);
          ?>
+         
          
        </div>
        <div class="area-send-msg">

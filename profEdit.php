@@ -211,7 +211,7 @@ require('head.php');
               プロフィール画像
               <label class="area-drop <?php if(!empty($err_msg['pic'])) echo 'err'; ?>" style="height:370px;line-height:370px;">
                 <input type="hidden" name="MAX_FILE_SIZE" value="3145728">
-                <input type="file" name="pic" class="input-files" style="height:370px;">
+                <input type="file" name="pic" class="input-file" style="height:370px;">
                 <img src="<?php echo getFormData('pic'); ?>" alt="" class="prev-img" style="<?php if(empty(getFormData('pic'))) echo 'display:none;' ?>">
                   ドラッグ＆ドロップ
               </label>
