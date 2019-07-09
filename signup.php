@@ -59,6 +59,8 @@ debugLogStart();
 //            クエリ実行
             $stmt = queryPost($dbh, $sql, $data);
             
+            debug('クエリ成功しましたーーーーー！！！！！！！');
+            
 //            クエリ成功の場合
             if($stmt){
 //              ログイン有効期限（デフォルトを１時間とする）
@@ -145,11 +147,14 @@ require('header.php');
             <div class="btn-container">
               <input type="submit" class="btn btn-mid" value="登録する">
             </div>
-            <div class="test-comment">
-              
-            </div>
-            
           </form>
+          
+          <div class="test-comment" style="width:500px;margin:0 auto;text-align:center;">
+            <br>ゲストユーザーとしてログインすることもできます。<br><br>
+            メールアドレス : test1@test.com    パスワード : test1test1<br>
+            メールアドレス : test2@test.com    パスワード : test2test2<br>
+            メールアドレス : test3@test.com    パスワード : test3test3<br>
+          </div>
           
         </div>
         
