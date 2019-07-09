@@ -130,7 +130,7 @@ require('head.php');
                <img src="<?php echo sanitize($val['pic1']); ?>" alt="<?php echo sanitize($val['name']); ?>">
              </div>
              <div class="panel-body">
-               <p class="panel-title"><?php echo sanitize($val['name']); ?> <span class="price">¥<?php echo sanitize(number_format($val['price'])); ?></span></p>
+               <p class="panel-title"><?php echo mb_substr(sanitize($val['name']),0,10); ?><?php if((mb_strlen(sanitize($val['name']))) >= 10){echo '...'; } ?> <span class="price">¥<?php echo sanitize(number_format($val['price'])); ?></span></p>
              </div>
            </a>
            <?php 

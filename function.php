@@ -489,6 +489,47 @@ function getMyMsgsAndBord($u_id){
     error_log('エラー発生：' . $e->getMessage());
   }
 }
+
+function getMyMsgsAndBord2($u_id){
+  debug('自分のmsg情報 購入者の名前含む　を取得します');
+    //例外処理
+    try {
+      //DBへ接続
+      $dbh = dbConnect();
+      
+//      掲示板とメッセージ情報取得
+//      SQL文作成
+      $sql = 'SELECT * FROM bord AS b LEFT JOIN users AS u ON b.buy_user = :id WHERE b.sale_user = :id OR b.buy_user = :id AND b.delete_flg = 0';
+      $data = array(':id' => $u_id);
+      //    クエリ実行
+      $stmt = queryPost($dbh, $sql, $data);
+      $rst = $stmt->fetchAll();
+      if(!empty($rst)){
+        foreach($rst as $key => $val){
+//         SQL文作成
+          $sql = 'SELECT * FROM message WHERE bord_id = :id AND delete_flg = 0 ORDER BY send_date DESC';
+          $data = array(':id' => $val['id']);
+//        クエリ実行
+          $stmt = queryPost($dbh, $sql, $data);
+          $rst[$key]['msg'] = $stmt->fetchAll();
+        }
+      }
+
+      if($stmt){
+//      クエリ結果の全データを返却
+        return $rst;
+      }else{
+        return false;
+      }
+
+    } catch (Exception $e){
+      error_log('エラー発生：' . $e->getMessage());
+    }
+}
+      
+      
+      
+      
 function getCategory(){
   debug('カテゴリー情報を取得します。');
 //  例外処理
