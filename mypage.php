@@ -25,6 +25,10 @@ $bordData = getMyMsgsAndBord2($u_id);
 //$bord = array_shift($bordData);
 //DBからお気に入りデータを取得
 $likeData = getMyLike($u_id);
+////saleユーザー情報取得
+//$saleUser = getSaleUser($bordData['sale_user']);
+////buyユーザー情報取得
+//$buyUser = getBuyUser($bordData['buy_user']);
 
 //DBからきちんとデータがすべて取れているかのチェックは行わず、取れなければ何も表示しないこととする
 
@@ -112,6 +116,7 @@ require('head.php');
            <thead>
              <tr>
                <th>最新送信日時</th>
+               <th>購入 / 販売</th>
                <th>取引相手</th>
                <th>メッセージ</th>
              </tr>
@@ -120,20 +125,48 @@ require('head.php');
              <?php 
               if(!empty($bordData)){
                 foreach($bordData as $key => $val){
+                  
+                  $saleuser = getSaleUserName($val['id']);
+                  $buyuser = getBuyUserName($val['id']);
+                  debug('●●●●●●●●●●●●●●●●●$saleuserを表示します●●●'.print_r($saleuser,true));
+                  debug('●●●●●●●●●●●●●●●●●$buyuserを表示します●●●'.print_r($buyuser,true));
+                  
                   if(!empty($val['msg'])){
                     $msg = array_shift($val['msg']);
+                    
               ?>
                    <tr>
                      <td width="300px;"><?php echo sanitize(date('Y.m.d H:i:s' ,strtotime($msg['send_date']))); ?></td>
-                     <td width="150px;"><?php echo sanitize($msg['username']); ?></td>
-                     <td><a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>"><?php echo mb_substr(sanitize($msg['msg']),0,10); ?><?php if((mb_strlen(sanitize($msg['msg']))) >= 10){ echo '...'; } ?></a></td>
+                     
+                     <td width="150px;">
+                     <a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>">
+                      <?php 
+                      echo ($val['sale_user'] === $u_id) ? '販売' : '購入';
+                       ?></a></td>
+                       
+                     <td width="150px;">
+                     <?php echo
+                     ($val['sale_user'] === $u_id) ? $buyuser[0]['username'] : $saleuser[0]['username'] ;
+                       ?></td>
+                       
+                     <td><a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>"><?php echo mb_substr(sanitize($msg['msg']),0,20); ?><?php if((mb_strlen(sanitize($msg['msg']))) >= 20){ echo '...'; } ?></a></td>
                    </tr>
               <?php 
                   }else{
              ?>
                    <tr>
                      <td width="300px;">--</td>
-                     <td width="150px;"><?php echo sanitize($msg['username']); ?></td>
+                     
+                     <td width="150px;">
+                      <a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>">
+                       <?php 
+                    echo ($val['sale_user'] === $u_id) ? '販売' : '購入';
+                        ?></a></td>
+                       
+                     <td width="150px;"><?php 
+                    echo ($val['sale_user'] === $u_id) ? $buyuser[0]['username'] : $saleuser[0]['username'] ;
+                       ?></td>
+                     
                      <td><a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>">まだメッセージはありません</a></td>
                    </tr>
               <?php 
@@ -144,6 +177,11 @@ require('head.php');
            </tbody>
          </table>
        </section>
+       
+       <?php 
+//       var_dump($bordData);
+//       debug('●●●●●●●●●●●●●●●●●$bordDataを表示します●●●'.print_r($bordData,true));
+       ?>
        
        <section class="list panel-list">
          <h2 class="title" style="margin-bottom:15px;">

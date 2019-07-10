@@ -646,6 +646,61 @@ function getMySaleHistory($u_id){
     error_log('エラー発生:' . $e->getMessage());
   }
 }
+
+function getSaleUserName($b_id){
+  debug('取引相手（販売者）の名前を取得します。');
+  debug('取引相手（販売者）との掲示板ID:'.$b_id);
+  //例外処理
+  try {
+    //db接続
+    $dbh = dbConnect();
+    //sql文作成
+    $sql = 'SELECT sale_user, u.username FROM bord AS b LEFT JOIN users AS u ON b.sale_user = u.id WHERE b.id = :b_id';
+    $data = array(':b_id' => $b_id);
+    //クエリ実行
+     $stmt = queryPost($dbh, $sql, $data);
+    
+    if($stmt){
+      //      クエリ結果の全データを返却
+      return $stmt->fetchAll();
+      
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生：' . $e->getMessage());
+  }
+}
+
+function getBuyUserName($b_id){
+  debug('取引相手（購入者）の名前を取得します。');
+  debug('取引相手（購入者）との掲示板ID:'.$b_id);
+  //例外処理
+  try {
+    //db接続
+    $dbh = dbConnect();
+    //sql文作成
+    $sql = 'SELECT buy_user, username FROM bord AS b LEFT JOIN users AS u ON b.buy_user = u.id WHERE b.id = :b_id';
+    $data = array(':b_id' => $b_id);
+    //クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if($stmt){
+      //      クエリ結果の全データを返却
+      return $stmt->fetchAll();
+
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生：' . $e->getMessage());
+  }
+}
+  
+  
+  
 //if(!empty($rst)){
 //  foreach($rst as $key => $val){
 //    //         SQL文作成

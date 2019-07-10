@@ -27,10 +27,10 @@ if(!empty($_POST)){
   debug('FILE情報：'.print_r($_FILES,true));
   
 //  変数にユーザー情報を代入
-  $username = $_POST['username'];
-  $tel = $_POST['tel'];
+  $username = (!empty($_POST['username'])) ? $_POST['username'] : null;
+  $tel = (!empty($_POST['tel'])) ? $_POST['tel'] : null;
   $zip = (!empty($_POST['zip'])) ? $_POST['zip'] : 0; //後続のバリデーションにひっかかるため、空で送信されてきたら０を入れる
-  $addr = $_POST['addr'];
+  $addr = (!empty($_POST['addr'])) ? $_POST['addr'] : null;
   $age = (!empty($_POST['age'])) ? $_POST['age'] : 0; //後続のバリデーションにひっかかるため、空で送信されてきたら０を入れる
   $email = $_POST['email'];
   //画像をアップロードし、パスを格納

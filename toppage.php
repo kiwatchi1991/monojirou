@@ -120,7 +120,7 @@ require('head.php');
         
          <?php 
          foreach($dbProductData['data'] as $key => $val):
-         debug('デバック■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■'.print_r($dbProductData,true));
+
          ?>
           
            <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam().'&p_id='.$val['id'] : '?p_id='.$val['id']; ?>" class="panel">
