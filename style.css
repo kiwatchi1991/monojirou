@@ -664,9 +664,25 @@ cursor: pointer;
   text-align: left;
 }
 
+.table .sale{
+  background: red;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.table .buy{
+  background: blue;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
 .panel-list{
   margin-top: 100px;
 }
+
+.
 
 /*===============================
 ボタン

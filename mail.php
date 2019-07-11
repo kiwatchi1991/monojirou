@@ -7,6 +7,8 @@ debug('「　お問い合わせページ　」');
 debug('」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」');
 debugLogStart();
 
+
+
 //post送信されていた場合
 if(!empty($_POST)){
   debug('POST送信があります。');
@@ -26,28 +28,29 @@ if(!empty($_POST)){
   //emailの形式チェック
   validEmail($email, 'email');
   
+  debug('エラーメッセージの有無'.print_r($err_msg,true));
   if(!empty($err_msg)){
     
     //文字化けしないよう設定
     mb_language("Japanese"); //現在使っている言語を設定する
     mb_internal_encoding("UTF-8");
     
-    $to = 'info@study.kiwatchi.com';
+    $to = 'ymnkknt3@gmail.com';
     
     //メール送信
     $result = mb_send_mail($to, $name, $message, "From : ".$email);
+    
+    debug('センドメール'.print_r($result,true));
     
     //送信結果を判定
     if($result){
       unset($_POST);
       $_SESSION['msg_success'] = SUC03;
+    }else{
+      $_SESSION['msg_success'] = MSG18;
     }
   }
 }
-
-
-
-
 
 debug('画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
 ?>

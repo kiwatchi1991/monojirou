@@ -139,7 +139,7 @@ require('head.php');
                      <td width="300px;"><?php echo sanitize(date('Y.m.d H:i:s' ,strtotime($msg['send_date']))); ?></td>
                      
                      <td width="150px;">
-                     <a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>">
+                       <a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>" class="<?php echo ($val['sale_user'] === $u_id) ? 'sale' : 'buy';?>">
                       <?php 
                       echo ($val['sale_user'] === $u_id) ? '販売' : '購入';
                        ?></a></td>
@@ -158,12 +158,12 @@ require('head.php');
                      <td width="300px;">--</td>
                      
                      <td width="150px;">
-                      <a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>">
+                       <a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>" class="<?php echo ($val['sale_user'] === $u_id) ? 'sale' : 'buy'; ?>">
                        <?php 
                     echo ($val['sale_user'] === $u_id) ? '販売' : '購入';
                         ?></a></td>
                        
-                     <td width="150px;"><?php 
+                     <td width="150px;"><?php
                     echo ($val['sale_user'] === $u_id) ? $buyuser[0]['username'] : $saleuser[0]['username'] ;
                        ?></td>
                      
