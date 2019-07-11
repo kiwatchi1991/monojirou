@@ -17,6 +17,7 @@ $productInfo = '';
 $viewData = '';
 // 画面表示用データ取得
 //================================
+$u_id = $_SESSION['user_id'];
 // GETパラメータを取得
 $m_id = (!empty($_GET['m_id'])) ? $_GET['m_id'] : '';
 // DBから掲示板とメッセージデータを取得
@@ -60,6 +61,11 @@ if(empty($myUserInfo)){
   error_log('エラー発生：自分のユーザー情報が取得できませんでした');
   header("Location:mypage.php"); //マイページへ
 }
+
+//===============================================
+//購入か販売か判断
+//===============================================
+//$salebuy = ($viewData['sale_user'] === $u_id) ? '販売' : '購入';
 
 //post送信されていた場合
 if(!empty($_POST)){
@@ -304,7 +310,9 @@ require('head.php');
            <div class="right">
              <?php echo sanitize($productInfo['name']); ?><br>
              取引金額：<span class="price">¥<?php echo number_format(sanitize($productInfo['price'])); ?></span><br>
-             取引開始日：<?php echo date('Y/m/d', strtotime(sanitize($viewData[0]['create_date']))); ?>
+             取引開始日：<?php echo date('Y/m/d', strtotime(sanitize($viewData[0]['create_date']))); ?><br>
+             <?php echo ($viewData[0]['sale_user'] === $u_id) ? '販売' : '購入' ; ?>
+           
            </div>
          </div>
        </div>

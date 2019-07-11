@@ -116,7 +116,7 @@ require('head.php');
            <thead>
              <tr>
                <th>最新送信日時</th>
-               <th>購入 / 販売</th>
+               <th class="sale-buy" >購入 / 販売</th>
                <th>取引相手</th>
                <th>メッセージ</th>
              </tr>
@@ -136,9 +136,9 @@ require('head.php');
                     
               ?>
                    <tr>
-                     <td width="300px;"><?php echo sanitize(date('Y.m.d H:i:s' ,strtotime($msg['send_date']))); ?></td>
+                     <td width="200px;"><?php echo sanitize(date('Y.m.d H:i:s' ,strtotime($msg['send_date']))); ?></td>
                      
-                     <td width="150px;">
+                     <td align="center" width="200px;">
                        <a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>" class="<?php echo ($val['sale_user'] === $u_id) ? 'sale' : 'buy';?>">
                       <?php 
                       echo ($val['sale_user'] === $u_id) ? '販売' : '購入';
@@ -157,7 +157,7 @@ require('head.php');
                    <tr>
                      <td width="300px;">--</td>
                      
-                     <td width="150px;">
+                     <td align="center"  width="150px;">
                        <a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>" class="<?php echo ($val['sale_user'] === $u_id) ? 'sale' : 'buy'; ?>">
                        <?php 
                     echo ($val['sale_user'] === $u_id) ? '販売' : '購入';

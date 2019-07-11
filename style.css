@@ -664,11 +664,16 @@ cursor: pointer;
   text-align: left;
 }
 
+.list-table .table .sale-buy{
+  text-align: center;
+}
+
 .table .sale{
   background: red;
   color: white;
   padding: 3px 5px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .table .buy{
@@ -676,6 +681,7 @@ cursor: pointer;
   color: white;
   padding: 3px 5px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .panel-list{
