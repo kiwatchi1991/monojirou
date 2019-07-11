@@ -26,8 +26,8 @@
     <li id="tranSale">
     <a href="tranSale.php" class="">販売履歴</a>
     </li>
-    <li id="msg">
-    <a href="msg.php" class="">連絡掲示板</a>
+    <li id="msgInfo">
+    <a href="msgInfo.php" class="">連絡掲示板</a>
     </li>
     <li id="withdraw">
     <a href="withdraw.php" class="">退会</a>

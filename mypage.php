@@ -77,6 +77,7 @@ require('head.php');
     <h1 class="page-title">MYPAGE</h1>
      
 <!--     Main-->
+<!--    登録商品一覧-->
      <section id="main">
        <section class="list panel-list">
         <h2 class="title" style="margin-bottom:15px;">
@@ -108,6 +109,8 @@ require('head.php');
          }
        </style>
        
+       
+<!--       連絡掲示板-->
        <section class="list list-table">
          <h2 class="title">
            連絡掲示板一覧
@@ -178,11 +181,8 @@ require('head.php');
          </table>
        </section>
        
-       <?php 
-//       var_dump($bordData);
-//       debug('●●●●●●●●●●●●●●●●●$bordDataを表示します●●●'.print_r($bordData,true));
-       ?>
        
+<!--       お気に入り-->
        <section class="list panel-list">
          <h2 class="title" style="margin-bottom:15px;">
            お気に入り一覧

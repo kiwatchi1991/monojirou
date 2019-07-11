@@ -110,6 +110,10 @@
    var filename = url.match(".+/(.+?)\.[a-z]+([\?#;].*)?$")[1];
 //   console.log(filename);
 
+   if(filename !== "msg"){
    $('#'+ filename).addClass('active');
+   }else{
+    $('#msgInfo').addClass('active');
+   }
    
   </script>

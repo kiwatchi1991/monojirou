@@ -3,7 +3,7 @@
 require('function.php');
 
 debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
-debug('「　連絡掲示板　」');
+debug('「　連絡掲示板」');
 debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
 debugLogStart();
 
@@ -311,7 +311,9 @@ require('head.php');
              <?php echo sanitize($productInfo['name']); ?><br>
              取引金額：<span class="price">¥<?php echo number_format(sanitize($productInfo['price'])); ?></span><br>
              取引開始日：<?php echo date('Y/m/d', strtotime(sanitize($viewData[0]['create_date']))); ?><br>
-             <?php echo ($viewData[0]['sale_user'] === $u_id) ? '販売' : '購入' ; ?>
+             <span class="<?php echo ($viewData[0]['sale_user'] === $u_id) ? 'sale' : 'buy' ;?>">
+            <?php echo ($viewData[0]['sale_user'] === $u_id) ? '販売' : '購入' ; ?>
+             </span>
            
            </div>
          </div>
@@ -358,8 +360,6 @@ require('head.php');
                  <p style="text-align:center;line-height:20;">メッセージ投稿はまだありません</p>
           <?php 
                }
-         
-         var_dump($viewData);
          ?>
          
          
