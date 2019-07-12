@@ -43,6 +43,9 @@ if(!empty($_POST)){
     //名前の最大文字数チェック
     validMaxLen($username, 'username');
   }
+  //名前の空チェック
+  validRequired($username,'username');
+  debug('エラーメッセージがあれば表示する'.print_r($err_msg,true));
 
   if($dbFormData['tel'] != $tel){
 //    tel形式チェック
@@ -129,6 +132,10 @@ require('head.php');
   require('header.php');
   ?>
 
+  <p id="js-show-msg" style="display:none;" class="msg-slide">
+    <?php echo getSessionFlash('msg_success'); ?>
+  </p>
+
   <!--  広告タブ-->
   <?php 
   require('ads.php');
@@ -154,7 +161,7 @@ require('head.php');
               
               <label class="<?php if(!empty($err_msg['username'])) echo'err'; ?>">
                 名前
-                <input type="text" name="username" value="<?php echo getFormData('username'); ?>">
+                <input type="text" name="username" value="<?php echo getFormData('username'); ?>" placeholder="※入力必須です">
               </label>
               <div class="area-msg">
                 <?php 
@@ -163,7 +170,7 @@ require('head.php');
               </div>
               <label class="<?php if(!empty($err_msg['tel'])) echo 'err'; ?>">
                 TEL<span style="font-size:12px;margin-left:5px;">※ハイフンなしでご入力ください</span>
-              <input type="text" name="tel" value="<?php echo getFormData('tel'); ?>">
+                <input type="text" name="tel" value="<?php echo getFormData('tel'); ?>" placeholder="※任意">
               </label>
               <div class="area-msg">
                 <?php 
@@ -173,7 +180,7 @@ require('head.php');
               </div>
               <label class="<?php if(!empty($err_msg['zip'])) echo 'err'; ?>">
               郵便番号<span style="font-size:12px;margin-left:5px;">※ハイフンなしでご入力ください</span>
-                <input type="text" name="zip" value="<?php ((int)getFormData('zip') === 0) ? "" : getFormData('zip'); ?>">
+                <input type="text" name="zip" value="<?php ((int)getFormData('zip') === 0) ? "" : getFormData('zip'); ?>" placeholder="※任意">
               </label>
               <div class="area-msg">
                 <?php 
@@ -182,7 +189,7 @@ require('head.php');
               </div>
               <label class="<?php if(!empty($err_msg['addr'])) echo 'err'; ?>">
                 住所
-                <input type="text" name="addr" value="<?php echo getFormData('addr'); ?>">
+                <input type="text" name="addr" value="<?php echo getFormData('addr'); ?>" placeholder="※任意">
               </label>
               <div class="area-msg">
                 <?php 
@@ -192,7 +199,7 @@ require('head.php');
               <label style="text-align:left;" class="<?php if(!empty($err_msg['age'])) echo 'err'; ?>">
                 年齢
                 <input type="number" name="age"
-                 value="<?php ((int)getFormData('age') === 0) ? "" : getFormData('age'); ?>">
+                       value="<?php ((int)getFormData('age') === 0) ? "" : getFormData('age'); ?>" placeholder="※任意">
               </label>
               <div class="area-msg">
                 <?php 

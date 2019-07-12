@@ -111,7 +111,7 @@ text-align: center;
 }
 
 #top-nav a:visited{
-color: inherit;
+color: #333;
 }
 #top-nav ul li a:hover{
 text-decoration: underline;
@@ -160,7 +160,7 @@ border: 1px solid #696969;
   line-height: 110%;
 }
 
-#top-nav .btn-contact{
+#top-nav .btn-mail{
 /*  padding: 30px 10px;*/
   border-radius: 5px;
   background: linear-gradient(#ffffff,#d3d3d3);
@@ -169,17 +169,12 @@ border: 1px solid #696969;
 
 }
 
-#top-nav .btn-qa{
+#top-nav .btn-fqa{
 /*  padding: 10px 20px;*/
   border-radius: 5px;
   background: linear-gradient(#ffffff,#d3d3d3);
   border: 1px solid #696969;
   line-height: 110%;
-}
-
-
-#top-nav a:visited{
-color: inherit;
 }
 
 .sign-up{
@@ -278,7 +273,7 @@ box-sizing: border-box;
 }
 
 #menu-tab a:visited{
-color: inherit;
+color: #333;
 }
 
 /*===============================
@@ -497,6 +492,75 @@ line-height: 1.2em;
   top: 0;
   bottom: 0;
   margin: auto;
+}
+
+/*
+================================
+ジャンルで選ぶ(toppage)
+================================
+*/
+
+#top-category{
+  width: 980px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+#top-category h2{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#top-category .category-list{
+  overflow: hidden;
+  position: relative;
+  width: inherit;
+  margin: 0 auto;
+}
+
+#top-category .category-list .list{
+  border: 1px solid #333;
+/*  border-radius: 5px 5px 0 0;*/
+  width: 30%;
+  height: 75px;
+  float: left;
+  box-sizing: border-box;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  
+  background: linear-gradient(#a9a9a9,#ffffff);
+}
+
+#top-category .category-list .list a{
+/*  border-radius: 5px 5px 0 0;*/
+  line-height: 75px;
+/*  height: 75px;*/
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .1s ease-in-out;
+  transition: .1s ease-in-out;
+}
+
+#top-category .category-list .list a:hover{
+  background: linear-gradient(#e6a22e,#ffffff);
+  
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+}
+
+
+#top-categoty .underline{
+  position: absolute
+  bottom:0;
+}
+
+#top-category .list.active{
+  background: linear-gradient(#e6a22e,#ffffff);
+  font-weight: bold;
 }
 
 /*===============================
@@ -769,7 +833,7 @@ color: white;
 }
 
 a, a:active, a:focus{
-color: #b6a489;
+color: #333;
 }
 /*===============================
 フッター

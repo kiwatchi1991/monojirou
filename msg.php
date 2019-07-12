@@ -268,6 +268,10 @@ require('head.php');
   require('header.php');
   ?>
 
+    <p id="js-show-msg" style="display:none;" class="msg-slide">
+      <?php echo getSessionFlash('msg_success'); ?>
+    </p>
+
   <!--  広告タブ-->
   <?php 
   require('ads.php');
@@ -278,9 +282,7 @@ require('head.php');
   require('menuTab.php');
   ?>
 
-  <p id="js-show-msg" style="display:none;" class="msg-slide">
-    <?php echo getSessionFlash('msg_success'); ?>
-  </p>
+
 
 <!--メインコンテンツ-->
   <div id="contents" class="site-width">
@@ -387,6 +389,7 @@ require('head.php');
       <?php 
         require('footer.php');
       ?>
+
 
 
 </body>

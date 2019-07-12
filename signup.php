@@ -72,11 +72,11 @@ debugLogStart();
               $_SESSION['user_id'] = $dbh->lastInsertId();
               
 //                成功時のメッセージ変数を格納
-              $_SESSION['msg_success'] = SUC04;
+              $_SESSION['msg_success'] = SUC07;
               
               debug('セッション変数の中身：'.print_r($_SESSION,true));
               
-              header("Location:mypage.php");//マイページへ
+              header("Location:profEdit.php");//マイページへ
             }
             
           }catch (Exception $e) {

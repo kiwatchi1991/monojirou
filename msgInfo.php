@@ -30,6 +30,12 @@ $siteTitle ='連絡掲示板一覧';
 require('head.php');
 ?>
 
+<!--  ヘッダー-->
+<?php 
+require('header.php');
+?>
+
+
 <body class="page-mypage page-1colum page-logined">
 
   <p id="js-show-msg" style="display:none;" class="msg-slide">
@@ -121,11 +127,16 @@ require('head.php');
     </section>
   </div>
 
+
+
   <!-- footer -->
   <?php
   require('footer.php'); 
   ?>
   
+  
+
+
 </body>
 </html>
 
