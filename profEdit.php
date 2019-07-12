@@ -106,7 +106,9 @@ if(!empty($_POST)){
       
 //      クエリ成功の場合
       if($stmt){
-        $_SESSION['msg_success'] = SUC02;
+        $_SESSION['msg_success'] = SUC08;
+        session_write_close();
+        debug('セッション変数の中身：'.print_r($_SESSION,true));
         debug('マイページへ遷移します。');
         header("Location:mypage.php");//マイページへ
       }
@@ -220,7 +222,7 @@ require('head.php');
                 <input type="hidden" name="MAX_FILE_SIZE" value="3145728">
                 <input type="file" name="pic" class="input-file" style="height:370px;">
                 <img src="<?php echo getFormData('pic'); ?>" alt="" class="prev-img" style="<?php if(empty(getFormData('pic'))) echo 'display:none;' ?>">
-                  ドラッグ＆ドロップ
+                  ドラッグ＆ドロップ(※任意です)
               </label>
               <div class="area-msg">
                 <?php 

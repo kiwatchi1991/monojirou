@@ -513,15 +513,12 @@ line-height: 1.2em;
 
 #top-category .category-list{
   overflow: hidden;
-  position: relative;
-  width: inherit;
   margin: 0 auto;
 }
 
 #top-category .category-list .list{
   border: 1px solid #333;
-/*  border-radius: 5px 5px 0 0;*/
-  width: 30%;
+  width: 32%;
   height: 75px;
   float: left;
   box-sizing: border-box;

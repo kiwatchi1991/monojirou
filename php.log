@@ -16357,3 +16357,4092 @@
 [12-Jul-2019 14:03:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562907814
 [12-Jul-2019 14:03:34 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562907382
 [12-Jul-2019 14:03:34 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 16:23:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 16:23:48 Asia/Tokyo] デバッグ：「　トップページ　」
+[12-Jul-2019 16:23:48 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 16:23:48 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 16:23:48 Asia/Tokyo] デバッグ：セッションID:3v4ukchfe37hob0nhk5m5dduk0
+[12-Jul-2019 16:23:48 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562903782
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 16:23:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562916228
+[12-Jul-2019 16:23:48 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562907382
+[12-Jul-2019 16:23:48 Asia/Tokyo] デバッグ：商品情報を取得します。
+[12-Jul-2019 16:23:48 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 16:23:48 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 20 OFFSET 0
+[12-Jul-2019 16:23:48 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 16:23:48 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[12-Jul-2019 16:23:48 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 16:23:48 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:17:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:17:53 Asia/Tokyo] デバッグ：「　トップページ　」
+[12-Jul-2019 19:17:53 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:17:53 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:17:53 Asia/Tokyo] デバッグ：セッションID:lksmcikl0j4k0rr1m8feqp0484
+[12-Jul-2019 19:17:53 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562903782
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:17:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562926673
+[12-Jul-2019 19:17:53 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562907382
+[12-Jul-2019 19:17:53 Asia/Tokyo] デバッグ：商品情報を取得します。
+[12-Jul-2019 19:17:53 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:17:53 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 20 OFFSET 0
+[12-Jul-2019 19:17:53 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:17:53 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[12-Jul-2019 19:17:53 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:17:53 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:19:05 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:19:05 Asia/Tokyo] デバッグ：「　トップページ　」
+[12-Jul-2019 19:19:05 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:19:05 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:19:05 Asia/Tokyo] デバッグ：セッションID:qisll3pic4m7p5fvtabe1du4bd
+[12-Jul-2019 19:19:05 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562903782
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:19:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562926745
+[12-Jul-2019 19:19:05 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562907382
+[12-Jul-2019 19:19:05 Asia/Tokyo] デバッグ：商品情報を取得します。
+[12-Jul-2019 19:19:05 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:19:05 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 20 OFFSET 0
+[12-Jul-2019 19:19:05 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:19:05 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[12-Jul-2019 19:19:05 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:19:05 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:19:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:19:15 Asia/Tokyo] デバッグ：「　トップページ　」
+[12-Jul-2019 19:19:15 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:19:15 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:19:15 Asia/Tokyo] デバッグ：セッションID:a3q1lpgq03hmsdlcqueog8kdmo
+[12-Jul-2019 19:19:15 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562903782
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:19:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562926755
+[12-Jul-2019 19:19:15 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562907382
+[12-Jul-2019 19:19:15 Asia/Tokyo] デバッグ：商品情報を取得します。
+[12-Jul-2019 19:19:15 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:19:15 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 20 OFFSET 0
+[12-Jul-2019 19:19:15 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:19:15 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[12-Jul-2019 19:19:15 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:19:15 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:19:34 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:19:34 Asia/Tokyo] デバッグ：「　トップページ　」
+[12-Jul-2019 19:19:34 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:19:34 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:19:34 Asia/Tokyo] デバッグ：セッションID:gc8pbsnr1g91uttrvb1tjj8dqi
+[12-Jul-2019 19:19:34 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562903782
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:19:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562926774
+[12-Jul-2019 19:19:34 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562907382
+[12-Jul-2019 19:19:34 Asia/Tokyo] デバッグ：商品情報を取得します。
+[12-Jul-2019 19:19:34 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:19:34 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 20 OFFSET 0
+[12-Jul-2019 19:19:34 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:19:34 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[12-Jul-2019 19:19:34 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:19:34 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:23:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:23:33 Asia/Tokyo] デバッグ：「　トップページ　」
+[12-Jul-2019 19:23:33 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:23:33 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:23:33 Asia/Tokyo] デバッグ：セッションID:ruka18klghrei5tt22bg1157gh
+[12-Jul-2019 19:23:33 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562903782
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:23:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562927013
+[12-Jul-2019 19:23:33 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562907382
+[12-Jul-2019 19:23:33 Asia/Tokyo] デバッグ：商品情報を取得します。
+[12-Jul-2019 19:23:33 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:23:33 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 20 OFFSET 0
+[12-Jul-2019 19:23:33 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:23:33 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[12-Jul-2019 19:23:33 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:23:33 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:23:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:23:42 Asia/Tokyo] デバッグ：「　トップページ　」
+[12-Jul-2019 19:23:42 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:23:42 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:23:42 Asia/Tokyo] デバッグ：セッションID:g9qr1vchji0vvefhudb4qrudsg
+[12-Jul-2019 19:23:42 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562903782
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:23:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562927022
+[12-Jul-2019 19:23:42 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562907382
+[12-Jul-2019 19:23:42 Asia/Tokyo] デバッグ：商品情報を取得します。
+[12-Jul-2019 19:23:42 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:23:42 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 20 OFFSET 0
+[12-Jul-2019 19:23:42 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:23:42 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[12-Jul-2019 19:23:42 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:23:42 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:24:11 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:24:11 Asia/Tokyo] デバッグ：「　トップページ　」
+[12-Jul-2019 19:24:11 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:24:11 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:24:11 Asia/Tokyo] デバッグ：セッションID:d95s621a7a1r9rftudpd9j7srf
+[12-Jul-2019 19:24:11 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562903782
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:24:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562927051
+[12-Jul-2019 19:24:11 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562907382
+[12-Jul-2019 19:24:11 Asia/Tokyo] デバッグ：商品情報を取得します。
+[12-Jul-2019 19:24:11 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:24:11 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 20 OFFSET 0
+[12-Jul-2019 19:24:11 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:24:11 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[12-Jul-2019 19:24:11 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:24:11 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:24:17 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:24:17 Asia/Tokyo] デバッグ：「　トップページ　」
+[12-Jul-2019 19:24:17 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:24:17 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:24:17 Asia/Tokyo] デバッグ：セッションID:10slba1lo6ktnfbtdmoo5gin5b
+[12-Jul-2019 19:24:17 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562903782
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:24:17 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562927057
+[12-Jul-2019 19:24:17 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562907382
+[12-Jul-2019 19:24:17 Asia/Tokyo] デバッグ：商品情報を取得します。
+[12-Jul-2019 19:24:17 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:24:17 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 20 OFFSET 0
+[12-Jul-2019 19:24:17 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:24:17 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[12-Jul-2019 19:24:17 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:24:17 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:24:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:24:36 Asia/Tokyo] デバッグ：「　トップページ　」
+[12-Jul-2019 19:24:36 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:24:36 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:24:36 Asia/Tokyo] デバッグ：セッションID:bq6qlcj07o62osef3t0d9h96cl
+[12-Jul-2019 19:24:36 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562903782
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:24:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562927076
+[12-Jul-2019 19:24:36 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562907382
+[12-Jul-2019 19:24:36 Asia/Tokyo] デバッグ：商品情報を取得します。
+[12-Jul-2019 19:24:36 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:24:36 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 20 OFFSET 0
+[12-Jul-2019 19:24:36 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:24:36 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[12-Jul-2019 19:24:36 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:24:36 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:24:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:24:39 Asia/Tokyo] デバッグ：「　トップページ　」
+[12-Jul-2019 19:24:39 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:24:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:24:39 Asia/Tokyo] デバッグ：セッションID:rr2mgftf2ulppeb1a7ss649l27
+[12-Jul-2019 19:24:39 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562903782
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:24:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562927079
+[12-Jul-2019 19:24:39 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562907382
+[12-Jul-2019 19:24:39 Asia/Tokyo] デバッグ：商品情報を取得します。
+[12-Jul-2019 19:24:39 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:24:39 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 20 OFFSET 0
+[12-Jul-2019 19:24:39 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:24:39 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[12-Jul-2019 19:24:39 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:24:39 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:24:45 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:24:45 Asia/Tokyo] デバッグ：「　トップページ　」
+[12-Jul-2019 19:24:45 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:24:45 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:24:45 Asia/Tokyo] デバッグ：セッションID:2lnub3uobq3clad3qqnnjbi3g6
+[12-Jul-2019 19:24:45 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562903782
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:24:45 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562927085
+[12-Jul-2019 19:24:45 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562907382
+[12-Jul-2019 19:24:45 Asia/Tokyo] デバッグ：商品情報を取得します。
+[12-Jul-2019 19:24:45 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:24:45 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product WHERE category_id = 1 LIMIT 20 OFFSET 0
+[12-Jul-2019 19:24:45 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:24:45 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[12-Jul-2019 19:24:45 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:24:45 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：「　マイページ　」
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：セッションID:dbfqf3kab5cibc8r8n5srnfrnk
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562903782
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928027
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562907382
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：ログイン有効期限オーバーです。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：ユーザーID：2
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：自分のmsg情報 購入者の名前含む　を取得します
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：デバック●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●Array
+(
+    [0] => Array
+        (
+            [id] => 14
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-10 15:48:34
+            [update_date] => 2019-07-10 15:48:34
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 98
+            [delete_flg] => 0
+            [create_date] => 2019-07-10 15:56:31
+            [update_date] => 2019-07-10 15:56:31
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [sale_user] => 1
+            [buy_user] => 2
+            [product_id] => 117
+            [delete_flg] => 0
+            [create_date] => 2019-07-11 11:49:39
+            [update_date] => 2019-07-11 11:49:39
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [sale_user] => 2
+            [buy_user] => 19
+            [product_id] => 95
+            [delete_flg] => 0
+            [create_date] => 2019-07-11 20:39:45
+            [update_date] => 2019-07-11 20:39:45
+        )
+
+)
+
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：ユーザーID：2
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => KTC　スパナ
+            [category_id] => 1
+            [comment] => スパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナ
+            [price] => 990
+            [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+            [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 17:32:07
+            [update_date] => 2019-06-27 17:32:07
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => KTC ラチェットセット
+            [category_id] => 2
+            [comment] => 工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ
+            [price] => 900
+            [pic1] => uploads/d95f18b36fdf1021777a5a497d685786dc6c0862.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 17:32:07
+            [update_date] => 2019-06-27 17:32:07
+        )
+
+    [2] => Array
+        (
+            [id] => 94
+            [name] => KTC　スパナ
+            [category_id] => 2
+            [comment] => 工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ
+            [price] => 800
+            [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+            [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic3] => uploads/23bc9a9105d01da391141a5fb99c9db1e89427a9.jpeg
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 18:57:33
+            [update_date] => 2019-06-28 18:57:33
+        )
+
+    [3] => Array
+        (
+            [id] => 95
+            [name] => グリススプレー
+            [category_id] => 3
+            [comment] => 工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ
+            [price] => 650
+            [pic1] => uploads/37dd011f8be29c5bc0abe55ef5aad771498dce55.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-29 11:16:51
+            [update_date] => 2019-06-29 11:16:51
+        )
+
+    [4] => Array
+        (
+            [id] => 96
+            [name] => グリススプレー
+            [category_id] => 3
+            [comment] => 工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ
+            [price] => 700
+            [pic1] => uploads/09112df35f35da88a75e6ab5794ffed16469bbdb.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-29 11:18:54
+            [update_date] => 2019-06-29 11:18:54
+        )
+
+    [5] => Array
+        (
+            [id] => 97
+            [name] => モンキーレンチ
+            [category_id] => 2
+            [comment] => 
+            [price] => 3980
+            [pic1] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:34:45
+            [update_date] => 2019-07-06 15:34:45
+        )
+
+    [6] => Array
+        (
+            [id] => 98
+            [name] => コンビハンマー
+            [category_id] => 2
+            [comment] => 
+            [price] => 1380
+            [pic1] => uploads/e6a12374c6f0d6963c2f4a186e3c797977eee5ab.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:35:55
+            [update_date] => 2019-07-06 15:35:55
+        )
+
+    [7] => Array
+        (
+            [id] => 99
+            [name] => スピコン　エルボ　ねじ込み
+            [category_id] => 5
+            [comment] => 
+            [price] => 298
+            [pic1] => uploads/202534fec7f1badd2f29f9c0bf3194a6c4580888.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:36:35
+            [update_date] => 2019-07-06 15:36:35
+        )
+
+    [8] => Array
+        (
+            [id] => 100
+            [name] => チューブフィッティング　ユニオンストレート
+            [category_id] => 5
+            [comment] => 
+            [price] => 80
+            [pic1] => uploads/e8b70859de44f9a71d73a190603214306aa81b3e.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:37:10
+            [update_date] => 2019-07-06 15:37:10
+        )
+
+    [9] => Array
+        (
+            [id] => 101
+            [name] => ボールレンチ
+            [category_id] => 2
+            [comment] => 
+            [price] => 700
+            [pic1] => uploads/b83ecb07d798d0b15f2b8715be68075a37f6a1f8.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:37:47
+            [update_date] => 2019-07-06 15:37:47
+        )
+
+    [10] => Array
+        (
+            [id] => 102
+            [name] => タッカー
+            [category_id] => 2
+            [comment] => 
+            [price] => 999
+            [pic1] => uploads/31fc08429d859cb8e8e1b91bb221eeadc165cc16.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:38:54
+            [update_date] => 2019-07-06 15:38:54
+        )
+
+    [11] => Array
+        (
+            [id] => 103
+            [name] => 貫通ドライバー
+            [category_id] => 2
+            [comment] => 
+            [price] => 389
+            [pic1] => uploads/37b173081f6685d4ab9808420ea22f40450b0a4e.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:39:57
+            [update_date] => 2019-07-06 15:39:57
+        )
+
+    [12] => Array
+        (
+            [id] => 104
+            [name] => ドライバー
+            [category_id] => 2
+            [comment] => 
+            [price] => 389
+            [pic1] => uploads/dabef4626d597068bde4a8d045f9de356e738ed4.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:41:04
+            [update_date] => 2019-07-06 15:41:04
+        )
+
+    [13] => Array
+        (
+            [id] => 105
+            [name] => ペンチ
+            [category_id] => 2
+            [comment] => 
+            [price] => 500
+            [pic1] => uploads/9fd1d06d79c67b2465368faa0f97fcbf8ea297a1.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:43:36
+            [update_date] => 2019-07-06 15:43:36
+        )
+
+    [14] => Array
+        (
+            [id] => 106
+            [name] => 六角レンチ
+            [category_id] => 2
+            [comment] => 
+            [price] => 2000
+            [pic1] => uploads/567cd371600ca118630bcb2b2e3363fea7183e99.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:44:14
+            [update_date] => 2019-07-06 15:44:14
+        )
+
+    [15] => Array
+        (
+            [id] => 107
+            [name] => 安全長靴
+            [category_id] => 1
+            [comment] => 
+            [price] => 1200
+            [pic1] => uploads/24ea066fa05bda5796dcd8e1d8193ad5754e8523.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:45:26
+            [update_date] => 2019-07-06 15:45:26
+        )
+
+    [16] => Array
+        (
+            [id] => 108
+            [name] => 工具セット（黄）
+            [category_id] => 2
+            [comment] => 
+            [price] => 10000
+            [pic1] => uploads/eb86993658e5a48efbf86d910695d56e4ad362eb.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:45:45
+            [update_date] => 2019-07-06 15:45:45
+        )
+
+    [17] => Array
+        (
+            [id] => 109
+            [name] => ギヤプーラー
+            [category_id] => 2
+            [comment] => 
+            [price] => 6800
+            [pic1] => uploads/3e296d31e41ace90f098f1b7e4d481d06425d5ad.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:46:12
+            [update_date] => 2019-07-06 15:46:12
+        )
+
+    [18] => Array
+        (
+            [id] => 110
+            [name] => ギヤプーラー
+            [category_id] => 2
+            [comment] => 
+            [price] => 9000
+            [pic1] => uploads/7259f0e180b23b6c706ceb4ea8d6b0f49b73671c.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:46:32
+            [update_date] => 2019-07-06 15:46:32
+        )
+
+    [19] => Array
+        (
+            [id] => 111
+            [name] => ラチェットセット
+            [category_id] => 2
+            [comment] => 
+            [price] => 15000
+            [pic1] => uploads/d95f18b36fdf1021777a5a497d685786dc6c0862.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:47:04
+            [update_date] => 2019-07-06 15:47:04
+        )
+
+    [20] => Array
+        (
+            [id] => 112
+            [name] => クランプ
+            [category_id] => 2
+            [comment] => 
+            [price] => 880
+            [pic1] => uploads/7283a7eebce6c807ef421e4f94f5375b6b6d391c.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:47:27
+            [update_date] => 2019-07-06 15:47:27
+        )
+
+    [21] => Array
+        (
+            [id] => 113
+            [name] => 工具セット（赤）
+            [category_id] => 2
+            [comment] => 
+            [price] => 15000
+            [pic1] => uploads/cc7912e874cc8292134a36de2b25324654d9a7d8.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:47:58
+            [update_date] => 2019-07-06 15:47:58
+        )
+
+    [22] => Array
+        (
+            [id] => 114
+            [name] => 安全靴
+            [category_id] => 1
+            [comment] => 
+            [price] => 1990
+            [pic1] => uploads/3bfbf3c64a4402f73bcf4bffac6ab35539237df6.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:48:23
+            [update_date] => 2019-07-06 15:48:23
+        )
+
+    [23] => Array
+        (
+            [id] => 115
+            [name] => チェーンクリーナー
+            [category_id] => 3
+            [comment] => 
+            [price] => 900
+            [pic1] => uploads/a0718c48773e647e094708830f832dec3c2ae911.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:48:47
+            [update_date] => 2019-07-06 15:48:47
+        )
+
+    [24] => Array
+        (
+            [id] => 116
+            [name] => 固定クランプ
+            [category_id] => 2
+            [comment] => 
+            [price] => 14000
+            [pic1] => uploads/1660112d764975a28c5328367cd402e10729d953.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:49:21
+            [update_date] => 2019-07-06 15:49:21
+        )
+
+)
+
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 14
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-10 15:48:34
+            [update_date] => 2019-07-10 15:48:34
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [bord_id] => 14
+                            [send_date] => 2019-07-10 15:56:23
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => 購入しましたよ！
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-18 08:06:19
+                            [update_date] => 2019-07-11 20:09:32
+                            [username] => モノタロウ
+                            [age] => 0
+                            [tel] => 09000000000
+                            [zip] => 0
+                            [addr] => asdfa
+                            [email] => ymnkknt3@gmail.com
+                            [password] => $2y$10$dJ.p/Btc1gsDbsEzD6sjjuHGORNTfM.YhfobwwlEGtVjnFEaxkH0S
+                            [pic] => uploads/c72dc381cbd86cfe929105d5629e5cc602333ff8.jpeg
+                            [login_time] => 2019-06-18 08:06:19
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 98
+            [delete_flg] => 0
+            [create_date] => 2019-07-10 15:56:31
+            [update_date] => 2019-07-10 15:56:31
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [bord_id] => 15
+                            [send_date] => 2019-07-10 15:56:41
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => こっちも買いましたよ！
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-18 08:06:19
+                            [update_date] => 2019-07-11 20:09:32
+                            [username] => モノタロウ
+                            [age] => 0
+                            [tel] => 09000000000
+                            [zip] => 0
+                            [addr] => asdfa
+                            [email] => ymnkknt3@gmail.com
+                            [password] => $2y$10$dJ.p/Btc1gsDbsEzD6sjjuHGORNTfM.YhfobwwlEGtVjnFEaxkH0S
+                            [pic] => uploads/c72dc381cbd86cfe929105d5629e5cc602333ff8.jpeg
+                            [login_time] => 2019-06-18 08:06:19
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [sale_user] => 1
+            [buy_user] => 2
+            [product_id] => 117
+            [delete_flg] => 0
+            [create_date] => 2019-07-11 11:49:39
+            [update_date] => 2019-07-11 11:49:39
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [bord_id] => 16
+                            [send_date] => 2019-07-11 11:49:51
+                            [to_user] => 1
+                            [from_user] => 2
+                            [msg] => 購入しました。
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-17 22:14:37
+                            [update_date] => 2019-07-10 15:28:15
+                            [username] => 物　一郎
+                            [age] => 0
+                            [tel] => 
+                            [zip] => 0
+                            [addr] => 
+                            [email] => ymnkknt301@gmail.com
+                            [password] => $2y$10$NXzGI34ZLzp2S9EHc/XB9OfYpffG1SmHNg6PcmsFs3il8AZebYEPK
+                            [pic] => uploads/pic4.jpg
+                            [login_time] => 2019-06-17 22:14:37
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [sale_user] => 2
+            [buy_user] => 19
+            [product_id] => 95
+            [delete_flg] => 0
+            [create_date] => 2019-07-11 20:39:45
+            [update_date] => 2019-07-11 20:39:45
+            [msg] => Array
+                (
+                )
+
+        )
+
+)
+
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 94
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 18:57:33
+            [update_date] => 2019-06-28 18:57:33
+            [id] => 94
+            [name] => KTC　スパナ
+            [category_id] => 2
+            [comment] => 工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ
+            [price] => 800
+            [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+            [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic3] => uploads/23bc9a9105d01da391141a5fb99c9db1e89427a9.jpeg
+        )
+
+)
+
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：画面表示処理終了　<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取引相手（販売者）の名前を取得します。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取引相手（販売者）との掲示板ID:14
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取引相手（購入者）の名前を取得します。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取引相手（購入者）との掲示板ID:14
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$saleuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [sale_user] => 2
+            [username] => モノタロウ
+        )
+
+)
+
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$buyuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [buy_user] => 1
+            [username] => 物　一郎
+        )
+
+)
+
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取引相手（販売者）の名前を取得します。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取引相手（販売者）との掲示板ID:15
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取引相手（購入者）の名前を取得します。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取引相手（購入者）との掲示板ID:15
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：「　ログインページ　」
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：セッションID:r2rrh2cmth41u5ghmfob03d5jo
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928027
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$saleuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [sale_user] => 2
+            [username] => モノタロウ
+        )
+
+)
+
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$buyuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [buy_user] => 1
+            [username] => 物　一郎
+        )
+
+)
+
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取引相手（販売者）の名前を取得します。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取引相手（販売者）との掲示板ID:16
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取引相手（購入者）の名前を取得します。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取引相手（購入者）との掲示板ID:16
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$saleuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [sale_user] => 1
+            [username] => 物　一郎
+        )
+
+)
+
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$buyuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [buy_user] => 2
+            [username] => モノタロウ
+        )
+
+)
+
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取引相手（販売者）の名前を取得します。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取引相手（販売者）との掲示板ID:17
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取引相手（購入者）の名前を取得します。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：取引相手（購入者）との掲示板ID:17
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$saleuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [sale_user] => 2
+            [username] => モノタロウ
+        )
+
+)
+
+[12-Jul-2019 19:40:27 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$buyuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [buy_user] => 19
+            [username] => 
+        )
+
+)
+
+[12-Jul-2019 19:40:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:40:32 Asia/Tokyo] デバッグ：「　ユーザー登録ページ　」
+[12-Jul-2019 19:40:32 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:40:32 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:40:32 Asia/Tokyo] デバッグ：セッションID:9ds64k31jocgfk4cuj3s1pjn27
+[12-Jul-2019 19:40:32 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[12-Jul-2019 19:40:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928032
+[12-Jul-2019 19:40:45 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:40:45 Asia/Tokyo] デバッグ：「　ユーザー登録ページ　」
+[12-Jul-2019 19:40:45 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:40:45 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:40:45 Asia/Tokyo] デバッグ：セッションID:mrdt5iu6dafbif9e9r9o6kftun
+[12-Jul-2019 19:40:45 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[12-Jul-2019 19:40:45 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928045
+[12-Jul-2019 19:40:45 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：クエリ成功しましたーーーーー！！！！！！！
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1562928046
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => ユーザー登録しました。続いてプロフィールを編集しましょう！
+)
+
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：セッションID:9immhhqffmr2uq8pcousdc7hhr
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928046
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => ユーザー登録しました。続いてプロフィールを編集しましょう！
+)
+
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928046
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562931646
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 20
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:40:46
+)
+
+[12-Jul-2019 19:40:46 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[12-Jul-2019 19:41:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:41:25 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[12-Jul-2019 19:41:25 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:41:25 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:41:25 Asia/Tokyo] デバッグ：セッションID:n1am9o012okq6kkan8p11oehls
+[12-Jul-2019 19:41:25 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928046
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:41:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928085
+[12-Jul-2019 19:41:25 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562931646
+[12-Jul-2019 19:41:25 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:41:25 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:41:25 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:41:25 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:41:25 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 20
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:40:46
+)
+
+[12-Jul-2019 19:41:25 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：セッションID:c2st0k07h6t102thrpg7otasqs
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928085
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928105
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562931685
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 20
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:40:46
+)
+
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：POST送信があります。
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => ものモノ
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [age] => 
+    [email] => gggg@a.a
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：DB情報：Array
+(
+    [id] => 20
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:40:46
+)
+
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：エラーメッセージがあれば表示するArray
+(
+)
+
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：バリデーションOKです。
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[12-Jul-2019 19:41:45 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：「　マイページ　」
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：セッションID:7o9oj2bki8o03hmmau7dbfkvt7
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928105
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928106
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562931705
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：ユーザーID：20
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：自分のmsg情報 購入者の名前含む　を取得します
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：デバック●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●Array
+(
+)
+
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：ユーザーID：20
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+)
+
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+)
+
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+)
+
+[12-Jul-2019 19:41:46 Asia/Tokyo] デバッグ：画面表示処理終了　<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：セッションID:6n5moib644ro00d4s6c1ru0qmi
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928106
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928307
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562931706
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 20
+    [username] => ものモノ
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:41:45
+)
+
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：セッションID:ssjeascg09im4g6sl8o2t96aoe
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928106
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928307
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562931706
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 20
+    [username] => ものモノ
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:41:45
+)
+
+[12-Jul-2019 19:45:07 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：セッションID:ca90pgicaj9icb91ub4ncl7vlv
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928307
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928316
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562931907
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 20
+    [username] => ものモノ
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:41:45
+)
+
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：POST送信があります。
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => ものモノ物
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [age] => 
+    [email] => gggg@a.a
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：DB情報：Array
+(
+    [id] => 20
+    [username] => ものモノ
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:41:45
+)
+
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：エラーメッセージがあれば表示するArray
+(
+)
+
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：バリデーションOKです。
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：「　マイページ　」
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：セッションID:t8vg2o7jij09re8tliiihcv7h6
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928316
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928316
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562931916
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：ユーザーID：20
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：自分のmsg情報 購入者の名前含む　を取得します
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：デバック●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●Array
+(
+)
+
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：ユーザーID：20
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+)
+
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+)
+
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+)
+
+[12-Jul-2019 19:45:16 Asia/Tokyo] デバッグ：画面表示処理終了　<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:45:44 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:45:44 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[12-Jul-2019 19:45:44 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:45:44 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:45:44 Asia/Tokyo] デバッグ：セッションID:87ugrbvso125ofad7phlbts88g
+[12-Jul-2019 19:45:44 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928316
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:45:44 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928344
+[12-Jul-2019 19:45:44 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562931916
+[12-Jul-2019 19:45:44 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:45:44 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:45:44 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:45:44 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:45:44 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 20
+    [username] => ものモノ物
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:45:16
+)
+
+[12-Jul-2019 19:45:44 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：セッションID:55hcef677qdjm2f90p6svvauej
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928344
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928353
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562931944
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 20
+    [username] => ものモノ物
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:45:16
+)
+
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：POST送信があります。
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => ものモノ物もの
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [age] => 
+    [email] => gggg@a.a
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：DB情報：Array
+(
+    [id] => 20
+    [username] => ものモノ物
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:45:16
+)
+
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：エラーメッセージがあれば表示するArray
+(
+)
+
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：バリデーションOKです。
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[12-Jul-2019 19:45:53 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：「　マイページ　」
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：セッションID:vb5eba0hgo2dmkt80rdq5745ul
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928353
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928354
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562931953
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：ユーザーID：20
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：自分のmsg情報 購入者の名前含む　を取得します
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：デバック●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●Array
+(
+)
+
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：ユーザーID：20
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+)
+
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+)
+
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+)
+
+[12-Jul-2019 19:45:54 Asia/Tokyo] デバッグ：画面表示処理終了　<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:47:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:47:07 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[12-Jul-2019 19:47:07 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:47:07 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:47:07 Asia/Tokyo] デバッグ：セッションID:lo6ff0jllc0m525c6ou7puceau
+[12-Jul-2019 19:47:07 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928354
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:47:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928427
+[12-Jul-2019 19:47:07 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562931954
+[12-Jul-2019 19:47:07 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:47:07 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:47:07 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:47:07 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:47:07 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 20
+    [username] => ものモノ物もの
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:45:53
+)
+
+[12-Jul-2019 19:47:07 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：セッションID:c8rhe1u97qlthq4mjul810jd17
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928427
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928433
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932027
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 20
+    [username] => ものモノ物もの
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:45:53
+)
+
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：POST送信があります。
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => ものモノ物
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [age] => 
+    [email] => gggg@a.a
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：DB情報：Array
+(
+    [id] => 20
+    [username] => ものモノ物もの
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:45:53
+)
+
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：エラーメッセージがあれば表示するArray
+(
+)
+
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：バリデーションOKです。
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1562928433
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => プロフィール編集しました！！！
+)
+
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：「　マイページ　」
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：セッションID:ut43co839uu5078l1040sdqd4q
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928433
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928433
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932033
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：ユーザーID：20
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：自分のmsg情報 購入者の名前含む　を取得します
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：デバック●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●Array
+(
+)
+
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：ユーザーID：20
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+)
+
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+)
+
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+)
+
+[12-Jul-2019 19:47:13 Asia/Tokyo] デバッグ：画面表示処理終了　<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:54:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:54:31 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[12-Jul-2019 19:54:31 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:54:31 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:54:31 Asia/Tokyo] デバッグ：セッションID:2pca103nteespmome4hugq1jop
+[12-Jul-2019 19:54:31 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928433
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:54:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928871
+[12-Jul-2019 19:54:31 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932033
+[12-Jul-2019 19:54:31 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:54:31 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:54:31 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:54:31 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:54:31 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 20
+    [username] => ものモノ物
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:47:13
+)
+
+[12-Jul-2019 19:54:31 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：セッションID:klltehra85b9cl2ck2klkt7rhf
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928871
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928876
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932471
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 20
+    [username] => ものモノ物
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:47:13
+)
+
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：POST送信があります。
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => ものモノ
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [age] => 
+    [email] => gggg@a.a
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：DB情報：Array
+(
+    [id] => 20
+    [username] => ものモノ物
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:47:13
+)
+
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：エラーメッセージがあれば表示するArray
+(
+)
+
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：バリデーションOKです。
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1562928876
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => プロフィール編集しました！！！
+)
+
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：「　マイページ　」
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：セッションID:t15s4cc87t2kupacsg91sgvr7n
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928876
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => プロフィール編集しました！！！
+)
+
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928876
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932476
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：ユーザーID：20
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：自分のmsg情報 購入者の名前含む　を取得します
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：デバック●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●Array
+(
+)
+
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：ユーザーID：20
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+)
+
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+)
+
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+)
+
+[12-Jul-2019 19:54:36 Asia/Tokyo] デバッグ：画面表示処理終了　<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:55:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:55:02 Asia/Tokyo] デバッグ：「　パスワード変更ページ　」
+[12-Jul-2019 19:55:02 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:55:02 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:55:02 Asia/Tokyo] デバッグ：セッションID:1dq811b7nesvhk3ka4nrtbp0p7
+[12-Jul-2019 19:55:02 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928876
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:55:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928902
+[12-Jul-2019 19:55:02 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932476
+[12-Jul-2019 19:55:02 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:55:02 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:55:02 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:55:02 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:55:02 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 20
+    [username] => ものモノ
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:54:36
+)
+
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：「　パスワード変更ページ　」
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：セッションID:56p27bjps3s49pb546onu0qv0m
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928902
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928912
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932502
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 20
+    [username] => ものモノ
+    [age] => 0
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => gggg@a.a
+    [password] => $2y$10$061dWmsa9VCZcsx6MkJ3E.GVa8hdCcNYQDpriI96xpz8iScOmAFUW
+    [pic] => 
+    [login_time] => 2019-07-12 19:40:46
+    [delete_flg] => 0
+    [create_date] => 2019-07-12 19:40:46
+    [update_date] => 2019-07-12 19:54:36
+)
+
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：POST送信があります。
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [pass_old] => orange
+    [pass_new] => orange1212
+    [pass_new_re] => orange1212
+)
+
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：未入力チェックOK
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：バリデーションOK。
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：メールを送信しました。
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：「　マイページ　」
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：セッションID:tmkn4mlj7igbu189co3phq990q
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562928912
+    [login_limit] => 3600
+    [user_id] => 20
+    [msg_success] => パスワードを変更しました
+)
+
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562928912
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932512
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：ユーザーID：20
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：自分のmsg情報 購入者の名前含む　を取得します
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：デバック●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●Array
+(
+)
+
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：ユーザーID：20
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+)
+
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+)
+
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+)
+
+[12-Jul-2019 19:55:12 Asia/Tokyo] デバッグ：画面表示処理終了　<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:57:11 Asia/Tokyo] PHP Warning:  session_save_path(): Cannot change save path when session is active in /Applications/MAMP/htdocs/monojirou/function.php on line 29
+[12-Jul-2019 19:57:11 Asia/Tokyo] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /Applications/MAMP/htdocs/monojirou/function.php on line 31
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：セッションID:qj3jr721la1bi0704p1igqapmi
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929031
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[12-Jul-2019 19:57:11 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/monojirou/profEdit.php on line 18
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：取得したユーザー情報：
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[12-Jul-2019 19:57:11 Asia/Tokyo] PHP Warning:  session_save_path(): Cannot change save path when session is active in /Applications/MAMP/htdocs/monojirou/function.php on line 29
+[12-Jul-2019 19:57:11 Asia/Tokyo] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /Applications/MAMP/htdocs/monojirou/function.php on line 31
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：「　ログインページ　」
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：セッションID:mbakr9pd858c4r4a526jporpnj
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929031
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[12-Jul-2019 19:57:11 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,
+[12-Jul-2019 19:57:35 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:57:35 Asia/Tokyo] デバッグ：「　ログインページ　」
+[12-Jul-2019 19:57:35 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:57:35 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:57:35 Asia/Tokyo] デバッグ：セッションID:khlk4d32mejfi8fn6vbjb41err
+[12-Jul-2019 19:57:35 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[12-Jul-2019 19:57:35 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929055
+[12-Jul-2019 19:57:35 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[12-Jul-2019 19:57:35 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,
+[12-Jul-2019 19:57:50 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:57:50 Asia/Tokyo] デバッグ：「　ログインページ　」
+[12-Jul-2019 19:57:50 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:57:50 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:57:50 Asia/Tokyo] デバッグ：セッションID:f2mja8doro0t3ije4fiidekhco
+[12-Jul-2019 19:57:50 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[12-Jul-2019 19:57:50 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929070
+[12-Jul-2019 19:57:50 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[12-Jul-2019 19:57:50 Asia/Tokyo] デバッグ：POST送信があります。
+[12-Jul-2019 19:57:50 Asia/Tokyo] デバッグ：バリデーションOKです。
+[12-Jul-2019 19:57:50 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:50 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$dJ.p/Btc1gsDbsEzD6sjjuHGORNTfM.YhfobwwlEGtVjnFEaxkH0S
+    [id] => 2
+)
+
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：ログイン保持にチェックはありません。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1562929071
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => ログイン成功しました
+)
+
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<,
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：「　マイページ　」
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：セッションID:rr32uvp8mlrp69gpskupj9885r
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562929071
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => ログイン成功しました
+)
+
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929071
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932671
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：ユーザーID：2
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：自分のmsg情報 購入者の名前含む　を取得します
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：デバック●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●Array
+(
+    [0] => Array
+        (
+            [id] => 14
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-10 15:48:34
+            [update_date] => 2019-07-10 15:48:34
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 98
+            [delete_flg] => 0
+            [create_date] => 2019-07-10 15:56:31
+            [update_date] => 2019-07-10 15:56:31
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [sale_user] => 1
+            [buy_user] => 2
+            [product_id] => 117
+            [delete_flg] => 0
+            [create_date] => 2019-07-11 11:49:39
+            [update_date] => 2019-07-11 11:49:39
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [sale_user] => 2
+            [buy_user] => 19
+            [product_id] => 95
+            [delete_flg] => 0
+            [create_date] => 2019-07-11 20:39:45
+            [update_date] => 2019-07-11 20:39:45
+        )
+
+)
+
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：ユーザーID：2
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => KTC　スパナ
+            [category_id] => 1
+            [comment] => スパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナ
+            [price] => 990
+            [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+            [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 17:32:07
+            [update_date] => 2019-06-27 17:32:07
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => KTC ラチェットセット
+            [category_id] => 2
+            [comment] => 工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ
+            [price] => 900
+            [pic1] => uploads/d95f18b36fdf1021777a5a497d685786dc6c0862.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 17:32:07
+            [update_date] => 2019-06-27 17:32:07
+        )
+
+    [2] => Array
+        (
+            [id] => 94
+            [name] => KTC　スパナ
+            [category_id] => 2
+            [comment] => 工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ
+            [price] => 800
+            [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+            [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic3] => uploads/23bc9a9105d01da391141a5fb99c9db1e89427a9.jpeg
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 18:57:33
+            [update_date] => 2019-06-28 18:57:33
+        )
+
+    [3] => Array
+        (
+            [id] => 95
+            [name] => グリススプレー
+            [category_id] => 3
+            [comment] => 工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ
+            [price] => 650
+            [pic1] => uploads/37dd011f8be29c5bc0abe55ef5aad771498dce55.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-29 11:16:51
+            [update_date] => 2019-06-29 11:16:51
+        )
+
+    [4] => Array
+        (
+            [id] => 96
+            [name] => グリススプレー
+            [category_id] => 3
+            [comment] => 工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ
+            [price] => 700
+            [pic1] => uploads/09112df35f35da88a75e6ab5794ffed16469bbdb.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-29 11:18:54
+            [update_date] => 2019-06-29 11:18:54
+        )
+
+    [5] => Array
+        (
+            [id] => 97
+            [name] => モンキーレンチ
+            [category_id] => 2
+            [comment] => 
+            [price] => 3980
+            [pic1] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:34:45
+            [update_date] => 2019-07-06 15:34:45
+        )
+
+    [6] => Array
+        (
+            [id] => 98
+            [name] => コンビハンマー
+            [category_id] => 2
+            [comment] => 
+            [price] => 1380
+            [pic1] => uploads/e6a12374c6f0d6963c2f4a186e3c797977eee5ab.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:35:55
+            [update_date] => 2019-07-06 15:35:55
+        )
+
+    [7] => Array
+        (
+            [id] => 99
+            [name] => スピコン　エルボ　ねじ込み
+            [category_id] => 5
+            [comment] => 
+            [price] => 298
+            [pic1] => uploads/202534fec7f1badd2f29f9c0bf3194a6c4580888.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:36:35
+            [update_date] => 2019-07-06 15:36:35
+        )
+
+    [8] => Array
+        (
+            [id] => 100
+            [name] => チューブフィッティング　ユニオンストレート
+            [category_id] => 5
+            [comment] => 
+            [price] => 80
+            [pic1] => uploads/e8b70859de44f9a71d73a190603214306aa81b3e.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:37:10
+            [update_date] => 2019-07-06 15:37:10
+        )
+
+    [9] => Array
+        (
+            [id] => 101
+            [name] => ボールレンチ
+            [category_id] => 2
+            [comment] => 
+            [price] => 700
+            [pic1] => uploads/b83ecb07d798d0b15f2b8715be68075a37f6a1f8.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:37:47
+            [update_date] => 2019-07-06 15:37:47
+        )
+
+    [10] => Array
+        (
+            [id] => 102
+            [name] => タッカー
+            [category_id] => 2
+            [comment] => 
+            [price] => 999
+            [pic1] => uploads/31fc08429d859cb8e8e1b91bb221eeadc165cc16.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:38:54
+            [update_date] => 2019-07-06 15:38:54
+        )
+
+    [11] => Array
+        (
+            [id] => 103
+            [name] => 貫通ドライバー
+            [category_id] => 2
+            [comment] => 
+            [price] => 389
+            [pic1] => uploads/37b173081f6685d4ab9808420ea22f40450b0a4e.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:39:57
+            [update_date] => 2019-07-06 15:39:57
+        )
+
+    [12] => Array
+        (
+            [id] => 104
+            [name] => ドライバー
+            [category_id] => 2
+            [comment] => 
+            [price] => 389
+            [pic1] => uploads/dabef4626d597068bde4a8d045f9de356e738ed4.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:41:04
+            [update_date] => 2019-07-06 15:41:04
+        )
+
+    [13] => Array
+        (
+            [id] => 105
+            [name] => ペンチ
+            [category_id] => 2
+            [comment] => 
+            [price] => 500
+            [pic1] => uploads/9fd1d06d79c67b2465368faa0f97fcbf8ea297a1.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:43:36
+            [update_date] => 2019-07-06 15:43:36
+        )
+
+    [14] => Array
+        (
+            [id] => 106
+            [name] => 六角レンチ
+            [category_id] => 2
+            [comment] => 
+            [price] => 2000
+            [pic1] => uploads/567cd371600ca118630bcb2b2e3363fea7183e99.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:44:14
+            [update_date] => 2019-07-06 15:44:14
+        )
+
+    [15] => Array
+        (
+            [id] => 107
+            [name] => 安全長靴
+            [category_id] => 1
+            [comment] => 
+            [price] => 1200
+            [pic1] => uploads/24ea066fa05bda5796dcd8e1d8193ad5754e8523.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:45:26
+            [update_date] => 2019-07-06 15:45:26
+        )
+
+    [16] => Array
+        (
+            [id] => 108
+            [name] => 工具セット（黄）
+            [category_id] => 2
+            [comment] => 
+            [price] => 10000
+            [pic1] => uploads/eb86993658e5a48efbf86d910695d56e4ad362eb.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:45:45
+            [update_date] => 2019-07-06 15:45:45
+        )
+
+    [17] => Array
+        (
+            [id] => 109
+            [name] => ギヤプーラー
+            [category_id] => 2
+            [comment] => 
+            [price] => 6800
+            [pic1] => uploads/3e296d31e41ace90f098f1b7e4d481d06425d5ad.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:46:12
+            [update_date] => 2019-07-06 15:46:12
+        )
+
+    [18] => Array
+        (
+            [id] => 110
+            [name] => ギヤプーラー
+            [category_id] => 2
+            [comment] => 
+            [price] => 9000
+            [pic1] => uploads/7259f0e180b23b6c706ceb4ea8d6b0f49b73671c.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:46:32
+            [update_date] => 2019-07-06 15:46:32
+        )
+
+    [19] => Array
+        (
+            [id] => 111
+            [name] => ラチェットセット
+            [category_id] => 2
+            [comment] => 
+            [price] => 15000
+            [pic1] => uploads/d95f18b36fdf1021777a5a497d685786dc6c0862.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:47:04
+            [update_date] => 2019-07-06 15:47:04
+        )
+
+    [20] => Array
+        (
+            [id] => 112
+            [name] => クランプ
+            [category_id] => 2
+            [comment] => 
+            [price] => 880
+            [pic1] => uploads/7283a7eebce6c807ef421e4f94f5375b6b6d391c.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:47:27
+            [update_date] => 2019-07-06 15:47:27
+        )
+
+    [21] => Array
+        (
+            [id] => 113
+            [name] => 工具セット（赤）
+            [category_id] => 2
+            [comment] => 
+            [price] => 15000
+            [pic1] => uploads/cc7912e874cc8292134a36de2b25324654d9a7d8.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:47:58
+            [update_date] => 2019-07-06 15:47:58
+        )
+
+    [22] => Array
+        (
+            [id] => 114
+            [name] => 安全靴
+            [category_id] => 1
+            [comment] => 
+            [price] => 1990
+            [pic1] => uploads/3bfbf3c64a4402f73bcf4bffac6ab35539237df6.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:48:23
+            [update_date] => 2019-07-06 15:48:23
+        )
+
+    [23] => Array
+        (
+            [id] => 115
+            [name] => チェーンクリーナー
+            [category_id] => 3
+            [comment] => 
+            [price] => 900
+            [pic1] => uploads/a0718c48773e647e094708830f832dec3c2ae911.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:48:47
+            [update_date] => 2019-07-06 15:48:47
+        )
+
+    [24] => Array
+        (
+            [id] => 116
+            [name] => 固定クランプ
+            [category_id] => 2
+            [comment] => 
+            [price] => 14000
+            [pic1] => uploads/1660112d764975a28c5328367cd402e10729d953.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:49:21
+            [update_date] => 2019-07-06 15:49:21
+        )
+
+)
+
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 14
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-10 15:48:34
+            [update_date] => 2019-07-10 15:48:34
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [bord_id] => 14
+                            [send_date] => 2019-07-10 15:56:23
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => 購入しましたよ！
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-18 08:06:19
+                            [update_date] => 2019-07-11 20:09:32
+                            [username] => モノタロウ
+                            [age] => 0
+                            [tel] => 09000000000
+                            [zip] => 0
+                            [addr] => asdfa
+                            [email] => ymnkknt3@gmail.com
+                            [password] => $2y$10$dJ.p/Btc1gsDbsEzD6sjjuHGORNTfM.YhfobwwlEGtVjnFEaxkH0S
+                            [pic] => uploads/c72dc381cbd86cfe929105d5629e5cc602333ff8.jpeg
+                            [login_time] => 2019-06-18 08:06:19
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 98
+            [delete_flg] => 0
+            [create_date] => 2019-07-10 15:56:31
+            [update_date] => 2019-07-10 15:56:31
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [bord_id] => 15
+                            [send_date] => 2019-07-10 15:56:41
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => こっちも買いましたよ！
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-18 08:06:19
+                            [update_date] => 2019-07-11 20:09:32
+                            [username] => モノタロウ
+                            [age] => 0
+                            [tel] => 09000000000
+                            [zip] => 0
+                            [addr] => asdfa
+                            [email] => ymnkknt3@gmail.com
+                            [password] => $2y$10$dJ.p/Btc1gsDbsEzD6sjjuHGORNTfM.YhfobwwlEGtVjnFEaxkH0S
+                            [pic] => uploads/c72dc381cbd86cfe929105d5629e5cc602333ff8.jpeg
+                            [login_time] => 2019-06-18 08:06:19
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [sale_user] => 1
+            [buy_user] => 2
+            [product_id] => 117
+            [delete_flg] => 0
+            [create_date] => 2019-07-11 11:49:39
+            [update_date] => 2019-07-11 11:49:39
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [bord_id] => 16
+                            [send_date] => 2019-07-11 11:49:51
+                            [to_user] => 1
+                            [from_user] => 2
+                            [msg] => 購入しました。
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-17 22:14:37
+                            [update_date] => 2019-07-10 15:28:15
+                            [username] => 物　一郎
+                            [age] => 0
+                            [tel] => 
+                            [zip] => 0
+                            [addr] => 
+                            [email] => ymnkknt301@gmail.com
+                            [password] => $2y$10$NXzGI34ZLzp2S9EHc/XB9OfYpffG1SmHNg6PcmsFs3il8AZebYEPK
+                            [pic] => uploads/pic4.jpg
+                            [login_time] => 2019-06-17 22:14:37
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [sale_user] => 2
+            [buy_user] => 19
+            [product_id] => 95
+            [delete_flg] => 0
+            [create_date] => 2019-07-11 20:39:45
+            [update_date] => 2019-07-11 20:39:45
+            [msg] => Array
+                (
+                )
+
+        )
+
+)
+
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 94
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 18:57:33
+            [update_date] => 2019-06-28 18:57:33
+            [id] => 94
+            [name] => KTC　スパナ
+            [category_id] => 2
+            [comment] => 工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ
+            [price] => 800
+            [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+            [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic3] => uploads/23bc9a9105d01da391141a5fb99c9db1e89427a9.jpeg
+        )
+
+)
+
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：画面表示処理終了　<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取引相手（販売者）の名前を取得します。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取引相手（販売者）との掲示板ID:14
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取引相手（購入者）の名前を取得します。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取引相手（購入者）との掲示板ID:14
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$saleuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [sale_user] => 2
+            [username] => モノタロウ
+        )
+
+)
+
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$buyuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [buy_user] => 1
+            [username] => 物　一郎
+        )
+
+)
+
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取引相手（販売者）の名前を取得します。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取引相手（販売者）との掲示板ID:15
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取引相手（購入者）の名前を取得します。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取引相手（購入者）との掲示板ID:15
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$saleuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [sale_user] => 2
+            [username] => モノタロウ
+        )
+
+)
+
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$buyuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [buy_user] => 1
+            [username] => 物　一郎
+        )
+
+)
+
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取引相手（販売者）の名前を取得します。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取引相手（販売者）との掲示板ID:16
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取引相手（購入者）の名前を取得します。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取引相手（購入者）との掲示板ID:16
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$saleuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [sale_user] => 1
+            [username] => 物　一郎
+        )
+
+)
+
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$buyuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [buy_user] => 2
+            [username] => モノタロウ
+        )
+
+)
+
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取引相手（販売者）の名前を取得します。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取引相手（販売者）との掲示板ID:17
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取引相手（購入者）の名前を取得します。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：取引相手（購入者）との掲示板ID:17
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$saleuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [sale_user] => 2
+            [username] => モノタロウ
+        )
+
+)
+
+[12-Jul-2019 19:57:51 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$buyuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [buy_user] => 19
+            [username] => 
+        )
+
+)
+
+[12-Jul-2019 19:57:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:57:54 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[12-Jul-2019 19:57:54 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:57:54 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:57:54 Asia/Tokyo] デバッグ：セッションID:u30dcvofmh27atpc0gpkgt28l6
+[12-Jul-2019 19:57:54 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562929071
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:57:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929074
+[12-Jul-2019 19:57:54 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932671
+[12-Jul-2019 19:57:54 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:57:54 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:57:54 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:57:54 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:54 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 2
+    [username] => モノタロウ
+    [age] => 0
+    [tel] => 09000000000
+    [zip] => 0
+    [addr] => asdfa
+    [email] => ymnkknt3@gmail.com
+    [password] => $2y$10$dJ.p/Btc1gsDbsEzD6sjjuHGORNTfM.YhfobwwlEGtVjnFEaxkH0S
+    [pic] => uploads/c72dc381cbd86cfe929105d5629e5cc602333ff8.jpeg
+    [login_time] => 2019-06-18 08:06:19
+    [delete_flg] => 0
+    [create_date] => 2019-06-18 08:06:19
+    [update_date] => 2019-07-11 20:09:32
+)
+
+[12-Jul-2019 19:57:54 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　」
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：セッションID:g7gtkvicda6v8f1ujmq9mobujn
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562929074
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929078
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932674
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 2
+    [username] => モノタロウ
+    [age] => 0
+    [tel] => 09000000000
+    [zip] => 0
+    [addr] => asdfa
+    [email] => ymnkknt3@gmail.com
+    [password] => $2y$10$dJ.p/Btc1gsDbsEzD6sjjuHGORNTfM.YhfobwwlEGtVjnFEaxkH0S
+    [pic] => uploads/c72dc381cbd86cfe929105d5629e5cc602333ff8.jpeg
+    [login_time] => 2019-06-18 08:06:19
+    [delete_flg] => 0
+    [create_date] => 2019-06-18 08:06:19
+    [update_date] => 2019-07-11 20:09:32
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：POST送信があります。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => モノタロウ
+    [tel] => 09000000000
+    [zip] => 
+    [addr] => asdfa
+    [age] => 
+    [email] => ymnkknt3@gmail.com
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：DB情報：Array
+(
+    [id] => 2
+    [username] => モノタロウ
+    [age] => 0
+    [tel] => 09000000000
+    [zip] => 0
+    [addr] => asdfa
+    [email] => ymnkknt3@gmail.com
+    [password] => $2y$10$dJ.p/Btc1gsDbsEzD6sjjuHGORNTfM.YhfobwwlEGtVjnFEaxkH0S
+    [pic] => uploads/c72dc381cbd86cfe929105d5629e5cc602333ff8.jpeg
+    [login_time] => 2019-06-18 08:06:19
+    [delete_flg] => 0
+    [create_date] => 2019-06-18 08:06:19
+    [update_date] => 2019-07-11 20:09:32
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：FILE情報：Array
+(
+    [pic] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：エラーメッセージがあれば表示するArray
+(
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：バリデーションOKです。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1562929078
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => プロフィール編集しました！！！
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：画面表示処理終了 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：「　マイページ　」
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：セッションID:gli0qc2bhddvgjr7v5qkipm0ih
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562929078
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => プロフィール編集しました！！！
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929078
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932678
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：ユーザーID：2
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：自分のmsg情報 購入者の名前含む　を取得します
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：デバック●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●●Array
+(
+    [0] => Array
+        (
+            [id] => 14
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-10 15:48:34
+            [update_date] => 2019-07-10 15:48:34
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 98
+            [delete_flg] => 0
+            [create_date] => 2019-07-10 15:56:31
+            [update_date] => 2019-07-10 15:56:31
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [sale_user] => 1
+            [buy_user] => 2
+            [product_id] => 117
+            [delete_flg] => 0
+            [create_date] => 2019-07-11 11:49:39
+            [update_date] => 2019-07-11 11:49:39
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [sale_user] => 2
+            [buy_user] => 19
+            [product_id] => 95
+            [delete_flg] => 0
+            [create_date] => 2019-07-11 20:39:45
+            [update_date] => 2019-07-11 20:39:45
+        )
+
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：ユーザーID：2
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => KTC　スパナ
+            [category_id] => 1
+            [comment] => スパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナスパナ
+            [price] => 990
+            [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+            [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 17:32:07
+            [update_date] => 2019-06-27 17:32:07
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => KTC ラチェットセット
+            [category_id] => 2
+            [comment] => 工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ
+            [price] => 900
+            [pic1] => uploads/d95f18b36fdf1021777a5a497d685786dc6c0862.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 17:32:07
+            [update_date] => 2019-06-27 17:32:07
+        )
+
+    [2] => Array
+        (
+            [id] => 94
+            [name] => KTC　スパナ
+            [category_id] => 2
+            [comment] => 工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ
+            [price] => 800
+            [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+            [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic3] => uploads/23bc9a9105d01da391141a5fb99c9db1e89427a9.jpeg
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 18:57:33
+            [update_date] => 2019-06-28 18:57:33
+        )
+
+    [3] => Array
+        (
+            [id] => 95
+            [name] => グリススプレー
+            [category_id] => 3
+            [comment] => 工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ
+            [price] => 650
+            [pic1] => uploads/37dd011f8be29c5bc0abe55ef5aad771498dce55.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-29 11:16:51
+            [update_date] => 2019-06-29 11:16:51
+        )
+
+    [4] => Array
+        (
+            [id] => 96
+            [name] => グリススプレー
+            [category_id] => 3
+            [comment] => 工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ
+            [price] => 700
+            [pic1] => uploads/09112df35f35da88a75e6ab5794ffed16469bbdb.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-29 11:18:54
+            [update_date] => 2019-06-29 11:18:54
+        )
+
+    [5] => Array
+        (
+            [id] => 97
+            [name] => モンキーレンチ
+            [category_id] => 2
+            [comment] => 
+            [price] => 3980
+            [pic1] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:34:45
+            [update_date] => 2019-07-06 15:34:45
+        )
+
+    [6] => Array
+        (
+            [id] => 98
+            [name] => コンビハンマー
+            [category_id] => 2
+            [comment] => 
+            [price] => 1380
+            [pic1] => uploads/e6a12374c6f0d6963c2f4a186e3c797977eee5ab.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:35:55
+            [update_date] => 2019-07-06 15:35:55
+        )
+
+    [7] => Array
+        (
+            [id] => 99
+            [name] => スピコン　エルボ　ねじ込み
+            [category_id] => 5
+            [comment] => 
+            [price] => 298
+            [pic1] => uploads/202534fec7f1badd2f29f9c0bf3194a6c4580888.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:36:35
+            [update_date] => 2019-07-06 15:36:35
+        )
+
+    [8] => Array
+        (
+            [id] => 100
+            [name] => チューブフィッティング　ユニオンストレート
+            [category_id] => 5
+            [comment] => 
+            [price] => 80
+            [pic1] => uploads/e8b70859de44f9a71d73a190603214306aa81b3e.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:37:10
+            [update_date] => 2019-07-06 15:37:10
+        )
+
+    [9] => Array
+        (
+            [id] => 101
+            [name] => ボールレンチ
+            [category_id] => 2
+            [comment] => 
+            [price] => 700
+            [pic1] => uploads/b83ecb07d798d0b15f2b8715be68075a37f6a1f8.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:37:47
+            [update_date] => 2019-07-06 15:37:47
+        )
+
+    [10] => Array
+        (
+            [id] => 102
+            [name] => タッカー
+            [category_id] => 2
+            [comment] => 
+            [price] => 999
+            [pic1] => uploads/31fc08429d859cb8e8e1b91bb221eeadc165cc16.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:38:54
+            [update_date] => 2019-07-06 15:38:54
+        )
+
+    [11] => Array
+        (
+            [id] => 103
+            [name] => 貫通ドライバー
+            [category_id] => 2
+            [comment] => 
+            [price] => 389
+            [pic1] => uploads/37b173081f6685d4ab9808420ea22f40450b0a4e.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:39:57
+            [update_date] => 2019-07-06 15:39:57
+        )
+
+    [12] => Array
+        (
+            [id] => 104
+            [name] => ドライバー
+            [category_id] => 2
+            [comment] => 
+            [price] => 389
+            [pic1] => uploads/dabef4626d597068bde4a8d045f9de356e738ed4.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:41:04
+            [update_date] => 2019-07-06 15:41:04
+        )
+
+    [13] => Array
+        (
+            [id] => 105
+            [name] => ペンチ
+            [category_id] => 2
+            [comment] => 
+            [price] => 500
+            [pic1] => uploads/9fd1d06d79c67b2465368faa0f97fcbf8ea297a1.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:43:36
+            [update_date] => 2019-07-06 15:43:36
+        )
+
+    [14] => Array
+        (
+            [id] => 106
+            [name] => 六角レンチ
+            [category_id] => 2
+            [comment] => 
+            [price] => 2000
+            [pic1] => uploads/567cd371600ca118630bcb2b2e3363fea7183e99.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:44:14
+            [update_date] => 2019-07-06 15:44:14
+        )
+
+    [15] => Array
+        (
+            [id] => 107
+            [name] => 安全長靴
+            [category_id] => 1
+            [comment] => 
+            [price] => 1200
+            [pic1] => uploads/24ea066fa05bda5796dcd8e1d8193ad5754e8523.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:45:26
+            [update_date] => 2019-07-06 15:45:26
+        )
+
+    [16] => Array
+        (
+            [id] => 108
+            [name] => 工具セット（黄）
+            [category_id] => 2
+            [comment] => 
+            [price] => 10000
+            [pic1] => uploads/eb86993658e5a48efbf86d910695d56e4ad362eb.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:45:45
+            [update_date] => 2019-07-06 15:45:45
+        )
+
+    [17] => Array
+        (
+            [id] => 109
+            [name] => ギヤプーラー
+            [category_id] => 2
+            [comment] => 
+            [price] => 6800
+            [pic1] => uploads/3e296d31e41ace90f098f1b7e4d481d06425d5ad.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:46:12
+            [update_date] => 2019-07-06 15:46:12
+        )
+
+    [18] => Array
+        (
+            [id] => 110
+            [name] => ギヤプーラー
+            [category_id] => 2
+            [comment] => 
+            [price] => 9000
+            [pic1] => uploads/7259f0e180b23b6c706ceb4ea8d6b0f49b73671c.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:46:32
+            [update_date] => 2019-07-06 15:46:32
+        )
+
+    [19] => Array
+        (
+            [id] => 111
+            [name] => ラチェットセット
+            [category_id] => 2
+            [comment] => 
+            [price] => 15000
+            [pic1] => uploads/d95f18b36fdf1021777a5a497d685786dc6c0862.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:47:04
+            [update_date] => 2019-07-06 15:47:04
+        )
+
+    [20] => Array
+        (
+            [id] => 112
+            [name] => クランプ
+            [category_id] => 2
+            [comment] => 
+            [price] => 880
+            [pic1] => uploads/7283a7eebce6c807ef421e4f94f5375b6b6d391c.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:47:27
+            [update_date] => 2019-07-06 15:47:27
+        )
+
+    [21] => Array
+        (
+            [id] => 113
+            [name] => 工具セット（赤）
+            [category_id] => 2
+            [comment] => 
+            [price] => 15000
+            [pic1] => uploads/cc7912e874cc8292134a36de2b25324654d9a7d8.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:47:58
+            [update_date] => 2019-07-06 15:47:58
+        )
+
+    [22] => Array
+        (
+            [id] => 114
+            [name] => 安全靴
+            [category_id] => 1
+            [comment] => 
+            [price] => 1990
+            [pic1] => uploads/3bfbf3c64a4402f73bcf4bffac6ab35539237df6.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:48:23
+            [update_date] => 2019-07-06 15:48:23
+        )
+
+    [23] => Array
+        (
+            [id] => 115
+            [name] => チェーンクリーナー
+            [category_id] => 3
+            [comment] => 
+            [price] => 900
+            [pic1] => uploads/a0718c48773e647e094708830f832dec3c2ae911.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:48:47
+            [update_date] => 2019-07-06 15:48:47
+        )
+
+    [24] => Array
+        (
+            [id] => 116
+            [name] => 固定クランプ
+            [category_id] => 2
+            [comment] => 
+            [price] => 14000
+            [pic1] => uploads/1660112d764975a28c5328367cd402e10729d953.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-06 15:49:21
+            [update_date] => 2019-07-06 15:49:21
+        )
+
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 14
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-07-10 15:48:34
+            [update_date] => 2019-07-10 15:48:34
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [bord_id] => 14
+                            [send_date] => 2019-07-10 15:56:23
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => 購入しましたよ！
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-18 08:06:19
+                            [update_date] => 2019-07-11 20:09:32
+                            [username] => モノタロウ
+                            [age] => 0
+                            [tel] => 09000000000
+                            [zip] => 0
+                            [addr] => asdfa
+                            [email] => ymnkknt3@gmail.com
+                            [password] => $2y$10$dJ.p/Btc1gsDbsEzD6sjjuHGORNTfM.YhfobwwlEGtVjnFEaxkH0S
+                            [pic] => uploads/c72dc381cbd86cfe929105d5629e5cc602333ff8.jpeg
+                            [login_time] => 2019-06-18 08:06:19
+                        )
+
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 15
+            [sale_user] => 2
+            [buy_user] => 1
+            [product_id] => 98
+            [delete_flg] => 0
+            [create_date] => 2019-07-10 15:56:31
+            [update_date] => 2019-07-10 15:56:31
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 2
+                            [bord_id] => 15
+                            [send_date] => 2019-07-10 15:56:41
+                            [to_user] => 2
+                            [from_user] => 1
+                            [msg] => こっちも買いましたよ！
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-18 08:06:19
+                            [update_date] => 2019-07-11 20:09:32
+                            [username] => モノタロウ
+                            [age] => 0
+                            [tel] => 09000000000
+                            [zip] => 0
+                            [addr] => asdfa
+                            [email] => ymnkknt3@gmail.com
+                            [password] => $2y$10$dJ.p/Btc1gsDbsEzD6sjjuHGORNTfM.YhfobwwlEGtVjnFEaxkH0S
+                            [pic] => uploads/c72dc381cbd86cfe929105d5629e5cc602333ff8.jpeg
+                            [login_time] => 2019-06-18 08:06:19
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 16
+            [sale_user] => 1
+            [buy_user] => 2
+            [product_id] => 117
+            [delete_flg] => 0
+            [create_date] => 2019-07-11 11:49:39
+            [update_date] => 2019-07-11 11:49:39
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 1
+                            [bord_id] => 16
+                            [send_date] => 2019-07-11 11:49:51
+                            [to_user] => 1
+                            [from_user] => 2
+                            [msg] => 購入しました。
+                            [delete_flg] => 0
+                            [create_date] => 2019-06-17 22:14:37
+                            [update_date] => 2019-07-10 15:28:15
+                            [username] => 物　一郎
+                            [age] => 0
+                            [tel] => 
+                            [zip] => 0
+                            [addr] => 
+                            [email] => ymnkknt301@gmail.com
+                            [password] => $2y$10$NXzGI34ZLzp2S9EHc/XB9OfYpffG1SmHNg6PcmsFs3il8AZebYEPK
+                            [pic] => uploads/pic4.jpg
+                            [login_time] => 2019-06-17 22:14:37
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 17
+            [sale_user] => 2
+            [buy_user] => 19
+            [product_id] => 95
+            [delete_flg] => 0
+            [create_date] => 2019-07-11 20:39:45
+            [update_date] => 2019-07-11 20:39:45
+            [msg] => Array
+                (
+                )
+
+        )
+
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [product_id] => 94
+            [user_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-06-28 18:57:33
+            [update_date] => 2019-06-28 18:57:33
+            [id] => 94
+            [name] => KTC　スパナ
+            [category_id] => 2
+            [comment] => 工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ工具こうぐ
+            [price] => 800
+            [pic1] => uploads/69479fda3b73a9d2f33e4e7291032f35a65242d8.png
+            [pic2] => uploads/959356c4f37ada2b9846825a47277f5a5b2ffa26.jpeg
+            [pic3] => uploads/23bc9a9105d01da391141a5fb99c9db1e89427a9.jpeg
+        )
+
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：画面表示処理終了　<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取引相手（販売者）の名前を取得します。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取引相手（販売者）との掲示板ID:14
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取引相手（購入者）の名前を取得します。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取引相手（購入者）との掲示板ID:14
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$saleuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [sale_user] => 2
+            [username] => モノタロウ
+        )
+
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$buyuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [buy_user] => 1
+            [username] => 物　一郎
+        )
+
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取引相手（販売者）の名前を取得します。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取引相手（販売者）との掲示板ID:15
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取引相手（購入者）の名前を取得します。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取引相手（購入者）との掲示板ID:15
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$saleuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [sale_user] => 2
+            [username] => モノタロウ
+        )
+
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$buyuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [buy_user] => 1
+            [username] => 物　一郎
+        )
+
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取引相手（販売者）の名前を取得します。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取引相手（販売者）との掲示板ID:16
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取引相手（購入者）の名前を取得します。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取引相手（購入者）との掲示板ID:16
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$saleuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [sale_user] => 1
+            [username] => 物　一郎
+        )
+
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$buyuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [buy_user] => 2
+            [username] => モノタロウ
+        )
+
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取引相手（販売者）の名前を取得します。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取引相手（販売者）との掲示板ID:17
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取引相手（購入者）の名前を取得します。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：取引相手（購入者）との掲示板ID:17
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$saleuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [sale_user] => 2
+            [username] => モノタロウ
+        )
+
+)
+
+[12-Jul-2019 19:57:58 Asia/Tokyo] デバッグ：●●●●●●●●●●●●●●●●●$buyuserを表示します●●●Array
+(
+    [0] => Array
+        (
+            [buy_user] => 19
+            [username] => 
+        )
+
+)
+
+[12-Jul-2019 20:06:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 20:06:53 Asia/Tokyo] デバッグ：「　お問い合わせページ　」
+[12-Jul-2019 20:06:53 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 20:06:54 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 20:06:54 Asia/Tokyo] デバッグ：セッションID:29pn37b1mq1a51irdnsdn1atsv
+[12-Jul-2019 20:06:54 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562929078
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 20:06:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929614
+[12-Jul-2019 20:06:54 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932678
+[12-Jul-2019 20:06:54 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 20:08:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 20:08:19 Asia/Tokyo] デバッグ：「　お問い合わせページ　」
+[12-Jul-2019 20:08:19 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 20:08:19 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 20:08:19 Asia/Tokyo] デバッグ：セッションID:ao0sfcklcja5h3l9f1taopa0ka
+[12-Jul-2019 20:08:19 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562929078
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 20:08:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929699
+[12-Jul-2019 20:08:19 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932678
+[12-Jul-2019 20:08:19 Asia/Tokyo] デバッグ：POST送信があります。
+[12-Jul-2019 20:08:19 Asia/Tokyo] デバッグ：POST情報:Array
+(
+    [name] => ask;lf;asd
+    [email] => あsgかsg
+    [message] => ふぁsdふぁsd
+)
+
+[12-Jul-2019 20:08:19 Asia/Tokyo] デバッグ：エラーメッセージの有無Array
+(
+    [email] => Emailの形式で入力してください
+)
+
+[12-Jul-2019 20:08:20 Asia/Tokyo] デバッグ：センドメール1
+[12-Jul-2019 20:08:20 Asia/Tokyo] デバッグ：メールを送信しました。
+[12-Jul-2019 20:08:20 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 20:08:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 20:08:20 Asia/Tokyo] デバッグ：「　お問い合わせページ　」
+[12-Jul-2019 20:08:20 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 20:08:20 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 20:08:20 Asia/Tokyo] デバッグ：セッションID:dh59g9mi4t61giotvqo02v6nm9
+[12-Jul-2019 20:08:20 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562929078
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => メールを送信しました
+)
+
+[12-Jul-2019 20:08:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929700
+[12-Jul-2019 20:08:20 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932678
+[12-Jul-2019 20:08:20 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：「　お問い合わせページ　」
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：セッションID:4ar386oqp7ktkdih9ib71r10p9
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562929078
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929712
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932678
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：POST送信があります。
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：POST情報:Array
+(
+    [name] => あg
+    [email] => あsf
+    [message] => ふぁsdふぁs
+)
+
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：エラーメッセージの有無Array
+(
+    [email] => Emailの形式で入力してください
+)
+
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：センドメール1
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：メールを送信しました。
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：「　お問い合わせページ　」
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：セッションID:ohcdd283ok5s23h26nontg2rug
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562929078
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => メールを送信しました
+)
+
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929712
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932678
+[12-Jul-2019 20:08:32 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 20:09:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 20:09:30 Asia/Tokyo] デバッグ：「　お問い合わせページ　」
+[12-Jul-2019 20:09:30 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 20:09:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 20:09:30 Asia/Tokyo] デバッグ：セッションID:7l0ccj4jknm5qdnqdh2dfucngk
+[12-Jul-2019 20:09:30 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562929078
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 20:09:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929770
+[12-Jul-2019 20:09:30 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932678
+[12-Jul-2019 20:09:30 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：「　お問い合わせページ　」
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：セッションID:km6koa2fdv91aolmfgkdbqueql
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562929078
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929774
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932678
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：POST送信があります。
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：POST情報:Array
+(
+    [name] => あsdf
+    [email] => 
+    [message] => 
+)
+
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：エラーメッセージの有無Array
+(
+    [email] => Emailの形式で入力してください
+    [message] => 入力必須です
+)
+
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：センドメール1
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：メールを送信しました。
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：「　お問い合わせページ　」
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：セッションID:f2bihgi1u5kuksssv5i0h140qf
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562929078
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => メールを送信しました
+)
+
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929774
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932678
+[12-Jul-2019 20:09:34 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：「　お問い合わせページ　」
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：セッションID:hs3q5i0v27bkbncinehvmi0nk1
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562929078
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929782
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932678
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：POST送信があります。
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：POST情報:Array
+(
+    [name] => あsdf
+    [email] => あsdf
+    [message] => あsdf
+)
+
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：エラーメッセージの有無Array
+(
+    [email] => Emailの形式で入力してください
+)
+
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：センドメール1
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：メールを送信しました。
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：「　お問い合わせページ　」
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：セッションID:m581int041e7hiqpdvi1s1pprr
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562929078
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => メールを送信しました
+)
+
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562929782
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932678
+[12-Jul-2019 20:09:42 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 20:13:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 20:13:40 Asia/Tokyo] デバッグ：「　トップページ　」
+[12-Jul-2019 20:13:40 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」」
+[12-Jul-2019 20:13:40 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 20:13:40 Asia/Tokyo] デバッグ：セッションID:sps3qi92gpnvpm046ue1b9cbtj
+[12-Jul-2019 20:13:40 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562929078
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 20:13:40 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562930020
+[12-Jul-2019 20:13:40 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932678
+[12-Jul-2019 20:13:40 Asia/Tokyo] デバッグ：商品情報を取得します。
+[12-Jul-2019 20:13:40 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 20:13:40 Asia/Tokyo] デバッグ：SQL:SELECT * FROM product LIMIT 20 OFFSET 0
+[12-Jul-2019 20:13:40 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 20:13:40 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[12-Jul-2019 20:13:40 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 20:13:40 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2019 20:13:41 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 20:13:41 Asia/Tokyo] デバッグ：「　商品出品ページ　」
+[12-Jul-2019 20:13:41 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2019 20:13:41 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2019 20:13:41 Asia/Tokyo] デバッグ：セッションID:hotbtb1pe1ragtbs34d7brdvtn
+[12-Jul-2019 20:13:41 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1562929078
+    [login_limit] => 3600
+    [user_id] => 2
+    [msg_success] => 
+)
+
+[12-Jul-2019 20:13:41 Asia/Tokyo] デバッグ：現在日時タイムスタンプ1562930021
+[12-Jul-2019 20:13:41 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ:1562932678
+[12-Jul-2019 20:13:41 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[12-Jul-2019 20:13:41 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[12-Jul-2019 20:13:41 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[12-Jul-2019 20:13:41 Asia/Tokyo] デバッグ：クエリ成功。
+[12-Jul-2019 20:13:41 Asia/Tokyo] デバッグ：商品ID：
+[12-Jul-2019 20:13:41 Asia/Tokyo] デバッグ：フォーム用DBデータ：
+[12-Jul-2019 20:13:41 Asia/Tokyo] デバッグ：カテゴリデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => 安全保護具・作業服・安全靴
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:50:43
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => 作業工具/電動・空圧工具
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:51:22
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => スプレー・オイル・グリス
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:51:45
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ねじ・ボルト
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:52:11
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => 空圧機器・油圧機器・ホース
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:52:47
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [name] => オフィス家具・照明・清掃用品
+            [delete_flg] => 0
+            [create_date] => 2019-06-27 00:00:00
+            [update_date] => 2019-06-27 16:54:13
+        )
+
+)
+
+[12-Jul-2019 20:13:41 Asia/Tokyo] デバッグ：画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

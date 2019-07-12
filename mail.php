@@ -14,6 +14,8 @@ if(!empty($_POST)){
   debug('POST送信があります。');
   debug('POST情報:'.print_r($_POST,true));
   
+  try{
+  
 //変数にユーザー情報を代入
   $name = (!empty($_POST['name'])) ? $_POST['name'] : null;
   $email = (!empty($_POST['email'])) ? $_POST['email'] : null;
@@ -21,6 +23,7 @@ if(!empty($_POST)){
   $message = (!empty($_POST['message'])) ? $_POST['message'] : null;
   
   //バリデーション
+  //空文字チェック
   validRequired($name, 'name');
   validRequired($email, 'email');
   validRequired($message, 'message');
@@ -29,13 +32,14 @@ if(!empty($_POST)){
   validEmail($email, 'email');
   
   debug('エラーメッセージの有無'.print_r($err_msg,true));
+    
   if(!empty($err_msg)){
     
     //文字化けしないよう設定
     mb_language("Japanese"); //現在使っている言語を設定する
     mb_internal_encoding("UTF-8");
     
-    $to = 'ymnkknt3@gmail.com';
+    $to = 'info@monojirou.kiwatchi.com';
     
     //メール送信
     $result = mb_send_mail($to, $name, $message, "From : ".$email);
@@ -44,20 +48,29 @@ if(!empty($_POST)){
     
     //送信結果を判定
     if($result){
-      unset($_POST);
+//      unset($_POST);
       $_SESSION['msg_success'] = SUC03;
+      session_write_close();
+      debug('メールを送信しました。');
+      header("Location:mail.php");
     }else{
-      $_SESSION['msg_success'] = MSG18;
+      $err_msg['common'] = MSG18;
+      debug('メールを送信に失敗しました。');
     }
+   }
+  }catch(Exception $e) {
+    error_log('エラー発生:' . $e->getMessage());
+    $err_msg['common'] = MSG18;
   }
 }
-
+  
+  
 debug('画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
 ?>
 
 <!--ヘッダータグ-->
 <?php 
-$siteTitle ='HOME';
+$siteTitle ='お問い合わせ';
 require('head.php');
 ?>
 
@@ -69,11 +82,11 @@ require('head.php');
   require('header.php');
   ?>
 
-  <div class="msg">
+<!--  <div class="msg">-->
     <p id="js-show-msg" style="display:none;" class="msg-slide">
       <?php echo getSessionFlash('msg_success'); ?>
     </p>
-  </div>
+<!--  </div>-->
 
   <!--  広告タブ-->
   <?php 
@@ -102,7 +115,7 @@ require('head.php');
 <!--           お名前-->
             <label class="<?php if(!empty($err_msg['name'])) echo 'err'; ?>">
               お名前
-              <input type="text" name="name" value="<?php getFormData('name'); ?>">
+              <input type="text" name="name" value="<?php echo getFormData('name'); ?>">
             </label>
             <div class="area-msg">
               <?php if(!empty($err_msg['name'])) echo $err_msg['name']; ?>
@@ -110,7 +123,7 @@ require('head.php');
 <!--           メールアドレス-->
           <label class="<?php if(!empty($err_msg['email'])) echo 'err'; ?>">
             email
-            <input type="text" name="email" value="<?php getFormData('email'); ?>">
+            <input type="text" name="email" value="<?php echo getFormData('email'); ?>">
           </label>
           <div class="area-msg">
             <?php if(!empty($err_msg['email'])) echo $err_msg['email']; ?>
@@ -119,7 +132,7 @@ require('head.php');
 <!--          お問い合わせ内容-->
           <label class="<?php if(!empty($err_msg['message'])) echo 'err'; ?>">
             お問い合わせ内容
-            <textarea name="message" id="" cols="30" rows="10" value="" style="height:300px;"></textarea>
+            <textarea name="message" id="" cols="30" rows="10" value="" style="height:300px;"><?php echo getFormData('message'); ?></textarea>
           </label>
           <div class="area-msg">
             <?php if(!empty($err_msg['message'])) echo $err_msg['message']; ?>
