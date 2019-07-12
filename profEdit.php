@@ -27,10 +27,10 @@ if(!empty($_POST)){
   debug('FILE情報：'.print_r($_FILES,true));
   
 //  変数にユーザー情報を代入
-  $username = $_POST['username'];
-  $tel = $_POST['tel'];
+  $username = (!empty($_POST['username'])) ? $_POST['username'] : null;
+  $tel = (!empty($_POST['tel'])) ? $_POST['tel'] : null;
   $zip = (!empty($_POST['zip'])) ? $_POST['zip'] : 0; //後続のバリデーションにひっかかるため、空で送信されてきたら０を入れる
-  $addr = $_POST['addr'];
+  $addr = (!empty($_POST['addr'])) ? $_POST['addr'] : null;
   $age = (!empty($_POST['age'])) ? $_POST['age'] : 0; //後続のバリデーションにひっかかるため、空で送信されてきたら０を入れる
   $email = $_POST['email'];
   //画像をアップロードし、パスを格納
@@ -43,6 +43,9 @@ if(!empty($_POST)){
     //名前の最大文字数チェック
     validMaxLen($username, 'username');
   }
+  //名前の空チェック
+  validRequired($username,'username');
+  debug('エラーメッセージがあれば表示する'.print_r($err_msg,true));
 
   if($dbFormData['tel'] != $tel){
 //    tel形式チェック
@@ -103,7 +106,9 @@ if(!empty($_POST)){
       
 //      クエリ成功の場合
       if($stmt){
-        $_SESSION['msg_success'] = SUC02;
+        $_SESSION['msg_success'] = SUC08;
+        session_write_close();
+        debug('セッション変数の中身：'.print_r($_SESSION,true));
         debug('マイページへ遷移します。');
         header("Location:mypage.php");//マイページへ
       }
@@ -128,6 +133,10 @@ require('head.php');
   <?php 
   require('header.php');
   ?>
+
+  <p id="js-show-msg" style="display:none;" class="msg-slide">
+    <?php echo getSessionFlash('msg_success'); ?>
+  </p>
 
   <!--  広告タブ-->
   <?php 
@@ -154,7 +163,7 @@ require('head.php');
               
               <label class="<?php if(!empty($err_msg['username'])) echo'err'; ?>">
                 名前
-                <input type="text" name="username" value="<?php echo getFormData('username'); ?>">
+                <input type="text" name="username" value="<?php echo getFormData('username'); ?>" placeholder="※入力必須です">
               </label>
               <div class="area-msg">
                 <?php 
@@ -163,7 +172,7 @@ require('head.php');
               </div>
               <label class="<?php if(!empty($err_msg['tel'])) echo 'err'; ?>">
                 TEL<span style="font-size:12px;margin-left:5px;">※ハイフンなしでご入力ください</span>
-              <input type="text" name="tel" value="<?php echo getFormData('tel'); ?>">
+                <input type="text" name="tel" value="<?php echo getFormData('tel'); ?>" placeholder="※任意">
               </label>
               <div class="area-msg">
                 <?php 
@@ -173,7 +182,7 @@ require('head.php');
               </div>
               <label class="<?php if(!empty($err_msg['zip'])) echo 'err'; ?>">
               郵便番号<span style="font-size:12px;margin-left:5px;">※ハイフンなしでご入力ください</span>
-                <input type="text" name="zip" value="<?php ((int)getFormData('zip') === 0) ? "" : getFormData('zip'); ?>">
+                <input type="text" name="zip" value="<?php ((int)getFormData('zip') === 0) ? "" : getFormData('zip'); ?>" placeholder="※任意">
               </label>
               <div class="area-msg">
                 <?php 
@@ -182,7 +191,7 @@ require('head.php');
               </div>
               <label class="<?php if(!empty($err_msg['addr'])) echo 'err'; ?>">
                 住所
-                <input type="text" name="addr" value="<?php echo getFormData('addr'); ?>">
+                <input type="text" name="addr" value="<?php echo getFormData('addr'); ?>" placeholder="※任意">
               </label>
               <div class="area-msg">
                 <?php 
@@ -192,7 +201,7 @@ require('head.php');
               <label style="text-align:left;" class="<?php if(!empty($err_msg['age'])) echo 'err'; ?>">
                 年齢
                 <input type="number" name="age"
-                 value="<?php ((int)getFormData('age') === 0) ? "" : getFormData('age'); ?>">
+                       value="<?php ((int)getFormData('age') === 0) ? "" : getFormData('age'); ?>" placeholder="※任意">
               </label>
               <div class="area-msg">
                 <?php 
@@ -211,9 +220,9 @@ require('head.php');
               プロフィール画像
               <label class="area-drop <?php if(!empty($err_msg['pic'])) echo 'err'; ?>" style="height:370px;line-height:370px;">
                 <input type="hidden" name="MAX_FILE_SIZE" value="3145728">
-                <input type="file" name="pic" class="input-files" style="height:370px;">
+                <input type="file" name="pic" class="input-file" style="height:370px;">
                 <img src="<?php echo getFormData('pic'); ?>" alt="" class="prev-img" style="<?php if(empty(getFormData('pic'))) echo 'display:none;' ?>">
-                  ドラッグ＆ドロップ
+                  ドラッグ＆ドロップ(※任意です)
               </label>
               <div class="area-msg">
                 <?php 

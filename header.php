@@ -16,8 +16,8 @@
         ?>
         <li><a href="mypage.php" class="btn-mypage">マイページ</a></li>
         <li><a href="logout.php" class="btn-logout">ログアウト</a></li>
-        <li><a href="" class="btn-contact">お問い合わせ</a></li>
-        <li><a href="" class="btn-qa">よくあるご質問</a></li>
+        <li><a href="mail.php" class="btn-mail">お問い合わせ</a></li>
+        <li><a href="faq.php" class="btn-fqa">よくあるご質問</a></li>
         <?php 
           }
         ?>

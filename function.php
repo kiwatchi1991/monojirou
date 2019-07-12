@@ -1,4 +1,5 @@
 <?php 
+
 //================================
 // ログ
 //================================
@@ -70,12 +71,15 @@ define('MSG14','文字で入力してください');
 define('MSG15','正しくありません');
 define('MSG16','有効期限が切れています');
 define('MSG17','半角数字のみご利用いただけます');
+define('MSG18','メール送信に失敗しました。');
 define('SUC01','パスワードを変更しました');
 define('SUC02','プロフィールを変更しました');
 define('SUC03','メールを送信しました');
 define('SUC04','登録しました');
 define('SUC05','購入しました！相手と連絡を取りましょう！');
 define('SUC06','ログイン成功しました');
+define('SUC07','ユーザー登録しました。続いてプロフィールを編集しましょう！');
+define('SUC08','プロフィール編集しました！！！');
 
 
 //================================
@@ -90,9 +94,9 @@ $err_msg = array();
 
 //バリデーション関数（未入力チェック）
 function validRequired($str, $key){
-  if($str === ''){//金額フォームなどを考えると、数値の０はOKとし、空文字はダメにする
+  if($str === '' || $str === null){//金額フォームなどを考えると、数値の０はOKとし、空文字はダメにする
     global $err_msg ;
-    $err_msg['key'] = MSG01;
+    $err_msg[$key] = MSG01;
   }
 }
 //バリデーション関数（Email形式チェック）
@@ -646,6 +650,61 @@ function getMySaleHistory($u_id){
     error_log('エラー発生:' . $e->getMessage());
   }
 }
+
+function getSaleUserName($b_id){
+  debug('取引相手（販売者）の名前を取得します。');
+  debug('取引相手（販売者）との掲示板ID:'.$b_id);
+  //例外処理
+  try {
+    //db接続
+    $dbh = dbConnect();
+    //sql文作成
+    $sql = 'SELECT sale_user, u.username FROM bord AS b LEFT JOIN users AS u ON b.sale_user = u.id WHERE b.id = :b_id';
+    $data = array(':b_id' => $b_id);
+    //クエリ実行
+     $stmt = queryPost($dbh, $sql, $data);
+    
+    if($stmt){
+      //      クエリ結果の全データを返却
+      return $stmt->fetchAll();
+      
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生：' . $e->getMessage());
+  }
+}
+
+function getBuyUserName($b_id){
+  debug('取引相手（購入者）の名前を取得します。');
+  debug('取引相手（購入者）との掲示板ID:'.$b_id);
+  //例外処理
+  try {
+    //db接続
+    $dbh = dbConnect();
+    //sql文作成
+    $sql = 'SELECT buy_user, username FROM bord AS b LEFT JOIN users AS u ON b.buy_user = u.id WHERE b.id = :b_id';
+    $data = array(':b_id' => $b_id);
+    //クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if($stmt){
+      //      クエリ結果の全データを返却
+      return $stmt->fetchAll();
+
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生：' . $e->getMessage());
+  }
+}
+  
+  
+  
 //if(!empty($rst)){
 //  foreach($rst as $key => $val){
 //    //         SQL文作成

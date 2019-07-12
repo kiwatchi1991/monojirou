@@ -3,7 +3,7 @@
 require('function.php');
 
 debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
-debug('「　連絡掲示板　」');
+debug('「　連絡掲示板」');
 debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
 debugLogStart();
 
@@ -17,6 +17,7 @@ $productInfo = '';
 $viewData = '';
 // 画面表示用データ取得
 //================================
+$u_id = $_SESSION['user_id'];
 // GETパラメータを取得
 $m_id = (!empty($_GET['m_id'])) ? $_GET['m_id'] : '';
 // DBから掲示板とメッセージデータを取得
@@ -60,6 +61,11 @@ if(empty($myUserInfo)){
   error_log('エラー発生：自分のユーザー情報が取得できませんでした');
   header("Location:mypage.php"); //マイページへ
 }
+
+//===============================================
+//購入か販売か判断
+//===============================================
+//$salebuy = ($viewData['sale_user'] === $u_id) ? '販売' : '購入';
 
 //post送信されていた場合
 if(!empty($_POST)){
@@ -193,7 +199,7 @@ require('head.php');
         float: left;
       }
       .area-bord .msg-cnt .msg-inrTxt{
-        width: 80%;
+        width: 60%;
         float:left;
         border-radius: 5px;
         padding: 10px;
@@ -262,6 +268,10 @@ require('head.php');
   require('header.php');
   ?>
 
+    <p id="js-show-msg" style="display:none;" class="msg-slide">
+      <?php echo getSessionFlash('msg_success'); ?>
+    </p>
+
   <!--  広告タブ-->
   <?php 
   require('ads.php');
@@ -272,15 +282,14 @@ require('head.php');
   require('menuTab.php');
   ?>
 
-  <p id="js-show-msg" style="display:none;" class="msg-slide">
-    <?php echo getSessionFlash('msg_success'); ?>
-  </p>
+
 
 <!--メインコンテンツ-->
   <div id="contents" class="site-width">
 <!--    Main-->
      <section id="main">
        <div class="msg-info">
+<!--        取引状況-->
          <div class="avatar-img">
            <img src="<?php echo showImg(sanitize($partnerUserInfo['pic'])); ?>" alt="" class="avatar"><br>
          </div>
@@ -290,24 +299,36 @@ require('head.php');
            <?php echo sanitize($partnerUserInfo['addr']); ?><br>
            TEL:<?php echo sanitize($partnerUserInfo['tel']); ?>
          </div>
+         
+
          <div class="product-info">
+         
+
            <div class="left">
              取引商品<br>
              <img src="<?php echo showImg(sanitize($productInfo['pic1'])); ?>" alt="" height="70px" width="auto" >
            </div>
+          
            <div class="right">
              <?php echo sanitize($productInfo['name']); ?><br>
              取引金額：<span class="price">¥<?php echo number_format(sanitize($productInfo['price'])); ?></span><br>
-             取引開始日：<?php echo date('Y/m/d', strtotime(sanitize($viewData[0]['create_date']))); ?>
+             取引開始日：<?php echo date('Y/m/d', strtotime(sanitize($viewData[0]['create_date']))); ?><br>
+             <span class="<?php echo ($viewData[0]['sale_user'] === $u_id) ? 'sale' : 'buy' ;?>">
+            <?php echo ($viewData[0]['sale_user'] === $u_id) ? '販売' : '購入' ; ?>
+             </span>
+           
            </div>
          </div>
        </div>
+       
+       
        <div class="area-bord" id="js-scroll-bottom">
          <?php 
-            if(!empty($viewData)){
+            if(!empty($viewData[0]['msg'])){
               foreach($viewData as $key => $val){
                 if(!empty($val['from_user']) && $val['from_user'] == $partnerUserId){
              ?>
+         <!--           左側-->
                    <div class="msg-cnt msg-left">
                      <div class="avatar">
                        <img src="<?php echo sanitize(showImg($partnerUserInfo['pic'])); ?>" alt="" class="avatar">
@@ -321,6 +342,8 @@ require('head.php');
          <?php
                 }else{
          ?>
+         
+         <!--           右側-->
                    <div class="msg-cnt msg-right">
                      <div class="avatar">
                        <img src="<?php echo sanitize(showImg($myUserInfo['pic'])); ?>" alt="" class="avatar">
@@ -340,6 +363,7 @@ require('head.php');
           <?php 
                }
          ?>
+         
          
        </div>
        <div class="area-send-msg">
@@ -365,6 +389,7 @@ require('head.php');
       <?php 
         require('footer.php');
       ?>
+
 
 
 </body>

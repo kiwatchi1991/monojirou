@@ -25,6 +25,10 @@ $bordData = getMyMsgsAndBord2($u_id);
 //$bord = array_shift($bordData);
 //DBからお気に入りデータを取得
 $likeData = getMyLike($u_id);
+////saleユーザー情報取得
+//$saleUser = getSaleUser($bordData['sale_user']);
+////buyユーザー情報取得
+//$buyUser = getBuyUser($bordData['buy_user']);
 
 //DBからきちんとデータがすべて取れているかのチェックは行わず、取れなければ何も表示しないこととする
 
@@ -73,6 +77,7 @@ require('head.php');
     <h1 class="page-title">MYPAGE</h1>
      
 <!--     Main-->
+<!--    登録商品一覧-->
      <section id="main">
        <section class="list panel-list">
         <h2 class="title" style="margin-bottom:15px;">
@@ -104,6 +109,8 @@ require('head.php');
          }
        </style>
        
+       
+<!--       連絡掲示板-->
        <section class="list list-table">
          <h2 class="title">
            連絡掲示板一覧
@@ -112,6 +119,7 @@ require('head.php');
            <thead>
              <tr>
                <th>最新送信日時</th>
+               <th class="sale-buy" >購入 / 販売</th>
                <th>取引相手</th>
                <th>メッセージ</th>
              </tr>
@@ -120,20 +128,48 @@ require('head.php');
              <?php 
               if(!empty($bordData)){
                 foreach($bordData as $key => $val){
+                  
+                  $saleuser = getSaleUserName($val['id']);
+                  $buyuser = getBuyUserName($val['id']);
+                  debug('●●●●●●●●●●●●●●●●●$saleuserを表示します●●●'.print_r($saleuser,true));
+                  debug('●●●●●●●●●●●●●●●●●$buyuserを表示します●●●'.print_r($buyuser,true));
+                  
                   if(!empty($val['msg'])){
                     $msg = array_shift($val['msg']);
+                    
               ?>
                    <tr>
-                     <td width="300px;"><?php echo sanitize(date('Y.m.d H:i:s' ,strtotime($msg['send_date']))); ?></td>
-                     <td width="150px;"><?php echo sanitize($msg['username']); ?></td>
-                     <td><a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>"><?php echo mb_substr(sanitize($msg['msg']),0,10); ?><?php if((mb_strlen(sanitize($msg['msg']))) >= 10){ echo '...'; } ?></a></td>
+                     <td width="200px;"><?php echo sanitize(date('Y.m.d H:i:s' ,strtotime($msg['send_date']))); ?></td>
+                     
+                     <td align="center" width="200px;">
+                       <a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>" class="<?php echo ($val['sale_user'] === $u_id) ? 'sale' : 'buy';?>">
+                      <?php 
+                      echo ($val['sale_user'] === $u_id) ? '販売' : '購入';
+                       ?></a></td>
+                       
+                     <td width="150px;">
+                     <?php echo
+                     ($val['sale_user'] === $u_id) ? $buyuser[0]['username'] : $saleuser[0]['username'] ;
+                       ?></td>
+                       
+                     <td><a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>"><?php echo mb_substr(sanitize($msg['msg']),0,20); ?><?php if((mb_strlen(sanitize($msg['msg']))) >= 20){ echo '...'; } ?></a></td>
                    </tr>
               <?php 
                   }else{
              ?>
                    <tr>
                      <td width="300px;">--</td>
-                     <td width="150px;"><?php echo sanitize($msg['username']); ?></td>
+                     
+                     <td align="center"  width="150px;">
+                       <a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>" class="<?php echo ($val['sale_user'] === $u_id) ? 'sale' : 'buy'; ?>">
+                       <?php 
+                    echo ($val['sale_user'] === $u_id) ? '販売' : '購入';
+                        ?></a></td>
+                       
+                     <td width="150px;"><?php
+                    echo ($val['sale_user'] === $u_id) ? $buyuser[0]['username'] : $saleuser[0]['username'] ;
+                       ?></td>
+                     
                      <td><a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>">まだメッセージはありません</a></td>
                    </tr>
               <?php 
@@ -145,6 +181,8 @@ require('head.php');
          </table>
        </section>
        
+       
+<!--       お気に入り-->
        <section class="list panel-list">
          <h2 class="title" style="margin-bottom:15px;">
            お気に入り一覧

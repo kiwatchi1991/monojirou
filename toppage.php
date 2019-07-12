@@ -73,6 +73,29 @@ require('head.php');
     <!-- メインコンテンツ -->
   <div id="contents" class="site-width">
     
+<!--   カテゴリー別-->
+   <section id="top-category">
+   <h2>ジャンルで選ぶ</h2>
+    <div class="category-list">
+     
+      <div class="list <?php if(getFormData('c_id',true) == 0 ){ echo 'active'; } ?>">
+        <a href="toppage.php#top-category" style="font-weight:bold;font-size:20px;">　全商品一覧</a>
+      </div>
+      
+      <?php 
+      foreach($dbCategoryData as $key => $val){
+      ?>
+      <div class="list <?php if(getFormData('c_id',true) == $val['id'] ){ echo 'active'; } ?>">
+        <a href="toppage.php<?php echo '?c_id='.$val['id'] ?>#top-category">　<?php echo $val['name']?></a>
+      </div>
+      <?php 
+      }
+      ?>
+      
+    </div>
+    <div class="underline"></div>
+   </section>
+    
 <!--    サイドバー-->
     <section id="sidebar">
       <form name="" method="get">
@@ -96,7 +119,7 @@ require('head.php');
         <div class="selectbox">
           <span class="icn_select"></span>
             <select name="sort">
-              <option value="0" <?php if(getFormData('soty',true) == 0 ){ echo 'selected'; } ?> >選択してください</option>
+              <option value="0" <?php if(getFormData('sort',true) == 0 ){ echo 'selected'; } ?> >選択してください</option>
               <option value="1" <?php if(getFormData('sort',true) == 1 ){ echo 'selected'; } ?> >金額が安い順</option>
               <option value="2" <?php if(getFormData('sort',true) == 2 ){ echo 'selected'; } ?> >金額が高い順</option>
             </select>
@@ -120,7 +143,7 @@ require('head.php');
         
          <?php 
          foreach($dbProductData['data'] as $key => $val):
-         debug('デバック■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■'.print_r($dbProductData,true));
+
          ?>
           
            <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam().'&p_id='.$val['id'] : '?p_id='.$val['id']; ?>" class="panel">
